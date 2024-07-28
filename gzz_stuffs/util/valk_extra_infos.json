@@ -1,0 +1,202 @@
+{
+  "1011": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect01.webp",
+    "signature_weapon": "Demara Battery Mark II",
+    "signature_weapon_icon": "<:demara_battery_mark_ii_icon:1266651032600055881>",
+    "release_patch": 1,
+    "embed_color": "0xD9FF40"
+  },
+
+  "1021": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect11.webp",
+    "signature_weapon": "Steel Cushion",
+    "signature_weapon_icon": "<:steel_cushion_icon:1266650657079955569>",
+    "release_patch": 1,
+    "embed_color": "0xFF4540"
+  },
+
+  "1031": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect12.webp",
+    "signature_weapon": "The Vault",
+    "signature_weapon_icon": "<:the_vault_icon:1266651023150288917>",
+    "release_patch": 1,
+    "embed_color": "0xFF4B89"
+  },
+
+  "1041": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect05.webp",
+    "signature_weapon": "The Brimstone",
+    "signature_weapon_icon": "<:the_brimstone_icon:1266650648506536007>",
+    "release_patch": 1,
+    "embed_color": "0xFFDD0D"
+  },
+
+  "1061": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect09.webp",
+    "signature_weapon": "Housekeeper",
+    "signature_weapon_icon": "<:housekeeper_icon:1266651011796172821>",
+    "release_patch": 1,
+    "embed_color": "0xBDCBD9"
+  },
+
+  "1071": {
+    "icon_image_url": "",
+    "release_patch": 99,
+    "embed_color": "0xFFDC4D",
+    "real_name": "Caesar"
+  },
+
+  "1081": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect10.webp",
+    "signature_weapon": "Starlight Engine Replica",
+    "signature_weapon_icon": "<:starlight_engine_replica_icon:1266651004279980105>",
+    "release_patch": 1,
+    "embed_color": "0xFF4540"
+  },
+
+  "1091": {
+    "icon_image_url": "",
+    "release_patch": 99,
+    "embed_color": "0x1CE0EF",
+    "real_name": "Hoshimi Miyabi"
+  },
+
+  "1101": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect14.webp",
+    "signature_weapon": "Hellfire Gears",
+    "signature_weapon_icon": "<:hellfire_gears_icon:1266650639598092348>",
+    "release_patch": 1,
+    "embed_color": "0xD9D9D9"
+  },
+
+  "1111": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect15.webp",
+    "signature_weapon": "Drill Rig - Red Axis",
+    "signature_weapon_icon": "<:drill_rig_red_axis_icon:1266650994926948463>",
+    "release_patch": 1,
+    "embed_color": "0xD9D9D9"
+  },
+
+  "1121": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect16.webp",
+    "signature_weapon": "Big Cylinder",
+    "signature_weapon_icon": "<:big_cylinder_icon:1266650985858732093>",
+    "release_patch": 1,
+    "embed_color": "0xD9D9D9"
+  },
+
+  "1131": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect17.webp",
+    "signature_weapon": "Bashful Demon",
+    "signature_weapon_icon": "<:bashful_demon_icon:1266650959073771612>",
+    "release_patch": 1,
+    "embed_color": "0x1CE0EF"
+  },
+
+  "1141": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect18.webp",
+    "signature_weapon": "The Restrained",
+    "signature_weapon_icon": "<:the_restrained_icon:1266650632375369759>",
+    "release_patch": 1,
+    "embed_color": "0xBDCBD9"
+  },
+
+  "1151": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect27.webp",
+    "signature_weapon": "Kaboom the Cannon",
+    "signature_weapon_icon": "<:kaboom_the_cannon_icon:1266650949057773599>",
+    "release_patch": 1,
+    "embed_color": "0xFFDC4D"
+  },
+
+  "1161": {
+    "icon_image_url": "",
+    "release_patch": 99,
+    "embed_color": "0xFFDC4D",
+    "real_name": "Lighter"
+  },
+
+  "1171": {
+    "icon_image_url": "",
+    "release_patch": 99,
+    "embed_color": "0xFFDC4D",
+    "real_name": "Burnice"
+  },
+
+  "1181": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect20.webp",
+    "signature_weapon": "Fusion Compiler",
+    "signature_weapon_icon": "<:fusion_compiler_icon:1266650622258581535>",
+    "release_patch": 1,
+    "embed_color": "0xD9D9D9"
+  },
+
+  "1191": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect21.webp",
+    "signature_weapon": "Deep Sea Visitor",
+    "signature_weapon_icon": "<:deep_sea_visitor_icon:1266650610581635113>",
+    "release_patch": 1,
+    "embed_color": "0xBDCBD9"
+  },
+
+  "1201": {
+    "icon_image_url": "",
+    "release_patch": 99,
+    "embed_color": "0x1CE0EF"
+  },
+
+  "1211": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect22.webp",
+    "signature_weapon": "Weeping Cradle",
+    "signature_weapon_icon": "<:weeping_cradle_icon:1266650570534686800>",
+    "release_patch": 1,
+    "embed_color": "0xBDCBD9"
+  },
+
+  "1221": {
+    "icon_image_url": "",
+    "release_patch": 99,
+    "embed_color": "0x1CE0EF"
+  },
+
+  "1241": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect23.webp",
+    "signature_weapon": "Riot Suppressor Mark VI",
+    "signature_weapon_icon": "<:riot_suppressor_mark_vi_icon:1266650339377942557>",
+    "release_patch": 1,
+    "embed_color": "0x38A2FF"
+  },
+
+  "1251": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect29.webp",
+    "signature_weapon": "玉壶青冰",
+    "signature_weapon_icon": "<:qingyi_weapon_icon:1266653331976355871>",
+    "release_patch": 2,
+    "embed_color": "0x38A2FF"
+  },
+
+  "1261": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect24.webp",
+    "signature_weapon": "淬锋钳刺",
+    "signature_weapon_icon": "<:jane_doe_weapon_icon:1266653326184022087>",
+    "release_patch": 2,
+    "embed_color": "0x38A2FF",
+    "real_name": "Jane Doe"
+  },
+
+  "1271": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect30.webp",
+    "signature_weapon": "维序者-特化型",
+    "signature_weapon_icon": "<:seth_weapon_icon:1266650937557123172>",
+    "release_patch": 2,
+    "embed_color": "0x38A2FF"
+  },
+
+  "1281": {
+    "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect28.webp",
+    "signature_weapon": "Roaring Ride",
+    "signature_weapon_icon": "<:roaring_ride_icon:1266650920327057510>",
+    "release_patch": 1,
+    "embed_color": "0xFFDC4D"
+  }
+}
