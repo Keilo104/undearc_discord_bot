@@ -4,6 +4,7 @@ import discord
 import json
 import os
 import markovify
+import configparser
 
 from gzz_stuffs.print_gzz import print_gzz
 from gzz_stuffs.util.Bangaloo import Bangaloo
@@ -14,6 +15,7 @@ from gzz_stuffs.util.Weapon import Weapon
 class Underarc:
     id = 963273616353550367
     guild = None
+    discord_key = None
 
     people_identities = {}
     extraction_channels = []
@@ -74,6 +76,12 @@ class Underarc:
     def load_admins(self):
         with open("admins.json", "r", encoding="utf-8") as admins_json_file:
             self.admins = json.load(admins_json_file)["admins"]
+
+    def read_config(self):
+        config = configparser.ConfigParser()
+        config.read("underarc_bot.cfg")
+
+        self.discord_key = config["UnderarcBot"]["discord_key"]
 
 
 intents = discord.Intents.default()
@@ -147,7 +155,6 @@ async def on_ready():
     underarc.load_extraction_channels()
     underarc.load_signed_up()
     underarc.load_admins()
-    underarc.load_gzz_stuffs()
 
     underarc.load_peoples_identities()
 
@@ -208,4 +215,6 @@ async def on_message(message):
         else:
             underarc.people_identities[f"{message.author.id}"] = f"{message.content}\n"
 
-client.run("MTE4MzQ4MDY3MDgwMzIxMDI4Mg.GeWtwA.cQLIC_DUAhwGBExhs5p6tINRbvT4jZwsihd4ic")
+underarc.load_gzz_stuffs()
+underarc.read_config()
+client.run(underarc.discord_key)
