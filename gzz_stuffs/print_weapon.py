@@ -12,9 +12,17 @@ def base_embed_and_load_weapon(weapon_id, bot):
         description=f"{weapon.rarity_icon.value} {weapon.type_icon.value} {weapon.get_obtain_icon()}"
     )
 
-    if weapon.release_patch > current_patch:
-        embed.set_footer(text="This entry is from a future version, all information on it could be "
-                              "inaccurate and is subject to changes before release.")
+    if weapon.release_patch == 99:
+        embed.set_footer(
+            text="This entry is from skeleton data left on the game by MiHoYo, it doesn't mean "
+                 "this is releasing soon, or at all, and all information is subject to changes before release."
+        )
+
+    elif weapon.release_patch > current_patch:
+        embed.set_footer(
+            text="This entry is from a future version, all information on it could be "
+                 "inaccurate and is subject to changes before release."
+        )
 
     embed.add_field(
         name="", inline=False,

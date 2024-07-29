@@ -14,7 +14,13 @@ def base_embed_and_load_valk(valk_id, bot):
         f"{valk.rarity_icon.value} {valk.element_icon.value} {valk.specialty_icon.value} {valk.damage_type_icon.value}"
     )
 
-    if valk.release_patch > current_patch:
+    if valk.release_patch == 99:
+        embed.set_footer(
+            text="This entry is from skeleton data left on the game by MiHoYo, it doesn't mean "
+                 "this is releasing soon, or at all, and all information is subject to changes before release."
+        )
+
+    elif valk.release_patch > current_patch:
         embed.set_footer(
             text="This entry is from a future version, all information on it could be "
                  "inaccurate and is subject to changes before release."

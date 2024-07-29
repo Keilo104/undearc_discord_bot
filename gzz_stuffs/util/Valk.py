@@ -70,6 +70,8 @@ class Valk:
     rarity = "No data"
     rarity_icon = Emote.UNKNOWN_ICON
 
+    icon_image_url = "https://i.imgur.com/lQlL7DG.png"
+
     core_first_stat = None
     core_second_stat = None
     purple_mat = None
@@ -101,9 +103,13 @@ class Valk:
 
         self.name = valk_extra_infos_json[str(self.id)]["override_name"] if "override_name" in valk_extra_infos_json[str(self.id)] else self.name
         self.full_name = valk_extra_infos_json[str(self.id)]["override_full_name"] if "override_full_name" in valk_extra_infos_json[str(self.id)] else self.full_name
-        self.icon_image_url = valk_extra_infos_json[str(self.id)]["icon_image_url"]
+
+        if valk_extra_infos_json[str(self.id)]["icon_image_url"] != "":
+            self.icon_image_url = valk_extra_infos_json[str(self.id)]["icon_image_url"]
+
         if "signature_weapon" in valk_extra_infos_json[str(self.id)]:
             self.signature_weapon = valk_extra_infos_json[str(self.id)]["signature_weapon"]
+
         self.release_patch = valk_extra_infos_json[str(self.id)]["release_patch"]
         self.embed_color = valk_extra_infos_json[str(self.id)]["embed_color"]
 

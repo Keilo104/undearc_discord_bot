@@ -1,3 +1,5 @@
+import discord
+
 from gzz_stuffs.print_valk import print_valk, print_valk_at_level
 from gzz_stuffs.print_weapon import print_weapon, print_weapon_at_level
 
@@ -14,20 +16,47 @@ signature_weapon = (
 )
 
 
-def figure_out_type(id, bot):
-    if id in bot.valks:
-        return "Valk", id
+def print_ambiguous(bot, options):
 
-    elif id in bot.weapons:
-        return "Weapon", id
+    embed = discord.Embed(
+        title=f"That search is ambiguous, possible options:"
+    )
 
-    elif id in bot.bangaloos:
-        return "Bangaloo", id
+    embed_description = ""
+
+    for item in options:
+        item_type, item = figure_out_type(bot, item)
+        if item_type == "Valk":
+            embed_description = f"{embed_description}{bot.valks[item].icon.value}{bot.valks[item].full_name}\n"
+
+        elif item_type == "Weapon":
+            embed_description = f"{embed_description}{bot.weapons[item].icon.value}{bot.weapons[item].name}\n"
+
+        elif item_type == "Bangaloo":
+            embed_description = f"{embed_description}{bot.bangaloos[item].icon.value}{bot.bangaloos[item].name}\n"
+
+    embed.description = embed_description[:-1]
+
+    return embed
+
+
+def figure_out_type(bot, id_to_look):
+    if type(id_to_look) is list:
+        return "Ambiguous", id_to_look
+
+    if id_to_look in bot.valks:
+        return "Valk", id_to_look
+
+    if id_to_look in bot.weapons:
+        return "Weapon", id_to_look
+
+    if id_to_look in bot.bangaloos:
+        return "Bangaloo", id_to_look
 
     return None, None
 
 
-def get_weapon(looking_for, bot):
+def get_weapon(bot, looking_for):
     true_looking_for = ""
     found_length = 0
 
@@ -62,15 +91,21 @@ async def print_gzz(message, bot):
     else:
         looking_for = " ".join(message_list)
 
-        if message_list[-1].isnumeric():
+        if looking_for in bot.translations:
+            type_to_print, what_to_print = figure_out_type(bot, bot.translations[looking_for])
+
+        elif looking_for.endswith(signature_weapon):
+            type_to_print, what_to_print = get_weapon(bot, looking_for)
+
+        elif message_list[-1].isnumeric():
             level_to_print = int(message_list[-1])
             looking_for = " ".join(message_list[:-1])
 
         if looking_for in bot.translations:
-            type_to_print, what_to_print = figure_out_type(bot.translations[looking_for], bot)
+            type_to_print, what_to_print = figure_out_type(bot, bot.translations[looking_for])
 
-        if looking_for.endswith(signature_weapon):
-            type_to_print, what_to_print = get_weapon(looking_for, bot)
+        elif looking_for.endswith(signature_weapon):
+            type_to_print, what_to_print = get_weapon(bot, looking_for)
 
     if type_to_print is not None:
         if type_to_print == "Valk":
@@ -91,6 +126,9 @@ async def print_gzz(message, bot):
             else:
                 await message.channel.send(f"Tried to print {what_to_print} at lv{level_to_print}, "
                                            f"but bangboos are not implemented yet")
+
+        elif type_to_print == "Ambiguous":
+            await message.channel.send(embed=print_ambiguous(bot, what_to_print))
 
     else:
         await message.channel.send(f"Couldn't figure out what you wanted. Maybe ping mama keilo about it?")
