@@ -1,3 +1,179 @@
 {
-
+  "53001": {
+    "icon_image_url": "https://i.imgur.com/JsfpmVA.png",
+    "release_patch": 1,
+    "damage_type": ["Ice"],
+    "synergy_count": 2,
+    "synergy_type": "Ice",
+    "embed_color": ""
+  },
+  "53002": {
+    "icon_image_url": "https://i.imgur.com/61Mp45i.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 2,
+    "synergy_type": "Physical",
+    "embed_color": ""
+  },
+  "53003": {
+    "icon_image_url": "https://i.imgur.com/YdcghB4.png",
+    "release_patch": 1,
+    "damage_type": ["HP Recovery", "Shield", "Energy Regen"],
+    "synergy_count": 1,
+    "synergy_type": "Support",
+    "embed_color": ""
+  },
+  "53004": {
+    "icon_image_url": "https://i.imgur.com/xmmiqd9.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 0,
+    "synergy_type": "Stun",
+    "embed_color": ""
+  },
+  "53005": {
+    "icon_image_url": "https://i.imgur.com/xyrvftN.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 1,
+    "synergy_type": "Defense",
+    "embed_color": ""
+  },
+  "53006": {
+    "icon_image_url": "https://i.imgur.com/fgk7loE.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 1,
+    "synergy_type": "Attack",
+    "embed_color": ""
+  },
+  "53007": {
+    "icon_image_url": "https://i.imgur.com/1rGlXQX.png",
+    "release_patch": 1,
+    "damage_type": ["Fire"],
+    "synergy_count": 2,
+    "synergy_type": "Fire",
+    "embed_color": ""
+  },
+  "53008": {
+    "icon_image_url": "https://i.imgur.com/mBb3upe.png",
+    "release_patch": 1,
+    "damage_type": ["HP Recovery"],
+    "synergy_count": 1,
+    "synergy_type": "Support",
+    "embed_color": ""
+  },
+  "53009": {
+    "icon_image_url": "https://i.imgur.com/0CPgQml.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 1,
+    "synergy_type": "Pierce",
+    "embed_color": ""
+  },
+  "53010": {
+    "icon_image_url": "https://i.imgur.com/Pb5eXBe.png",
+    "release_patch": 1,
+    "damage_type": ["Electric"],
+    "synergy_count": 2,
+    "synergy_type": "Electric",
+    "embed_color": ""
+  },
+  "53011": {
+    "icon_image_url": "https://i.imgur.com/ughoypN.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 1,
+    "synergy_type": "Anomaly",
+    "embed_color": ""
+  },
+  "53012": {
+    "icon_image_url": "https://i.imgur.com/JxrrbH0.png",
+    "release_patch": 1,
+    "damage_type": ["Energy Regen"],
+    "synergy_count": 1,
+    "synergy_type": "Support",
+    "embed_color": ""
+  },
+  "54001": {
+    "icon_image_url": "https://i.imgur.com/s304Du7.png",
+    "release_patch": 1,
+    "damage_type": ["Ice"],
+    "synergy_count": 2,
+    "synergy_type": "Ice",
+    "embed_color": ""
+  },
+  "54002": {
+    "icon_image_url": "https://i.imgur.com/TZbTPhO.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 2,
+    "synergy_type": "Belobog Heavy Industries",
+    "embed_color": ""
+  },
+  "54003": {
+    "icon_image_url": "https://i.imgur.com/qXqzp0c.png",
+    "release_patch": 1,
+    "damage_type": ["Ether"],
+    "synergy_count": 2,
+    "synergy_type": "Ether",
+    "embed_color": ""
+  },
+  "54004": {
+    "icon_image_url": "https://i.imgur.com/ojfweqB.png",
+    "release_patch": 1,
+    "damage_type": ["Energy Regen", "Physical"],
+    "synergy_count": 2,
+    "synergy_type": "Victoria Housekeeping Co.",
+    "embed_color": ""
+  },
+  "54005": {
+    "icon_image_url": "https://i.imgur.com/22wbYQP.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 2,
+    "synergy_type": "Cunning Hares",
+    "embed_color": ""
+  },
+  "54006": {
+    "icon_image_url": "https://i.imgur.com/7SE6xOj.png",
+    "release_patch": 1,
+    "damage_type": ["Fire"],
+    "synergy_count": 2,
+    "synergy_type": "Fire",
+    "embed_color": ""
+  },
+  "54008": {
+    "icon_image_url": "https://i.imgur.com/aZbKKwL.png",
+    "release_patch": 1,
+    "damage_type": ["Electric"],
+    "synergy_count": 2,
+    "synergy_type": "Electric",
+    "embed_color": ""
+  },
+  "54009": {
+    "icon_image_url": "https://i.imgur.com/vQ9vKdU.png",
+    "release_patch": 1,
+    "damage_type": ["Ether"],
+    "synergy_count": 2,
+    "synergy_type": "Ether",
+    "embed_color": ""
+  },
+  "54012": {
+    "icon_image_url": "https://i.imgur.com/WaZFQDk.png",
+    "release_patch": 2,
+    "damage_type": ["Physical"],
+    "synergy_count": 2,
+    "synergy_type": "New Eridu Public Security",
+    "override_name": "Security",
+    "embed_color": ""
+  },
+  "54013": {
+    "icon_image_url": "https://i.imgur.com/3QggGjq.png",
+    "release_patch": 1,
+    "damage_type": ["Physical"],
+    "synergy_count": 2,
+    "synergy_type": "Physical",
+    "embed_color": ""
+  }
 }

@@ -91,6 +91,7 @@ class Valk:
         self.icon = Emote.get_icon_from_id(str(self.id))
         self.name = valk_json["Name"]
         self.full_name = valk_json["PartnerInfo"]["FullName"] if "FullName" in valk_json["PartnerInfo"] else None
+
         self.base_hp = valk_json["Stats"]["HpMax"] if "HpMax" in valk_json["Stats"] else 0
         self.hp_growth = valk_json["Stats"]["HpGrowth"] if "HpGrowth" in valk_json["Stats"] else 0
         self.base_atk = valk_json["Stats"]["Attack"] if "Attack" in valk_json["Stats"] else 0
@@ -125,39 +126,39 @@ class Valk:
 
     def hp_at_level(self, level):
         if self.core_first_stat == "":
-            return math.floor(self.base_hp + ((self.hp_growth * (level - 1)) / 10000) + self.hp_boost(level) +
+            return math.floor(self.base_hp + ((self.hp_growth * (level - 1)) / 10000) + self.hp_boost_at_level(level) +
                               self.first_core_stat_at_level(level))
 
         elif self.core_second_stat == "":
-            return math.floor(self.base_hp + ((self.hp_growth * (level - 1)) / 10000) + self.hp_boost(level) +
+            return math.floor(self.base_hp + ((self.hp_growth * (level - 1)) / 10000) + self.hp_boost_at_level(level) +
                               self.second_core_stat_at_level(level))
 
         else:
-            return math.floor(self.base_hp + ((self.hp_growth * (level - 1)) / 10000) + self.hp_boost(level))
+            return math.floor(self.base_hp + ((self.hp_growth * (level - 1)) / 10000) + self.hp_boost_at_level(level))
 
     def atk_at_level(self, level):
         if self.core_first_stat == "Base ATK":
-            return math.floor(self.base_atk + ((self.atk_growth * (level - 1)) / 10000) + self.atk_boost(level) +
+            return math.floor(self.base_atk + ((self.atk_growth * (level - 1)) / 10000) + self.atk_boost_at_level(level) +
                               self.first_core_stat_at_level(level))
 
         elif self.core_second_stat == "Base ATK":
-            return math.floor(self.base_atk + ((self.atk_growth * (level - 1)) / 10000) + self.atk_boost(level) +
+            return math.floor(self.base_atk + ((self.atk_growth * (level - 1)) / 10000) + self.atk_boost_at_level(level) +
                               self.second_core_stat_at_level(level))
 
         else:
-            return math.floor(self.base_atk + ((self.atk_growth * (level - 1)) / 10000) + self.atk_boost(level))
+            return math.floor(self.base_atk + ((self.atk_growth * (level - 1)) / 10000) + self.atk_boost_at_level(level))
 
     def def_at_level(self, level):
         if self.core_first_stat == "":
-            return math.floor(self.base_def + ((self.def_growth * (level - 1)) / 10000) + self.def_boost(level) +
+            return math.floor(self.base_def + ((self.def_growth * (level - 1)) / 10000) + self.def_boost_at_level(level) +
                               self.first_core_stat_at_level(level))
 
         elif self.core_second_stat == "":
-            return math.floor(self.base_def + ((self.def_growth * (level - 1)) / 10000) + self.def_boost(level) +
+            return math.floor(self.base_def + ((self.def_growth * (level - 1)) / 10000) + self.def_boost_at_level(level) +
                               self.second_core_stat_at_level(level))
 
         else:
-            return math.floor(self.base_def + ((self.def_growth * (level - 1)) / 10000) + self.def_boost(level))
+            return math.floor(self.base_def + ((self.def_growth * (level - 1)) / 10000) + self.def_boost_at_level(level))
 
     def impact_at_level(self, level):
         if self.core_first_stat == "Impact":
@@ -277,13 +278,13 @@ class Valk:
     def has_second_stat(self):
         return self.core_second_stat not in [None, "", "Base ATK", "", "Impact", "Anomaly Mastery", ""]
 
-    def hp_boost(self, level):
+    def hp_boost_at_level(self, level):
         return get_boost(level, self.hp_boosts)
 
-    def atk_boost(self, level):
+    def atk_boost_at_level(self, level):
         return get_boost(level, self.atk_boosts)
 
-    def def_boost(self, level):
+    def def_boost_at_level(self, level):
         return get_boost(level, self.def_boosts)
 
     def figure_out_talent_mats(self, valk_json):

@@ -1,5 +1,6 @@
 import discord
 
+from gzz_stuffs.print_bangaloo import print_bangaloo, print_bangaloo_at_level
 from gzz_stuffs.print_valk import print_valk, print_valk_at_level
 from gzz_stuffs.print_weapon import print_weapon, print_weapon_at_level
 
@@ -124,10 +125,9 @@ async def print_gzz(message, bot):
 
         elif type_to_print == "Bangaloo":
             if level_to_print is None:
-                await message.channel.send(f"Tried to print {what_to_print}, but bangboos are not implemented yet")
+                await message.channel.send(embed=print_bangaloo(bot, what_to_print))
             else:
-                await message.channel.send(f"Tried to print {what_to_print} at lv{level_to_print}, "
-                                           f"but bangboos are not implemented yet")
+                await message.channel.send(embed=print_bangaloo_at_level(bot, what_to_print, level_to_print))
 
         elif type_to_print == "Ambiguous":
             await message.channel.send(embed=print_ambiguous(bot, what_to_print))

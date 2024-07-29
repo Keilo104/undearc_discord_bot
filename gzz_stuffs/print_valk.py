@@ -5,7 +5,7 @@ from gzz_stuffs.util.EmoteEnum import Emote
 current_patch = 1
 
 
-def base_embed_and_load_valk(valk_id, bot):
+def base_embed_and_load_valk(bot, valk_id):
     valk = bot.valks[valk_id]
 
     embed = discord.Embed(
@@ -33,7 +33,7 @@ def base_embed_and_load_valk(valk_id, bot):
 
 
 def print_valk(bot, valk_id="1011"):
-    valk, embed = base_embed_and_load_valk(valk_id, bot)
+    valk, embed = base_embed_and_load_valk(bot, valk_id)
 
     embed.add_field(
         inline=False, name="Base stats at Lv1 → Lv60",
