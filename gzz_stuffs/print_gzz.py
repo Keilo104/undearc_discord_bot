@@ -17,40 +17,38 @@ signature_weapon = (
 )
 
 
-def figure_out_type(id, json):
-    if id in json["valks"]:
+def figure_out_type(id, bot):
+    if id in bot.valks:
         return "Valk", id
 
-    elif id in json["weapons"]:
+    elif id in bot.weapons:
         return "Weapon", id
 
-    elif id in json["bangaloos"]:
+    elif id in bot.bangaloos:
         return "Bangaloo", id
 
     return None, None
 
 
-def get_weapon(looking_for, translations_json):
+def get_weapon(looking_for, bot):
     true_looking_for = ""
+    found_length = 0
 
     for item in signature_weapon:
-        if looking_for.endswith(item):
+        if looking_for.endswith(item) and len(item) > found_length:
             true_looking_for = looking_for[:-len(item)]
+            found_length = len(item)
 
-    if true_looking_for not in translations_json:
+    if true_looking_for not in bot.translations:
         return None, None
 
-    valk = translations_json["true_looking_for"]
+    valk_id = bot.translations[true_looking_for]
+    valk = bot.valks[valk_id]
+    return "Weapon", valk.signature_weapon
 
 
-async def print_gzz(message):
+async def print_gzz(message, bot):
     true_message = message.content[6:]
-
-    with open("gzz_stuffs/util/ids.json", "r", encoding="utf-8") as ids_json_file:
-        ids_json = json.load(ids_json_file)
-
-    with open("gzz_stuffs/util/translations.json", "r", encoding="utf-8") as translations_json_file:
-        translations_json = json.load(translations_json_file)
 
     message_list = re.split("\s", true_message)
 
@@ -59,7 +57,7 @@ async def print_gzz(message):
     level_to_print = None
 
     if 0 < len(message_list) < 3 and message_list[0].isnumeric():
-        type_to_print, what_to_print = figure_out_type(message_list[0], ids_json)
+        type_to_print, what_to_print = figure_out_type(message_list[0], bot)
 
         if len(message_list) == 2 and message_list[-1].isnumeric():
             level_to_print = int(message_list[-1])
@@ -71,24 +69,24 @@ async def print_gzz(message):
             level_to_print = int(message_list[-1])
             looking_for = " ".join(message_list[:-1])
 
-        if looking_for in translations_json:
-            type_to_print, what_to_print = figure_out_type(translations_json[looking_for], ids_json)
+        if looking_for in bot.translations:
+            type_to_print, what_to_print = figure_out_type(bot.translations[looking_for], bot)
 
         if looking_for.endswith(signature_weapon):
-            type_to_print, what_to_print = get_weapon(looking_for, translations_json)
+            type_to_print, what_to_print = get_weapon(looking_for, bot)
 
     if type_to_print is not None:
         if type_to_print == "Valk":
             if level_to_print is None:
-                await message.channel.send(embed=print_valk(what_to_print))
+                await message.channel.send(embed=print_valk(bot, what_to_print))
             else:
-                await message.channel.send(embed=print_valk_at_level(what_to_print, level_to_print))
+                await message.channel.send(embed=print_valk_at_level(bot, what_to_print, level_to_print))
 
         elif type_to_print == "Weapon":
             if level_to_print is None:
-                await message.channel.send(embed=print_weapon(what_to_print))
+                await message.channel.send(embed=print_weapon(bot, what_to_print))
             else:
-                await message.channel.send(embed=print_weapon_at_level(what_to_print, level_to_print))
+                await message.channel.send(embed=print_weapon_at_level(bot, what_to_print, level_to_print))
 
         elif type_to_print == "Bangaloo":
             if level_to_print is None:

@@ -1,4 +1,3 @@
-import json
 import math
 
 from gzz_stuffs.util.EmoteEnum import Emote
@@ -77,9 +76,8 @@ class Valk:
     golden_mat = None
 
     signature_weapon = None
-    signature_weapon_icon = Emote.UNKNOWN_ICON
 
-    def __init__(self, valk_json):
+    def __init__(self, valk_json, valk_extra_infos_json):
         self.hp_boosts = [0, 0, 0, 0, 0, 0]
         self.atk_boosts = [0, 0, 0, 0, 0, 0]
         self.def_boosts = [0, 0, 0, 0, 0, 0]
@@ -88,6 +86,7 @@ class Valk:
         self.core_second_stat_values = [0, 0, 0, 0, 0, 0]
 
         self.id = valk_json["Id"]
+        self.icon = Emote.get_icon_from_id(str(self.id))
         self.name = valk_json["PartnerInfo"]["FullName"] if "FullName" in valk_json["PartnerInfo"] \
             else valk_json["Name"]
         self.base_hp = valk_json["Stats"]["HpMax"] if "HpMax" in valk_json["Stats"] else 0
@@ -100,14 +99,10 @@ class Valk:
         self.anomaly_mastery = valk_json["Stats"]["ElementMystery"] if "ElementMystery" in valk_json["Stats"] else 0
         self.anomaly_proficiency = valk_json["Stats"]["ElementAbnormalPower"] if "ElementAbnormalPower" in valk_json["Stats"] else 0
 
-        with open("gzz_stuffs/util/valk_extra_infos.json", "r", encoding="utf-8") as valk_extra_infos_json_file:
-            valk_extra_infos_json = json.load(valk_extra_infos_json_file)
-
         self.name = valk_extra_infos_json[str(self.id)]["real_name"] if self.name == "..." else self.name
         self.icon_image_url = valk_extra_infos_json[str(self.id)]["icon_image_url"]
         if "signature_weapon" in valk_extra_infos_json[str(self.id)]:
             self.signature_weapon = valk_extra_infos_json[str(self.id)]["signature_weapon"]
-            self.signature_weapon_icon = valk_extra_infos_json[str(self.id)]["signature_weapon_icon"]
         self.release_patch = valk_extra_infos_json[str(self.id)]["release_patch"]
         self.embed_color = valk_extra_infos_json[str(self.id)]["embed_color"]
 

@@ -5,6 +5,7 @@
   "anby damara": "1011",
   "burger": "1011",
   "borger": "1011",
+
   "neko": "1021",
   "nekomata": "1021",
   "nekomiya": "1021",
@@ -12,6 +13,7 @@
   "cat": "1021",
   "katarina": "1021",
   "tsubaki": "1021",
+
   "nicole": "1031",
   "nico": "1031",
   "nicole demara": "1031",
@@ -28,12 +30,14 @@
   "elf ely": "1031",
   "elfelysia": "1031",
   "elf elysia": "1031",
+
   "soldier": "1041",
   "11": "1041",
   "soldier 11": "1041",
   "anby2": "1041",
   "second anby": "1041",
   "longinus": "1041",
+
   "corin": "1061",
   "corin wickes": "1061",
   "wickes": "1061",
@@ -41,68 +45,85 @@
   "frankenstein": "1061",
   "huohuo": "1061",
   "uoohuooh": "1061",
+
   "ceaser": "1071",
   "ceasar": "1071",
+
   "billy": "1081",
   "billy the kid": "1081",
   "the kid": "1081",
   "worst one": "1081",
   "the worst one": "1081",
+
   "miyabi": "1091",
   "hoshimi": "1091",
   "hoshimi miyabi": "1091",
   "ayaka": "1091",
   "ar42": "1091",
+
   "koleda": "1101",
   "koleda belobog": "1101",
   "kamina": "1101",
   "ookuma mari": "1101",
   "ookuma ": "1101",
   "mari": "1101",
+
   "anton": "1111",
   "ivanov": "1111",
   "anton ivanov": "1111",
   "drill guy": "1111",
   "drill": "1111",
+
   "ben": "1121",
   "ben bigger": "1121",
   "bigger": "1121",
   "bear": "1121",
+
   "soukaku": "1131",
   "aoukaku": "1131",
   "demon": "1131",
   "demon girl": "1131",
   "blue girl": "1131",
+
   "lycaon": "1141",
   "von": "1141",
   "von lycaon": "1141",
   "wolf": "1141",
   "bdsm wolf": "1141",
   "bdsm": "1141",
+
   "lucy": "1151",
   "luciana": "1151",
   "luciana de montefio": "1151",
   "bennett": "1151",
+
   "lighter": "1161",
+
   "burnice": "1171",
+
   "lisa": "1181",
   "grace": "1181",
   "grace howard": "1181",
   "howard": "1181",
+
   "ellen": "1191",
   "joe": "1191",
   "ellen joe": "1191",
   "shark": "1191",
   "sharkgirl": "1191",
   "shark girl": "1191",
+
   "harumasa": "1201",
+
   "rina": "1211",
   "alexa": "1211",
   "alexandrina": "1211",
   "sebastiane": "1211",
   "alexandrina sebastiane": "1211",
   "shibari": "1211",
+
   "yanagi": "1221",
+
   "zhu": "1241",
   "yuan": "1241",
   "zhu yuan": "1241",
@@ -113,60 +134,77 @@
   "handles": "1241",
   "handlebar": "1241",
   "handlebars": "1241",
+
   "qingyi": "1251",
   "qing yi": "1251",
   "anby4": "1251",
   "clank": "1251",
   "clankclank": "1251",
   "clankclankclank": "1251",
+
   "jane": "1261",
   "doe": "1261",
   "jane doe": "1261",
   "jerry": "1261",
+
   "seth": "1271",
   "lowell": "1271",
   "seth lowell": "1271",
   "tom": "1271",
+
   "piper": "1281",
   "pipeher": "1281",
   "pipe her": "1281",
   "clara": "1281",
+
   "pleniluna": "12001",
   "lunar pleniluna": "12001",
   "[lunar] pleniluna": "12001",
+
   "decrescent": "12002",
   "lunar decrescent": "12002",
   "[lunar] decrescent": "12002",
+
   "noviluna": "12003",
   "lunar noviluna": "12003",
   "[lunar] noviluna": "12003",
+
   "mark 1": "12004",
   "reverb mark 1": "12004",
   "[reverb] mark 1": "12004",
+
   "mark i": "12004",
   "reverb mark i": "12004",
   "[reverb] mark i": "12004",
+
   "mark 2": "12005",
   "reverb mark 2": "12005",
   "[reverb] mark 2": "12005",
+
   "mark ii": "12005",
   "reverb mark ii": "12005",
   "[reverb] mark ii": "12005",
+
   "mark 3": "12006",
   "reverb mark 3": "12006",
   "[reverb] mark 3": "12006",
+
   "mark iii": "12006",
   "reverb mark iii": "12006",
   "[reverb] mark iii": "12006",
+
   "revolver": "12007",
   "vortex revolver": "12007",
   "[vortex] revolver": "12007",
+
   "arrow": "12008",
   "vortex arrow": "12008",
   "[vortex] arrow": "12008",
+
   "hatchet": "12009",
   "vortex hatchet": "12009",
   "[vortex] hatchet": "12009",
+
   "alpha": "12010",
   "magnetic storm alpha": "12010",
   "magnetic alpha": "12010",
@@ -174,6 +212,7 @@
   "[magnetic storm] alpha": "12010",
   "[magnetic] alpha": "12010",
   "[storm] alpha": "12010",
+
   "bravo": "12011",
   "magnetic storm bravo": "12011",
   "magnetic bravo": "12011",
@@ -181,6 +220,7 @@
   "[magnetic storm] bravo": "12011",
   "[magnetic] bravo": "12011",
   "[storm] bravo": "12011",
+
   "charlie": "12012",
   "magnetic storm charlie": "12012",
   "magnetic charlie": "12012",
@@ -188,27 +228,35 @@
   "[magnetic storm] charlie": "12012",
   "[magnetic] charlie": "12012",
   "[storm] charlie": "12012",
+
   "base": "12013",
   "identity base": "12013",
   "[identity] base": "12013",
+
   "inflection": "12014",
   "identity inflection": "12014",
   "[identity] inflection": "12014",
+
   "street superstar": "13001",
   "superstar": "13001",
   "street": "13001",
+
   "time": "13002",
   "slice": "13002",
   "slice of time": "13002",
+
   "rainforest": "13003",
   "gourmet": "13003",
   "rainforest gourmet": "13003",
+
   "starlight": "13004",
   "starlight engine": "13004",
   "engine": "13004",
+
   "steam": "13005",
   "oven": "13005",
   "steam oven": "13005",
+
   "precious": "13006",
   "fossilized": "13006",
   "fossil": "13006",
@@ -218,14 +266,17 @@
   "fossilized core": "13006",
   "core fossilized": "13006",
   "precious fossilized core": "13006",
+
   "original": "13007",
   "transformer": "13007",
   "original transformer": "13007",
   "original transformers": "13007",
   "transformers": "13007",
+
   "weeping": "13008",
   "gemini": "13008",
   "weeping gemini": "13008",
+
   "electrolip gloss": "13009",
   "electro-lip gloss": "13009",
   "gloss": "13009",
@@ -240,11 +291,13 @@
   "battlepass sup": "13009",
   "bp sup": "13009",
   "dsl": "13009",
+
   "bunny": "13010",
   "band": "13010",
   "bunny band": "13010",
   "asshole": "13010",
   "fleshlight": "13010",
+
   "spring": "13011",
   "embrace": "13011",
   "spring embrace": "13011",
@@ -260,6 +313,7 @@
   "battlepass defense": "13011",
   "battlepass defence": "13011",
   "battlepass def": "13011",
+
   "1.1 event": "13013",
   "1.1 event weapon": "13013",
   "1.1 event weap": "13013",

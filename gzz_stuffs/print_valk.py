@@ -1,16 +1,12 @@
-import json
-
 import discord
 
 from gzz_stuffs.util.EmoteEnum import Emote
-from gzz_stuffs.util.Valk import Valk
 
 current_patch = 1
 
 
-def base_embed_and_load_valk(valk_id):
-    with open(f"gzz_stuffs/valks/{valk_id}.json", "r", encoding="utf-8") as valk_json_file:
-        valk = Valk(json.load(valk_json_file))
+def base_embed_and_load_valk(valk_id, bot):
+    valk = bot.valks[valk_id]
 
     embed = discord.Embed(
         title=valk.name,
@@ -30,8 +26,8 @@ def base_embed_and_load_valk(valk_id):
     return valk, embed
 
 
-def print_valk(valk_id="1011"):
-    valk, embed = base_embed_and_load_valk(valk_id)
+def print_valk(bot, valk_id="1011"):
+    valk, embed = base_embed_and_load_valk(valk_id, bot)
 
     embed.add_field(
         inline=False, name="Base stats at Lv1 → Lv60",
@@ -54,14 +50,16 @@ def print_valk(valk_id="1011"):
     if valk.signature_weapon is not None:
         embed.add_field(
             name=f"", inline=False,
-            value=f"{valk.name}'s signature weapon is **{valk.signature_weapon_icon} {valk.signature_weapon}**"
+            value=f"{valk.name}'s signature weapon is **"
+                  f"{bot.weapons[valk.signature_weapon].icon.value} "
+                  f"{bot.weapons[valk.signature_weapon].name}**"
         )
 
     return embed
 
 
-def print_valk_at_level(valk_id="1011", level=60):
-    valk, embed = base_embed_and_load_valk(valk_id)
+def print_valk_at_level(bot, valk_id="1011", level=60):
+    valk, embed = base_embed_and_load_valk(valk_id, bot)
 
     embed.add_field(
         inline=False, name=f"Base stats at Lv{level}",

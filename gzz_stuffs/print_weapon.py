@@ -1,15 +1,11 @@
-import json
-
 import discord
 
-from gzz_stuffs.util.Weapon import Weapon
 
 current_patch = 1
 
 
-def base_embed_and_load_weapon(weapon_id):
-    with open(f"gzz_stuffs/weapons/{weapon_id}.json", "r", encoding="utf-8") as weapon_json_file:
-        weapon = Weapon(json.load(weapon_json_file))
+def base_embed_and_load_weapon(weapon_id, bot):
+    weapon = bot.weapons[weapon_id]
 
     embed = discord.Embed(
         title=weapon.name,
@@ -33,7 +29,9 @@ def base_embed_and_load_weapon(weapon_id):
     if weapon.signature is not None:
         embed.add_field(
             name=f"", inline=False,
-            value=f"** **\nThis is **{weapon.signature_icon} {weapon.signature}'s** signature W-Engine!"
+            value=f"** **\nThis is **"
+                  f"{bot.valks[weapon.signature].icon.value} "
+                  f"{bot.valks[weapon.signature].name}'s** signature W-Engine!"
         )
 
     embed.set_thumbnail(url=weapon.icon_image_url)
@@ -42,8 +40,8 @@ def base_embed_and_load_weapon(weapon_id):
     return weapon, embed
 
 
-def print_weapon(weapon_id="13101"):
-    weapon, embed = base_embed_and_load_weapon(weapon_id)
+def print_weapon(bot, weapon_id="13101"):
+    weapon, embed = base_embed_and_load_weapon(weapon_id, bot)
 
     embed.set_field_at(
         name=f"Stats at Lv1 → Lv60", index=0,
@@ -54,8 +52,8 @@ def print_weapon(weapon_id="13101"):
     return embed
 
 
-def print_weapon_at_level(weapon_id="13101", level=60):
-    weapon, embed = base_embed_and_load_weapon(weapon_id)
+def print_weapon_at_level(bot, weapon_id="13101", level=60):
+    weapon, embed = base_embed_and_load_weapon(weapon_id, bot)
 
     embed.set_field_at(
         name=f"Stats at Lv{level}", index=0,

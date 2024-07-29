@@ -88,64 +88,55 @@
   "13101": {
     "icon_image_url": "https://i.imgur.com/AWxq7Y0.png",
     "obtain": "Gacha",
-    "signature": "Anby Demara",
-    "signature_icon": "<:anby_icon:1266647297236668416>",
+    "signature": "1011",
     "embed_color": "0xD9FF40"
   },
   "13103": {
     "icon_image_url": "https://i.imgur.com/Qw5OS5N.png",
     "obtain": "Nicole Demara",
-    "signature": "<:nicole_icon:1266647274956525669>",
-    "signature_icon": "1011",
+    "signature": "1031",
     "embed_color":  "0xFF4B89"
   },
   "13106": {
     "icon_image_url": "https://i.imgur.com/6iwCdDe.png",
     "obtain": "Gacha",
-    "signature": "Corin Wickes",
-    "signature_icon": "<:corin_icon:1266647167809093653>",
+    "signature": "1061",
     "embed_color":  "0xBDCBD9"
   },
   "13108": {
     "icon_image_url": "https://i.imgur.com/kFwXptN.png",
     "obtain": "Gacha",
-    "signature": "Billy Kid",
-    "signature_icon": "<:billy_icon:1266647319412084848>",
+    "signature": "1081",
     "embed_color":  "0xFF4540"
   },
   "13111": {
     "icon_image_url": "https://i.imgur.com/cb2fBcY.png",
     "obtain": "Gacha",
-    "signature": "Anton Ivanov",
-    "signature_icon": "<:anton_icon:1266647110300864523>",
+    "signature": "1111",
     "embed_color":  "0xD9D9D9"
   },
   "13112": {
     "icon_image_url": "https://i.imgur.com/icRcqVA.png",
     "obtain": "Gacha",
-    "signature": "Ben Bigger",
-    "signature_icon": "<:ben_icon:1266647084082266112>",
+    "signature": "1121",
     "embed_color":  "0xD9D9D9"
   },
   "13113": {
     "icon_image_url": "https://i.imgur.com/pKX9VX8.png",
     "obtain": "Gacha",
-    "signature": "Soukaku",
-    "signature_icon": "<:soukaku_icon:1266647058220056608>",
+    "signature": "1131",
     "embed_color":  "0x1CE0EF"
   },
   "13115": {
     "icon_image_url": "https://i.imgur.com/00HDNe2.png",
     "obtain": "Gacha",
-    "signature": "Lucy",
-    "signature_icon": "<:lucy_icon:1266646897976672309>",
+    "signature": "1151",
     "embed_color":  "0xFFDC4D"
   },
   "13127": {
     "icon_image_url": "https://i.imgur.com/OhkInmY.png",
     "obtain": "Gacha",
-    "signature": "Seth",
-    "signature_icon": "<:seth_icon:1266646812778037349>",
+    "signature": "1271",
     "override_name": "维序者-特化型",
     "override_description_name": "标准格挡术",
     "override_description": "拥有护盾时，装备者的能量自动回复提升**0.4/0.46/0.52/0.58/0.64点/秒；**<color=#ffffff>[强化特殊技]</color>/<color=#ffffff>[支援突击]</color>累积的属性异常积蓄值提升**36%/36% | 40%/40% | 45%/45% | 50%/50% | 55%/55%**。",
@@ -155,8 +146,7 @@
   "13128": {
     "icon_image_url": "https://i.imgur.com/mVIFTcD.png",
     "obtain": "Gacha",
-    "signature": "Piper",
-    "signature_icon": "<:piper_icon:1266646869975633973>",
+    "signature": "1281",
     "embed_color": "0xFFDC4D"
   },
   "14001": {
@@ -174,64 +164,55 @@
   "14102": {
     "icon_image_url": "https://i.imgur.com/E3B5Ge9.png",
     "obtain": "Gacha",
-    "signature": "Nekomiya Mana",
-    "signature_icon": "<:nekomata_icon:1266647391625543722>",
+    "signature": "1021",
     "embed_color":  "0xFF4540"
   },
   "14104": {
     "icon_image_url": "https://i.imgur.com/ro0ONEC.png",
     "obtain": "Gacha",
-    "signature": "Soldier 11",
-    "signature_icon": "<:soldier_11_icon:1266647367164366898>",
+    "signature": "1041",
     "embed_color":  "0xFFDD0D"
   },
   "14110": {
     "icon_image_url": "https://i.imgur.com/12yShxm.png",
     "obtain": "Gacha",
-    "signature": "Koleda Belobog",
-    "signature_icon": "<:koleda_icon:1266647344749740086>",
+    "signature": "1101",
     "embed_color":  "0xD9D9D9"
   },
   "14114": {
     "icon_image_url": "https://i.imgur.com/vwRhcUR.png",
     "obtain": "Gacha",
-    "signature": "Von Lycaon",
-    "signature_icon": "<:lycaon_icon:1266647033918390334>",
+    "signature": "1141",
     "embed_color":  "0xBDCBD9"
   },
   "14118": {
     "icon_image_url": "https://i.imgur.com/dk70S36.png",
     "obtain": "Gacha",
-    "signature": "Grace Howard",
-    "signature_icon": "<:grace_icon:1266647416308891689>",
+    "signature": "1181",
     "embed_color":  "0xD9D9D9"
   },
   "14119": {
     "icon_image_url": "https://i.imgur.com/KG72PPm.png",
     "obtain": "Gacha",
-    "signature": "Ellen Joe",
-    "signature_icon": "<:ellen_joe_icon:1266647005338533998>",
+    "signature": "1191",
     "embed_color":  "0xBDCBD9"
   },
   "14121": {
     "icon_image_url": "https://i.imgur.com/bOqg4lI.png",
     "obtain": "Gacha",
-    "signature": "Alexandrina Sebastiane",
-    "signature_icon": "<:rina_icon:1266646983960035360>",
+    "signature": "1211",
     "embed_color":  "0xBDCBD9"
   },
   "14124": {
     "icon_image_url": "https://i.imgur.com/4iN7nWr.png",
     "obtain": "Gacha",
-    "signature": "Zhu Yuan",
-    "signature_icon": "<:zhu_yuan_icon:1266646954201317438>",
+    "signature": "1241",
     "embed_color":  "0x38A2FF"
   },
   "14125": {
     "icon_image_url": "https://i.imgur.com/nnGV2sf.png",
     "obtain": "Gacha",
-    "signature": "Qingyi",
-    "signature_icon": "<:qingyi_icon:1266646839516463176>",
+    "signature": "1251",
     "override_name": "玉壶青冰",
     "override_description_name": "泠泠连奏",
     "override_description": "<color=#ffffff>[普通攻击]</color>命中敌人时，获得1层<color=#ffffff>[茶劲]</color>，每层<color=#ffffff>[茶劲]</color>使装备者的冲击力提升<color=#2BAD00>**0.7/0.88/1.05/1.22/1.4%**</color>，最多叠加30层，持续8秒，每层效果单独结算持续时间；获得<color=#ffffff>[茶劲]</color>时，若装备者拥有的<color=#ffffff>[茶劲]</color>层数大于等于15层，全队造成的伤害提升<color=#2BAD00>**20/25/30/35/40%**</color>，持续10秒。",
@@ -241,8 +222,7 @@
   "14126": {
     "icon_image_url": "https://i.imgur.com/BsFx4H1.png",
     "obtain": "Gacha",
-    "signature": "Jane Doe",
-    "signature_icon": "<:jane_doe_icon:1266646923259940946>",
+    "signature": "1261",
     "override_name": "淬锋钳刺",
     "override_description_name": "恣横猎心",
     "override_description": "发动<color=#ffffff>[冲刺攻击]</color>时，获得1层<color=#ffffff>[猎意]</color>，每层<color=#ffffff>[猎意]</color>使装备者造成的物理伤害提升<color=#2BAD00>**15/18.8/22.5/26.2/30%**</color>，最多叠加3层，持续8秒，0.5秒内最多触发一次，重复触发时刷新持续时间；进入接战状态或触发<color=#ffffff>[极限闪避]</color>时，直接获得3层<color=#ffffff>[猎意]</color>；<color=#ffffff>[猎意]</color>叠加至层数上限后，装备者的属性异常积蓄效率提升<color=#2BAD00>**50/62/75/87/100%</color>。**",

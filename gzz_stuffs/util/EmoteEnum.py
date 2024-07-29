@@ -92,7 +92,7 @@ class Emote(Enum):
     GRACE_ICON = "<:grace_icon:1266647416308891689>"
     NEKOMATA_ICON = "<:nekomata_icon:1266647391625543722>"
     SOLDIER_11_ICON = "<:soldier_11_icon:1266647367164366898>"
-    KOELDA_ICON = "<:koleda_icon:1266647344749740086>"
+    KOLEDA_ICON = "<:koleda_icon:1266647344749740086>"
     BILLY_ICON = "<:billy_icon:1266647319412084848>"
     ANBY_ICON = "<:anby_icon:1266647297236668416>"
     NICOLE_ICON = "<:nicole_icon:1266647274956525669>"
@@ -162,3 +162,84 @@ class Emote(Enum):
     CANNON_ROTOR_ICON = "<:cannon_rotor_icon:1266653316750901248>"
     JANE_DOE_WEAPON_ICON = "<:jane_doe_weapon_icon:1266653326184022087>"
     QINGYI_WEAPON_ICON = "<:qingyi_weapon_icon:1266653331976355871>"
+
+    @staticmethod
+    def get_icon_from_id(id):
+        id_dict = {
+            "1011": Emote.ANBY_ICON,
+            "1021": Emote.NEKOMATA_ICON,
+            "1031": Emote.NICOLE_ICON,
+            "1041": Emote.SOLDIER_11_ICON,
+            "1061": Emote.CORIN_ICON,
+            "1081": Emote.BILLY_ICON,
+            "1091": Emote.MIYABI_ICON,
+            "1101": Emote.KOLEDA_ICON,
+            "1111": Emote.ANTON_ICON,
+            "1121": Emote.BEN_ICON,
+            "1131": Emote.SOUKAKU_ICON,
+            "1141": Emote.LYCAON_ICON,
+            "1151": Emote.LUCY_ICON,
+            "1181": Emote.GRACE_ICON,
+            "1191": Emote.ELLEN_JOE_ICON,
+            "1211": Emote.RINA_ICON,
+            "1241": Emote.ZHU_YUAN_ICON,
+            "1251": Emote.QINGYI_ICON,
+            "1261": Emote.JANE_DOE_ICON,
+            "1271": Emote.SETH_ICON,
+            "1281": Emote.PIPER_ICON,
+
+            "12001": Emote.LUNAR_PLENILUNA_ICON,
+            "12002": Emote.LUNAR_DECRESCENT_ICON,
+            "12003": Emote.LUNAR_NOVILUNA_ICON,
+            "12004": Emote.REVERB_MARK_I_ICON,
+            "12005": Emote.REVERB_MARK_II_ICON,
+            "12006": Emote.REVERB_MARK_III_ICON,
+            "12007": Emote.VORTEX_REVOLVER_ICON,
+            "12008": Emote.VORTEX_ARROW_ICON,
+            "12009": Emote.VORTEX_HATCHET_ICON,
+            "12010": Emote.MAGNETIC_STORM_ALPHA_ICON,
+            "12011": Emote.MAGNETIC_STORM_BRAVO_ICON,
+            "12012": Emote.MAGNETIC_STORM_CHARLIE_ICON,
+            "12013": Emote.IDENTITY_BASE_ICON,
+            "12014": Emote.IDENTITY_INFLECTION_ICON,
+            "13001": Emote.STREET_SUPERSTAR_ICON,
+            "13002": Emote.SLICE_OF_TIME_ICON,
+            "13003": Emote.RAINFOREST_GOURMET_ICON,
+            "13004": Emote.STARLIGHT_ENGINE_ICON,
+            "13005": Emote.STEAM_OVEN_ICON,
+            "13006": Emote.PRECIOUS_FOSSILIZED_CORE_ICON,
+            "13007": Emote.ORIGINAL_TRANSFORMER_ICON,
+            "13008": Emote.WEEPING_GEMINI_ICON,
+            "13009": Emote.ELECTROLIP_GLOSS_ICON,
+            "13010": Emote.BUNNY_BAND_ICON,
+            "13011": Emote.SPRING_EMBRACE_ICON,
+            "13013": Emote.WEAPON_11_EVENT_ICON,
+            "13101": Emote.DEMARA_BATTERY_MARK_II_ICON,
+            "13103": Emote.THE_VAULT_ICON,
+            "13106": Emote.HOUSEKEEPER_ICON,
+            "13108": Emote.STARLIGHT_ENGINE_REPLICA_ICON,
+            "13111": Emote.DRILL_RIG_RED_AXIS_ICON,
+            "13112": Emote.BIG_CYLINDER_ICON,
+            "13113": Emote.BASHFUL_DEMON_ICON,
+            "13115": Emote.KABOOM_THE_CANNON_ICON,
+            "13127": Emote.SETH_WEAPON_ICON,
+            "13128": Emote.ROARING_RIDE_ICON,
+            "14001": Emote.CANNON_ROTOR_ICON,
+            "14002": Emote.UNFETTERED_GAME_BALL_ICON,
+            "14003": Emote.SIX_SHOOTER_ICON,
+            "14102": Emote.STEEL_CUSHION_ICON,
+            "14104": Emote.THE_BRIMSTONE_ICON,
+            "14110": Emote.HELLFIRE_GEARS_ICON,
+            "14114": Emote.THE_RESTRAINED_ICON,
+            "14118": Emote.FUSION_COMPILER_ICON,
+            "14119": Emote.DEEP_SEA_VISITOR_ICON,
+            "14121": Emote.WEEPING_CRADLE_ICON,
+            "14124": Emote.RIOT_SUPPRESSOR_MARK_VI_ICON,
+            "14125": Emote.QINGYI_WEAPON_ICON,
+            "14126": Emote.JANE_DOE_WEAPON_ICON,
+        }
+
+        if id in id_dict:
+            return id_dict[id]
+
+        return Emote.UNKNOWN_ICON

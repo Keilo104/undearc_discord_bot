@@ -44,7 +44,9 @@ class Weapon:
     type = None
     type_icon = None
 
-    def __init__(self, weapon_json):
+    icon = Emote.UNKNOWN_ICON.value
+
+    def __init__(self, weapon_json, weapon_extra_infos_json):
         self.substat_scaling = []
         self.mainstat_scaling = []
         self.mainstat_boost_scaling = []
@@ -54,6 +56,7 @@ class Weapon:
         self.name = weapon_json["Name"]
         self.main_stat = weapon_json["BaseProperty"]["Name"]
         self.main_stat_base = weapon_json["BaseProperty"]["Value"]
+        self.icon = Emote.get_icon_from_id(str(self.id))
 
         self.substat = weapon_json["RandProperty"]["Name"]
         self.substat_base = weapon_json["RandProperty"]["Value"]
@@ -74,13 +77,9 @@ class Weapon:
 
         self.true_description = self.generate_true_description()
 
-        with open("gzz_stuffs/util/weapon_extra_infos.json", "r", encoding="utf-8") as weapon_extra_infos_json_file:
-            weapon_extra_infos_json = json.load(weapon_extra_infos_json_file)
-
         self.icon_image_url = weapon_extra_infos_json[str(self.id)]["icon_image_url"]
         self.obtain = weapon_extra_infos_json[str(self.id)]["obtain"] if "obtain" in weapon_extra_infos_json[str(self.id)] else "Craftable"
         self.signature = weapon_extra_infos_json[str(self.id)]["signature"] if "signature" in weapon_extra_infos_json[str(self.id)] else None
-        self.signature_icon = weapon_extra_infos_json[str(self.id)]["signature_icon"] if "signature_icon" in weapon_extra_infos_json[str(self.id)] else None
         self.embed_color = weapon_extra_infos_json[str(self.id)]["embed_color"] if "embed_color" in weapon_extra_infos_json[str(self.id)] else "0x000000"
         self.release_patch = weapon_extra_infos_json[str(self.id)]["release_patch"] if "release_patch" in weapon_extra_infos_json[str(self.id)] else 1
         self.name = weapon_extra_infos_json[str(self.id)]["override_name"] if "override_name" in weapon_extra_infos_json[str(self.id)] else self.name
