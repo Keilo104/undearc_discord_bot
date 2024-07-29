@@ -6,6 +6,7 @@ import os
 import markovify
 
 from gzz_stuffs.print_gzz import print_gzz
+from gzz_stuffs.util.Bangaloo import Bangaloo
 from gzz_stuffs.util.Valk import Valk
 from gzz_stuffs.util.Weapon import Weapon
 
@@ -51,10 +52,7 @@ class Underarc:
 
         for bangaloo in all_ids["bangaloos"]:
             with open(f"gzz_stuffs/bangaloos/{bangaloo}.json", "r", encoding="utf-8") as bangaloo_json_file:
-                self.bangaloos[bangaloo] = {
-                    "datamined_json": json.load(bangaloo_json_file),
-                    "extra_stuffs": None
-                }
+                self.bangaloos[bangaloo] = Bangaloo(json.load(bangaloo_json_file), bangaloo_extra_stuffs_json)
 
     def load_extraction_channels(self):
         with open("markov_chain_stuffs/extraction_channels.json", "r", encoding="utf-8") as extraction_channels_json_file:

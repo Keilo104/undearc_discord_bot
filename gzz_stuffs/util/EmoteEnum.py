@@ -163,6 +163,31 @@ class Emote(Enum):
     JANE_DOE_WEAPON_ICON = "<:jane_doe_weapon_icon:1266653326184022087>"
     QINGYI_WEAPON_ICON = "<:qingyi_weapon_icon:1266653331976355871>"
 
+    PENGUINBOO_ICON = "<:penguinboo_icon:1267340979904581753>"
+    ROCKETBOO_ICON = "<:rocketboo_icon:1267341042756092015>"
+    CRYBOO_ICON = "<:cryboo_icon:1267341050629066815>"
+    AVOCABOO_ICON = "<:avocaboo_icon:1267341058350780470>"
+    RESONABOO_ICON = "<:resonaboo_icon:1267341065535619122>"
+    BOOLLSEYE_ICON = "<:boollseye_icon:1267341074075090954>"
+    BOORESSURE_ICON = "<:booressure_icon:1267341081457197117>"
+    ELECTROBOO_ICON = "<:electroboo_icon:1267341110498431057>"
+    MAGNETIBOO_ICON = "<:magnetiboo_icon:1267341119642144828>"
+    SECURITY_ICON = "<:security_icon:1267341141758574612>"
+    PLUGBOO_ICON = "<:plugboo_icon:1267341159097827338>"
+    AMILLION_ICON = "<:amillion_icon:1267341179096137842>"
+    DEVILBOO_ICON = "<:devilboo_icon:1267341188566876282>"
+    BAGBOO_ICON = "<:bagboo_icon:1267341197253414932>"
+    PAPERBOO_ICON = "<:paperboo_icon:1267341205931561011>"
+    BUTLER_ICON = "<:butler_icon:1267341213996945481>"
+    SUMOBOO_ICON = "<:sumoboo_icon:1267341222528286912>"
+    SHARKBOO_ICON = "<:sharkboo_icon:1267341231172878387>"
+    LUCKYBOO_ICON = "<:luckyboo_icon:1267341240408604742>"
+    EXPLOREBOO_ICON = "<:exploreboo_icon:1267341255768150096>"
+    SAFETY_ICON = "<:safety_icon:1267341398609362986>"
+    BANGVOLVER_ICON = "<:bangvolver_icon:1267341850960990219>"
+    CHEFBOO_ICON = "<:chefboo_icon:1267341905197273128>"
+    OBSERVABOO_ICON = "<:observaboo_icon:1267341952525799484>"
+
     @staticmethod
     def get_icon_from_id(id):
         id_dict = {
@@ -237,6 +262,29 @@ class Emote(Enum):
             "14124": Emote.RIOT_SUPPRESSOR_MARK_VI_ICON,
             "14125": Emote.QINGYI_WEAPON_ICON,
             "14126": Emote.JANE_DOE_WEAPON_ICON,
+
+            "53001": Emote.PENGUINBOO_ICON,
+            "53002": Emote.LUCKYBOO_ICON,
+            "53003": Emote.EXPLOREBOO_ICON,
+            "53004": Emote.SUMOBOO_ICON,
+            "53005": Emote.PAPERBOO_ICON,
+            "53006": Emote.BAGBOO_ICON,
+            "53007": Emote.CRYBOO_ICON,
+            "53008": Emote.AVOCABOO_ICON,
+            "53009": Emote.BOOLLSEYE_ICON,
+            "53010": Emote.ELECTROBOO_ICON,
+            "53011": Emote.MAGNETIBOO_ICON,
+            "53012": Emote.BOORESSURE_ICON,
+            "54001": Emote.SHARKBOO_ICON,
+            "54002": Emote.SAFETY_ICON,
+            "54003": Emote.DEVILBOO_ICON,
+            "54004": Emote.BUTLER_ICON,
+            "54005": Emote.AMILLION_ICON,
+            "54006": Emote.ROCKETBOO_ICON,
+            "54008": Emote.PLUGBOO_ICON,
+            "54009": Emote.RESONABOO_ICON,
+            "54012": Emote.SECURITY_ICON,
+            "54013": Emote.BANGVOLVER_ICON
         }
 
         if id in id_dict:

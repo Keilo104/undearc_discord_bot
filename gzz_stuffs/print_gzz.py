@@ -5,19 +5,21 @@ from gzz_stuffs.print_weapon import print_weapon, print_weapon_at_level
 
 
 signature_weapon = (
+  " wep", "'s wep", "s wep",
   " weap", "'s weap", "s weap",
   " weapon", "'s weapon", "s weapon",
   " sig", "'s sig", "s sig",
+  " sig wep", "'s sig wep", "sig wep",
   " sig weap", "'s sig weap", "sig weap",
   " sig weapon", "'s sig weapon", "s sig weapon",
   " signature", "'s signature", "s signature",
+  " signature wep", "'s signature wep", "s signature wep",
   " signature weap", "'s signature weap", "s signature weap",
   " signature weapon", "'s signature weapon", "s signature weapon",
 )
 
 
 def print_ambiguous(bot, options):
-
     embed = discord.Embed(
         title=f"That search is ambiguous, possible options:"
     )
@@ -27,13 +29,13 @@ def print_ambiguous(bot, options):
     for item in options:
         item_type, item = figure_out_type(bot, item)
         if item_type == "Valk":
-            embed_description = f"{embed_description}{bot.valks[item].icon.value}{bot.valks[item].full_name}\n"
+            embed_description = f"{embed_description}{bot.valks[item].icon.value} {bot.valks[item].full_name}\n"
 
         elif item_type == "Weapon":
-            embed_description = f"{embed_description}{bot.weapons[item].icon.value}{bot.weapons[item].name}\n"
+            embed_description = f"{embed_description}{bot.weapons[item].icon.value} {bot.weapons[item].name}\n"
 
         elif item_type == "Bangaloo":
-            embed_description = f"{embed_description}{bot.bangaloos[item].icon.value}{bot.bangaloos[item].name}\n"
+            embed_description = f"{embed_description}{bot.bangaloos[item].icon.value} {bot.bangaloos[item].name}\n"
 
     embed.description = embed_description[:-1]
 
