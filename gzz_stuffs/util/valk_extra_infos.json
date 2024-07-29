@@ -37,8 +37,8 @@
   "1071": {
     "icon_image_url": "",
     "release_patch": 99,
-    "embed_color": "0xFFDC4D",
-    "real_name": "Caesar"
+    "override_name": "Caesar",
+    "embed_color": "0xFFDC4D"
   },
 
   "1081": {
@@ -51,8 +51,8 @@
   "1091": {
     "icon_image_url": "",
     "release_patch": 99,
-    "embed_color": "0x1CE0EF",
-    "real_name": "Hoshimi Miyabi"
+    "override_full_name": "Hoshimi Miyabi",
+    "embed_color": "0x1CE0EF"
   },
 
   "1101": {
@@ -94,21 +94,22 @@
     "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect27.webp",
     "signature_weapon": "13115",
     "release_patch": 1,
+    "override_full_name": "Luciana de Montefio",
     "embed_color": "0xFFDC4D"
   },
 
   "1161": {
     "icon_image_url": "",
     "release_patch": 99,
-    "embed_color": "0xFFDC4D",
-    "real_name": "Lighter"
+    "override_name": "Lighter",
+    "embed_color": "0xFFDC4D"
   },
 
   "1171": {
     "icon_image_url": "",
     "release_patch": 99,
-    "embed_color": "0xFFDC4D",
-    "real_name": "Burnice"
+    "override_name": "Burnice",
+    "embed_color": "0xFFDC4D"
   },
 
   "1181": {
@@ -162,14 +163,15 @@
     "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect24.webp",
     "signature_weapon": "14126",
     "release_patch": 2,
-    "embed_color": "0x38A2FF",
-    "real_name": "Jane Doe"
+    "override_name": "Jane Doe",
+    "embed_color": "0x38A2FF"
   },
 
   "1271": {
     "icon_image_url": "https://api.hakush.in/zzz/UI/IconRoleSelect30.webp",
     "signature_weapon": "13127",
     "release_patch": 2,
+    "override_full_name": "Seth Lowell",
     "embed_color": "0x38A2FF"
   },
 

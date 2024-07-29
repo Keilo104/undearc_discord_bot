@@ -87,8 +87,8 @@ class Valk:
 
         self.id = valk_json["Id"]
         self.icon = Emote.get_icon_from_id(str(self.id))
-        self.name = valk_json["PartnerInfo"]["FullName"] if "FullName" in valk_json["PartnerInfo"] \
-            else valk_json["Name"]
+        self.name = valk_json["Name"]
+        self.full_name = valk_json["PartnerInfo"]["FullName"] if "FullName" in valk_json["PartnerInfo"] else None
         self.base_hp = valk_json["Stats"]["HpMax"] if "HpMax" in valk_json["Stats"] else 0
         self.hp_growth = valk_json["Stats"]["HpGrowth"] if "HpGrowth" in valk_json["Stats"] else 0
         self.base_atk = valk_json["Stats"]["Attack"] if "Attack" in valk_json["Stats"] else 0
@@ -99,7 +99,8 @@ class Valk:
         self.anomaly_mastery = valk_json["Stats"]["ElementMystery"] if "ElementMystery" in valk_json["Stats"] else 0
         self.anomaly_proficiency = valk_json["Stats"]["ElementAbnormalPower"] if "ElementAbnormalPower" in valk_json["Stats"] else 0
 
-        self.name = valk_extra_infos_json[str(self.id)]["real_name"] if self.name == "..." else self.name
+        self.name = valk_extra_infos_json[str(self.id)]["override_name"] if "override_name" in valk_extra_infos_json[str(self.id)] else self.name
+        self.full_name = valk_extra_infos_json[str(self.id)]["override_full_name"] if "override_full_name" in valk_extra_infos_json[str(self.id)] else self.full_name
         self.icon_image_url = valk_extra_infos_json[str(self.id)]["icon_image_url"]
         if "signature_weapon" in valk_extra_infos_json[str(self.id)]:
             self.signature_weapon = valk_extra_infos_json[str(self.id)]["signature_weapon"]

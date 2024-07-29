@@ -1,8 +1,5 @@
-import json
-
 from gzz_stuffs.print_valk import print_valk, print_valk_at_level
 from gzz_stuffs.print_weapon import print_weapon, print_weapon_at_level
-import re
 
 
 signature_weapon = (
@@ -39,7 +36,7 @@ def get_weapon(looking_for, bot):
             true_looking_for = looking_for[:-len(item)]
             found_length = len(item)
 
-    if true_looking_for not in bot.translations:
+    if true_looking_for not in bot.translations or bot.translations[true_looking_for] not in bot.valks:
         return None, None
 
     valk_id = bot.translations[true_looking_for]
@@ -50,7 +47,7 @@ def get_weapon(looking_for, bot):
 async def print_gzz(message, bot):
     true_message = message.content[6:]
 
-    message_list = re.split("\s", true_message)
+    message_list = true_message.split()
 
     type_to_print = None
     what_to_print = None
@@ -97,4 +94,4 @@ async def print_gzz(message, bot):
 
     else:
         await message.channel.send(f"Couldn't figure out what you wanted. Maybe ping mama keilo about it?")
-        print(message.content)
+        print(f"{message.author.name} tried this: {message.content}")

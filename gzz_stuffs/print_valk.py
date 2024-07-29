@@ -9,7 +9,7 @@ def base_embed_and_load_valk(valk_id, bot):
     valk = bot.valks[valk_id]
 
     embed = discord.Embed(
-        title=valk.name,
+        title=valk.full_name if valk.full_name is not None else valk.name,
         description=f"{valk.faction_icon.value} • {valk.faction}\n"
         f"{valk.rarity_icon.value} {valk.element_icon.value} {valk.specialty_icon.value} {valk.damage_type_icon.value}"
     )
