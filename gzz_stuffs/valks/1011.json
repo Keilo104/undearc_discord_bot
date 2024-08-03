@@ -1078,7 +1078,7 @@
     "4": {
       "Level": 4,
       "Name": "Conducting Charge",
-      "Desc": "When Anby launches a <color=#ffffff>Chain Attack</color> or uses her <color=#ffffff>Ultimate</color>, off-field Electric Agents recover 3 Energy.\nFor every 12% Energy Generation Anby has, recover an additional 2 Energy, up to a maximum of 6.",
+      "Desc": "When Anby launches a <color=#ffffff>Chain Attack</color> or uses her <color=#ffffff>Ultimate</color>, off-field Electric Agents recover 3 Energy.\nFor every 12% Energy Generation Rate Anby has, recover an additional 2 Energy, up to a maximum of 6.",
       "Desc2": "You won't last long fighting solo. An experienced Hollow Raider knows how to create opportunities for their teammates."
     },
     "5": {

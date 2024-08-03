@@ -287,7 +287,7 @@
               }
             },
             {
-              "Name": "3rd Basic Attack DMG Multiplier",
+              "Name": "3rd-Hit (ALT) DMG Multiplier",
               "Desc": "{Skill:1151003, Prop:1001}",
               "Param": {
                 "1151003": {
@@ -342,7 +342,7 @@
               }
             },
             {
-              "Name": "3rd Basic Attack Daze Multiplier",
+              "Name": "3rd-Hit (ALT) Daze Multiplier",
               "Desc": "{Skill:1151003, Prop:1002}",
               "Param": {
                 "1151003": {
@@ -635,15 +635,15 @@
       "Description": [
         {
           "Name": "Special Attack: Solid Hit!",
-          "Desc": "Press <IconMap:Icon_Special> to activate:\nRecall the guard boars and throw them as a <color=#ffffff>Line Drive</color>. The guard boars will cause an explosion upon hitting enemies or walls, dealing <color=#ff5521>Fire DMG</color>.\nHold <IconMap:Icon_Special> to activate:\nRecall the guard boars and throw them as a <color=#ffffff>Fly Ball</color>. The guard boars will cause an explosion upon landing, dealing <color=#ff5521>Fire DMG</color>."
+          "Desc": "Press <IconMap:Icon_Special> to activate:\nRecall a guard boar and launch it as a <color=#ffffff>Line Drive</color>. The guard boar will cause an explosion upon hitting enemies or walls, dealing <color=#ff5521>Fire DMG</color>.\nHold <IconMap:Icon_Special> to activate:\nRecall a guard boar and launch it as a <color=#ffffff>Fly Ball</color>. The guard boar will cause an explosion upon landing, dealing <color=#ff5521>Fire DMG</color>."
         },
         {
           "Name": "EX Special Attack: Home Run!",
-          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nRecall the guard boars and throw them as a <color=#ffffff>Line Drive</color>. The guard boars will cause an explosion upon hitting enemies or walls, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill.\nWith enough Energy, hold <IconMap:Icon_SpecialReady> to activate:\nRecall the guard boars and throw them as a <color=#ffffff>Fly Ball</color>. The guard boars will cause an explosion upon landing, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill."
+          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nRecall a guard boar and launch it as a <color=#ffffff>Line Drive</color>. The guard boar will cause an explosion upon hitting enemies or walls, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill.\nWith enough Energy, hold <IconMap:Icon_SpecialReady> to activate:\nRecall a guard boar and launch it as a <color=#ffffff>Fly Ball</color>. The guard boar will cause an explosion upon landing, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Cheer On!",
-          "Desc": "After using <color=#ffffff>EX Special Attack</color>, when the guard boars trigger an explosion, it will apply the <color=#ffffff>Cheer On!</color> status to all allies, Bangboo, and the guard boars themselves. While under the <color=#ffffff>Cheer On!</color> status, allies' ATK increases by <color=#2BAD00>{CAL:13+AvatarSkillLevel(1)*0.8,1,2}%</color> of Lucy's ATK + <color=#2BAD00>{CAL:40+AvatarSkillLevel(1)*4,1,2}</color>, up to a maximum of 600. The <color=#ffffff>Cheer On!</color> status lasts for 10s when a <color=#ffffff>Line Drive</color> is hit, and 15s when a <color=#ffffff>Fly Ball</color> is hit. Repeated triggers reset the duration."
+          "Desc": "After using <color=#ffffff>EX Special Attack</color>, when a guard boar triggers an explosion, it will apply the <color=#ffffff>Cheer On!</color> status to all allies, Bangboo, and the guard boars themselves. While under the <color=#ffffff>Cheer On!</color> status, allies' ATK increases by <color=#2BAD00>{CAL:13+AvatarSkillLevel(1)*0.8,1,2}%</color> of Lucy's ATK + <color=#2BAD00>{CAL:40+AvatarSkillLevel(1)*4,1,2}</color>, up to a maximum of 600. The <color=#ffffff>Cheer On!</color> status lasts for 10s when a <color=#ffffff>Line Drive</color> is hit, and 15s when a <color=#ffffff>Fly Ball</color> is hit. Repeated triggers reset the duration."
         },
         {
           "Name": "Cheer On!",

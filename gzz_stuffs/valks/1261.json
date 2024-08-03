@@ -1,7 +1,7 @@
 {
   "Id": 1261,
   "Icon": "IconRole24",
-  "Name": "...",
+  "Name": "Jane",
   "CodeName": "Avatar_Female_Size03_JaneDoe_En",
   "Rarity": 4,
   "WeaponType": {
@@ -14,7 +14,7 @@
     "101": "Slash"
   },
   "Camp": {
-    "7": "New Eridu Public Security"
+    "7": "Criminal Investigation Special Response Team"
   },
   "Gender": 2,
   "PartnerInfo": {},
@@ -239,19 +239,19 @@
     "Basic": {
       "Description": [
         {
-          "Name": "JaneDoe_Skill_Normal_Title",
-          "Desc": "..."
+          "Name": "Basic Attack: Dancing Blades",
+          "Desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 6 attacks in front, dealing <color=#f0d12b>Physical DMG</color>."
         },
         {
-          "Name": "JaneDoe_Enhance_Title",
-          "Desc": "JaneDoe_Enhance_Desc"
+          "Name": "Passion",
+          "Desc": "When Jane triggers <color=#ffffff>Perfect Dodge</color>, <color=#ffffff>Defensive Assist</color>, or performs a move that deals damage to the enemy, she accumulates <color=#ffffff>Passion Stream</color>. Upon reaching the maximum <color=#ffffff>Passion Stream</color>, Jane enters the <color=#ffffff>Passion</color> state.\nWhile in the <color=#ffffff>Passion</color> state, Jane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 25%. Additionally, if Jane's Anomaly Proficiency exceeds 0.15 points, each extra point raises her ATK by 2, up to a maximum of 600.\nIn the <color=#ffffff>Passion</color> state, Jane's skills that deal damage expend <color=#ffffff>Passion Stream</color>. Activating a <color=#ffffff>Perfect Dodge</color> or <color=#ffffff>Defensive Assist</color> regenerates <color=#ffffff>Passion Stream</color>. Jane exits the <color=#ffffff>Passion</color> state when all of her <color=#ffffff>Passion Stream</color> is expended."
         },
         {
-          "Name": "JaneDoe_Skill_Branch_Title",
-          "Desc": "JaneDoe_Skill_Branch_Desc"
+          "Name": "Basic Attack: Salchow Jump",
+          "Desc": "Entering the <color=#ffffff>Passion</color> state grants Jane one use of <color=#ffffff>Basic Attack: Salchow Jump</color>.\nWhen available, hold <IconMap:Icon_Normal> to activate:\nLaunch rapid consecutive attacks forward, followed by a finishing strike, dealing <color=#f0d12b>Physical DMG</color>.\nHold the button during the continuous attacks to extend the skill duration. Release <IconMap:Icon_Normal> to trigger the finishing strike early.\nAnti-Interrupt level is increased during the continuous attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the finishing strike.\nUsing <color=#ffffff>Basic Attack: Salchow Jump</color> while in the <color=#ffffff>Passion</color> state generates <color=#ffffff>Passion Stream</color>."
         },
         {
-          "Name": "JaneDoe_Skill_Normal_Title",
+          "Name": "Basic Attack: Dancing Blades",
           "Param": [
             {
               "Name": "1st-Hit DMG Multiplier",
@@ -388,10 +388,10 @@
           ]
         },
         {
-          "Name": "JaneDoe_Skill_Branch_Title",
+          "Name": "Basic Attack: Salchow Jump",
           "Param": [
             {
-              "Name": "...",
+              "Name": "Combo DMG Multiplier",
               "Desc": "{Skill:1261007, Prop:1001}",
               "Param": {
                 "1261007": {
@@ -402,7 +402,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "Finishing Strike DMG Multiplier",
               "Desc": "{Skill:1261008, Prop:1001}",
               "Param": {
                 "1261008": {
@@ -413,7 +413,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "Combo Daze Multiplier",
               "Desc": "{Skill:1261007, Prop:1002}",
               "Param": {
                 "1261007": {
@@ -424,7 +424,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "Finishing Strike Daze Multiplier",
               "Desc": "{Skill:1261008, Prop:1002}",
               "Param": {
                 "1261008": {
@@ -489,30 +489,30 @@
     "Dodge": {
       "Description": [
         {
-          "Name": "JaneDoe_Skill_Evade_Title",
-          "Desc": "JaneDoe_Skill_Evade_Desc"
+          "Name": "Dodge: Phantom",
+          "Desc": "Press <IconMap:Icon_Evade> to trigger.\nA quick slide dodge.\nCharacter is invulnerable while using this skill.\nJane has an extra dodge, alternating between two dodges before entering the <color=#ffffff>Passion</color> state. After entering the <color=#ffffff>Passion</color> state, Jane can pass through enemies in front when dodging."
         },
         {
-          "Name": "JaneDoe_Skill_Rush_Title",
-          "Desc": "JaneDoe_Skill_Rush_Desc"
+          "Name": "Dash Attack: Edge Jump",
+          "Desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nIf after a single dodge, launch an upward slash in front, dealing <color=#f0d12b>Physical DMG</color>.\nIf after a second dodge, perform a series of slashes in front, dealing <color=#f0d12b>Physical DMG</color>."
         },
         {
-          "Name": "JaneDoe_Skill_Rush_Enhance_Title",
-          "Desc": "..."
+          "Name": "Dash Attack: Phantom Thrust",
+          "Desc": "While in the <color=#ffffff>Passion</color> state, press <IconMap:Icon_Normal> during a dodge to activate:\nLaunch three quick slashes in front, dealing <color=#f0d12b>Physical DMG</color>."
         },
         {
-          "Name": "...",
-          "Desc": "JaneDoe_Skill_Counter_Desc"
+          "Name": "Dodge Counter: Swift Shadow",
+          "Desc": "Press <IconMap:Icon_Normal> during a <color=#ffffff>Perfect Dodge</color> to activate:\nIf after a single dodge, unleash multiple slashes at enemies in front, followed by a downward thrust, dealing <color=#f0d12b>Physical DMG</color>.\nIf after a second dodge, leap up and deliver three consecutive attack combos to enemies in front, dealing <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "JaneDoe_Skill_Counter_Enhance_Title",
-          "Desc": "..."
+          "Name": "Dodge Counter: Swift Shadow Dance",
+          "Desc": "While in the <color=#ffffff>Passion</color> state, press <IconMap:Icon_Normal> during a <color=#ffffff>Perfect Dodge</color> to activate:\nSlash enemies in front quickly multiple times, dealing <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "JaneDoe_Skill_Rush_Title",
+          "Name": "Dash Attack: Edge Jump",
           "Param": [
             {
-              "Name": "...",
+              "Name": "1st-Hit DMG Multiplier",
               "Desc": "{Skill:1261011, Prop:1001}",
               "Param": {
                 "1261011": {
@@ -523,7 +523,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "1st-Hit Daze Multiplier",
               "Desc": "{Skill:1261011, Prop:1002}",
               "Param": {
                 "1261011": {
@@ -534,7 +534,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "2nd-Hit DMG Multiplier",
               "Desc": "{Skill:1261012, Prop:1001}",
               "Param": {
                 "1261012": {
@@ -545,7 +545,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "2nd-Hit Daze Multiplier",
               "Desc": "{Skill:1261012, Prop:1002}",
               "Param": {
                 "1261012": {
@@ -558,7 +558,7 @@
           ]
         },
         {
-          "Name": "JaneDoe_Skill_Rush_Enhance_Title",
+          "Name": "Dash Attack: Phantom Thrust",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -585,10 +585,10 @@
           ]
         },
         {
-          "Name": "...",
+          "Name": "Dodge Counter: Swift Shadow",
           "Param": [
             {
-              "Name": "...",
+              "Name": "1st-Hit DMG Multiplier",
               "Desc": "{Skill:1261014, Prop:1001}",
               "Param": {
                 "1261014": {
@@ -599,7 +599,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "1st-Hit Daze Multiplier",
               "Desc": "{Skill:1261014, Prop:1002}",
               "Param": {
                 "1261014": {
@@ -610,7 +610,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "2nd-Hit DMG Multiplier",
               "Desc": "{Skill:1261015, Prop:1001}",
               "Param": {
                 "1261015": {
@@ -621,7 +621,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "2nd-Hit Daze Multiplier",
               "Desc": "{Skill:1261015, Prop:1002}",
               "Param": {
                 "1261015": {
@@ -634,7 +634,7 @@
           ]
         },
         {
-          "Name": "JaneDoe_Skill_Counter_Enhance_Title",
+          "Name": "Dodge Counter: Swift Shadow Dance",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -713,15 +713,15 @@
     "Special": {
       "Description": [
         {
-          "Name": "JaneDoe_Skill_Special_Title",
-          "Desc": "..."
+          "Name": "Special Attack: Aerial Sweep",
+          "Desc": "Press <IconMap:Icon_Special> to activate:\nLeaps into the air to launch a series of kicks forward, then sweeps across, dealing <color=#f0d12b>Physical DMG</color>.\nAnti-Interrupt level is increased while using this skill."
         },
         {
-          "Name": "...",
-          "Desc": "..."
+          "Name": "EX Special Attack: Aerial Sweep - Tail Swipe",
+          "Desc": "When Jane has enough energy, press <IconMap:Icon_SpecialReady> to activate:\nLeaps into the air to launch a series of kicks forward, then sweeps across, dealing massive <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "JaneDoe_Skill_Special_Title",
+          "Name": "Special Attack: Aerial Sweep",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -748,7 +748,7 @@
           ]
         },
         {
-          "Name": "...",
+          "Name": "EX Special Attack: Aerial Sweep - Tail Swipe",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -774,7 +774,7 @@
             },
             {
               "Name": "Energy Cost",
-              "Desc": "..."
+              "Desc": "60"
             }
           ]
         }
@@ -831,15 +831,15 @@
     "Chain": {
       "Description": [
         {
-          "Name": "JaneDoe_Skill_QTE_Title",
-          "Desc": "JaneDoe_Skill_QTE_Desc"
+          "Name": "Chain Attack: Flowers of Sin",
+          "Desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select the character to activate:\nSlash enemies in a large area in front, dealing massive <color=#f0d12b>Physical DMG</color>.\nJane enters the <color=#ffffff>Passion</color> state when using the skill, and gains max <color=#ffffff>Passion Stream</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "JaneDoe_Skill_ExQTE_Title",
-          "Desc": "JaneDoe_Skill_ExQTE_Desc"
+          "Name": "Ultimate: Final Curtain",
+          "Desc": "When Decibel Rating is at <color=#ffffff>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nSlash enemies back and forth in a large area, followed by a finishing strike, dealing massive <color=#f0d12b>Physical DMG</color>.\nJane enters the <color=#ffffff>Passion</color> state when using the skill, and gains max <color=#ffffff>Passion Stream</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "JaneDoe_Skill_QTE_Title",
+          "Name": "Chain Attack: Flowers of Sin",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -866,7 +866,7 @@
           ]
         },
         {
-          "Name": "JaneDoe_Skill_ExQTE_Title",
+          "Name": "Ultimate: Final Curtain",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -945,23 +945,23 @@
     "Assist": {
       "Description": [
         {
-          "Name": "...",
-          "Desc": "..."
+          "Name": "Quick Assist: Dark Thorn",
+          "Desc": "When the on-field character is launched, press <IconMap:Icon_Switch> to activate:\nUnleash multiple slashes at enemies in front, followed by a downward thrust, dealing <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "JaneDoe_Skill_BeHitAid_Enhance_Title",
-          "Desc": "..."
+          "Name": "Quick Assist: Lutz Jump",
+          "Desc": "While in the <color=#ffffff>Passion</color> state, when the on-field character is launched, press <IconMap:Icon_Switch> to activate:\nSlash enemies in front quickly multiple times, dealing <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "...",
-          "Desc": "..."
+          "Name": "Defensive Assist: Last Defense",
+          "Desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "JaneDoe_Skill_AssaultAid_Title",
-          "Desc": "..."
+          "Name": "Assist Follow-Up: Gale Sweep",
+          "Desc": "Press <IconMap:Icon_Normal> after a <color=#ffffff>Defensive Assist</color> to activate:\nLeap up and swiftly slash the enemy, then execute a wide sweeping slash across a large area in front, dealing <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "...",
+          "Name": "Quick Assist: Dark Thorn",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -988,7 +988,7 @@
           ]
         },
         {
-          "Name": "JaneDoe_Skill_BeHitAid_Enhance_Title",
+          "Name": "Quick Assist: Lutz Jump",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -1015,7 +1015,7 @@
           ]
         },
         {
-          "Name": "...",
+          "Name": "Defensive Assist: Last Defense",
           "Param": [
             {
               "Name": "Light Defensive Daze Multiplier",
@@ -1053,7 +1053,7 @@
           ]
         },
         {
-          "Name": "JaneDoe_Skill_AssaultAid_Title",
+          "Name": "Assist Follow-Up: Gale Sweep",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -1136,84 +1136,84 @@
         "Level": 1,
         "Id": 1261501,
         "Name": [
-          "JaneDoe_UniqueSkill_Title",
-          "..."
+          "Core Passive: Insight",
+          "Additional Ability: Sore Spot"
         ],
         "Desc": [
-          "JaneDoe_UniqueSkill_01_Desc",
-          "JaneDoe_MathSkill_Desc"
+          "When Jane's attacks hit an enemy, it causes them to enter the <color=#ffffff>Gnawed</color> state, lasting for 10s. If any squad member triggers <color=#f0d12b>Assault</color> on an enemy in the <color=#ffffff>Gnawed</color> state and causes the <color=#f0d12b>Flinch</color> effect, the <color=#f0d12b>Flinch</color> effect is increased by 5s, and <color=#f0d12b>Assault</color> DMG has a chance to trigger a CRIT, with a base CRIT Rate of <color=#2BAD00>20%</color> and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by <color=#2BAD00>0.1%</color>.",
+          "When there are other <color=#ffffff>Anomaly</color> Agents or Agents of the same faction in the squad:\nJane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 15%. When the enemy is already suffering from an Attribute Anomaly, Jane's <color=#f0d12b>Physical Anomaly Buildup</color> towards the target is increased by an additional 15%."
         ]
       },
       "2": {
         "Level": 2,
         "Id": 1261502,
         "Name": [
-          "JaneDoe_UniqueSkill_Title",
-          "..."
+          "Core Passive: Insight",
+          "Additional Ability: Sore Spot"
         ],
         "Desc": [
-          "JaneDoe_UniqueSkill_02_Desc",
-          "JaneDoe_MathSkill_Desc"
+          "When Jane's attacks hit an enemy, it causes them to enter the <color=#ffffff>Gnawed</color> state, lasting for 10s. If any squad member triggers <color=#f0d12b>Assault</color> on an enemy in the <color=#ffffff>Gnawed</color> state and causes the <color=#f0d12b>Flinch</color> effect, the <color=#f0d12b>Flinch</color> effect is increased by 5s, and <color=#f0d12b>Assault</color> DMG has a chance to trigger a CRIT, with a base CRIT Rate of <color=#2BAD00>21%</color> and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by <color=#2BAD00>0.11%</color>.",
+          "When there are other <color=#ffffff>Anomaly</color> Agents or Agents of the same faction in the squad:\nJane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 15%. When the enemy is already suffering from an Attribute Anomaly, Jane's <color=#f0d12b>Physical Anomaly Buildup</color> towards the target is increased by an additional 15%."
         ]
       },
       "3": {
         "Level": 3,
         "Id": 1261503,
         "Name": [
-          "JaneDoe_UniqueSkill_Title",
-          "..."
+          "Core Passive: Insight",
+          "Additional Ability: Sore Spot"
         ],
         "Desc": [
-          "JaneDoe_UniqueSkill_03_Desc",
-          "JaneDoe_MathSkill_Desc"
+          "When Jane's attacks hit an enemy, it causes them to enter the <color=#ffffff>Gnawed</color> state, lasting for 10s. If any squad member triggers <color=#f0d12b>Assault</color> on an enemy in the <color=#ffffff>Gnawed</color> state and causes the <color=#f0d12b>Flinch</color> effect, the <color=#f0d12b>Flinch</color> effect is increased by 5s, and <color=#f0d12b>Assault</color> DMG has a chance to trigger a CRIT, with a base CRIT Rate of <color=#2BAD00>22%</color> and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by <color=#2BAD00>0.12%</color>.",
+          "When there are other <color=#ffffff>Anomaly</color> Agents or Agents of the same faction in the squad:\nJane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 15%. When the enemy is already suffering from an Attribute Anomaly, Jane's <color=#f0d12b>Physical Anomaly Buildup</color> towards the target is increased by an additional 15%."
         ]
       },
       "4": {
         "Level": 4,
         "Id": 1261504,
         "Name": [
-          "JaneDoe_UniqueSkill_Title",
-          "..."
+          "Core Passive: Insight",
+          "Additional Ability: Sore Spot"
         ],
         "Desc": [
-          "JaneDoe_UniqueSkill_04_Desc",
-          "JaneDoe_MathSkill_Desc"
+          "When Jane's attacks hit an enemy, it causes them to enter the <color=#ffffff>Gnawed</color> state, lasting for 10s. If any squad member triggers <color=#f0d12b>Assault</color> on an enemy in the <color=#ffffff>Gnawed</color> state and causes the <color=#f0d12b>Flinch</color> effect, the <color=#f0d12b>Flinch</color> effect is increased by 5s, and <color=#f0d12b>Assault</color> DMG has a chance to trigger a CRIT, with a base CRIT Rate of <color=#2BAD00>23%</color> and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by <color=#2BAD00>0.13%</color>.",
+          "When there are other <color=#ffffff>Anomaly</color> Agents or Agents of the same faction in the squad:\nJane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 15%. When the enemy is already suffering from an Attribute Anomaly, Jane's <color=#f0d12b>Physical Anomaly Buildup</color> towards the target is increased by an additional 15%."
         ]
       },
       "5": {
         "Level": 5,
         "Id": 1261505,
         "Name": [
-          "JaneDoe_UniqueSkill_Title",
-          "..."
+          "Core Passive: Insight",
+          "Additional Ability: Sore Spot"
         ],
         "Desc": [
-          "JaneDoe_UniqueSkill_05_Desc",
-          "JaneDoe_MathSkill_Desc"
+          "When Jane's attacks hit an enemy, it causes them to enter the <color=#ffffff>Gnawed</color> state, lasting for 10s. If any squad member triggers <color=#f0d12b>Assault</color> on an enemy in the <color=#ffffff>Gnawed</color> state and causes the <color=#f0d12b>Flinch</color> effect, the <color=#f0d12b>Flinch</color> effect is increased by 5s, and <color=#f0d12b>Assault</color> DMG has a chance to trigger a CRIT, with a base CRIT Rate of <color=#2BAD00>24%</color> and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by <color=#2BAD00>0.14%</color>.",
+          "When there are other <color=#ffffff>Anomaly</color> Agents or Agents of the same faction in the squad:\nJane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 15%. When the enemy is already suffering from an Attribute Anomaly, Jane's <color=#f0d12b>Physical Anomaly Buildup</color> towards the target is increased by an additional 15%."
         ]
       },
       "6": {
         "Level": 6,
         "Id": 1261506,
         "Name": [
-          "JaneDoe_UniqueSkill_Title",
-          "..."
+          "Core Passive: Insight",
+          "Additional Ability: Sore Spot"
         ],
         "Desc": [
-          "JaneDoe_UniqueSkill_06_Desc",
-          "JaneDoe_MathSkill_Desc"
+          "When Jane's attacks hit an enemy, it causes them to enter the <color=#ffffff>Gnawed</color> state, lasting for 10s. If any squad member triggers <color=#f0d12b>Assault</color> on an enemy in the <color=#ffffff>Gnawed</color> state and causes the <color=#f0d12b>Flinch</color> effect, the <color=#f0d12b>Flinch</color> effect is increased by 5s, and <color=#f0d12b>Assault</color> DMG has a chance to trigger a CRIT, with a base CRIT Rate of <color=#2BAD00>25%</color> and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by <color=#2BAD00>0.15%</color>.",
+          "When there are other <color=#ffffff>Anomaly</color> Agents or Agents of the same faction in the squad:\nJane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 15%. When the enemy is already suffering from an Attribute Anomaly, Jane's <color=#f0d12b>Physical Anomaly Buildup</color> towards the target is increased by an additional 15%."
         ]
       },
       "7": {
         "Level": 7,
         "Id": 1261507,
         "Name": [
-          "JaneDoe_UniqueSkill_Title",
-          "..."
+          "Core Passive: Insight",
+          "Additional Ability: Sore Spot"
         ],
         "Desc": [
-          "JaneDoe_UniqueSkill_07_Desc",
-          "JaneDoe_MathSkill_Desc"
+          "When Jane's attacks hit an enemy, it causes them to enter the <color=#ffffff>Gnawed</color> state, lasting for 10s. If any squad member triggers <color=#f0d12b>Assault</color> on an enemy in the <color=#ffffff>Gnawed</color> state and causes the <color=#f0d12b>Flinch</color> effect, the <color=#f0d12b>Flinch</color> effect is increased by 5s, and <color=#f0d12b>Assault</color> DMG has a chance to trigger a CRIT, with a base CRIT Rate of <color=#2BAD00>40%</color> and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by <color=#2BAD00>0.16%</color>.",
+          "When there are other <color=#ffffff>Anomaly</color> Agents or Agents of the same faction in the squad:\nJane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 15%. When the enemy is already suffering from an Attribute Anomaly, Jane's <color=#f0d12b>Physical Anomaly Buildup</color> towards the target is increased by an additional 15%."
         ]
       }
     },
@@ -1249,39 +1249,39 @@
   "Talent": {
     "1": {
       "Level": 1,
-      "Name": "JaneDoe_Talent_01_Title",
-      "Desc": "JaneDoe_Talent_01_Desc_01",
-      "Desc2": "JaneDoe_Talent_01_Desc_02"
+      "Name": "Crime Counsel",
+      "Desc": "The maximum uses of <color=#ffffff>Basic Attack: Salchow Jump</color> are increased by one. While in the <color=#ffffff>Passion</color> state, Jane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> increases by an extra 15% and each point of Jane's Anomaly Proficiency increases her damage by 0.1%, up to a maximum of 30%.",
+      "Desc2": "\"A criminal consultant advises on criminology, not on how to actually commit crimes.\"\nJane suddenly leaned closer and blinked.\n\"Of course, if you see it as the latter... I won't mind.\""
     },
     "2": {
       "Level": 2,
-      "Name": "JaneDoe_Talent_02_Title",
-      "Desc": "JaneDoe_Talent_02_Desc_01",
-      "Desc2": "JaneDoe_Talent_02_Desc_02"
+      "Name": "Adapt to the Environment",
+      "Desc": "When Jane's attack hits an enemy in the <color=#ffffff>Gnawed</color> state, or when any squad member triggers <color=#f0d12b>Assault</color> on an enemy in the <color=#ffffff>Gnawed</color> state, 15% of the enemy's DEF is ignored. Additionally, when <color=#f0d12b>Assault</color> DMG triggers a CRIT, the CRIT DMG is increased by 30%.",
+      "Desc2": "Gaze into the abyss, and it gazes back. That's only the first step.\n\"Then you must approach, enter, and understand it. This is the second step.\"\n\"The final step... is to resist becoming it.\""
     },
     "3": {
       "Level": 3,
-      "Name": "...",
+      "Name": "Anonymity",
       "Desc": "<color=#ffffff>Basic Attack</color>, <color=#ffffff>Dodge</color>, <color=#ffffff>Assist</color>, <color=#ffffff>Special Attack</color>, and <color=#ffffff>Chain Attack</color> Lv. +2",
-      "Desc2": "JaneDoe_Talent_03_Desc_02"
+      "Desc2": "Anonymity — that means to become anyone. Your favorite person, perhaps~\"\n\"Or maybe, your worst fear?\""
     },
     "4": {
       "Level": 4,
-      "Name": "JaneDoe_Talent_04_Title",
-      "Desc": "JaneDoe_Talent_04_Desc_01",
-      "Desc2": "JaneDoe_Talent_04_Desc_02"
+      "Name": "Adapt and Thrive",
+      "Desc": "When any squad member triggers the <color=#f0d12b>Assault</color> or <color=#ffffff>Disorder</color> effects, all squad members' Attribute Anomaly DMG is increased by 18%, lasting 15s.",
+      "Desc2": "\"Whether you're a hunter or the hunted usually depends on your perspective. However, I favor a more straightforward assessment—\"\n\"The Loser is the prey.\""
     },
     "5": {
       "Level": 5,
-      "Name": "JaneDoe_Talent_05_Title",
+      "Name": "Compulsive Hoarder",
       "Desc": "<color=#ffffff>Basic Attack</color>, <color=#ffffff>Dodge</color>, <color=#ffffff>Assist</color>, <color=#ffffff>Special Attack</color>, and <color=#ffffff>Chain Attack</color> Lv. +2",
-      "Desc2": "JaneDoe_Talent_05_Desc_02"
+      "Desc2": "Jane's room is filled with all sorts of things, especially fast food.\n\"Isn't it nice here? There's food within reach everywhere~\""
     },
     "6": {
       "Level": 6,
-      "Name": "JaneDoe_Talent_06_Title",
-      "Desc": "JaneDoe_Talent_06_Desc_01",
-      "Desc2": "JaneDoe_Talent_06_Desc_02"
+      "Name": "\"Shady\" Technique",
+      "Desc": "While in the <color=#ffffff>Passion</color> state, Jane's CRIT Rate increases by 20%, and CRIT DMG by 40%. After any squad member inflicts <color=#f0d12b>Assault</color>, Jane instantly enters the <color=#ffffff>Passion</color> state, and gains max <color=#ffffff>Passion Stream</color>. When <color=#f0d12b>Assault</color> deals a CRIT, Jane performs an additional attack on the target, dealing <color=#f0d12b>Physical DMG</color> equal to 1,600% of her Anomaly Proficiency.",
+      "Desc2": "On the streets, the means don't matter, only the outcome.\n\"Seeing the darkest desires reveals the most crucial weaknesses.\""
     }
   }
 }

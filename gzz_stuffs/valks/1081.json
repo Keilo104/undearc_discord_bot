@@ -594,7 +594,7 @@
         },
         {
           "Name": "EX Special Attack: Clearance Time",
-          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLaunches a powerful piercing attack in a straight line, dealing massive <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
+          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLaunches a powerful piercing attack in a line, dealing massive <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Special Attack: Stand Still",
@@ -755,7 +755,7 @@
           "Desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select the character to activate:\nUnleashes a powerful piercing attack at surrounding enemies in a large area, dealing massive <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "Ultimate: Starlight Sparkle",
+          "Name": "Ultimate: Starlight, Shine Bright",
           "Desc": "When Decibel Rating is at <color=#ffffff>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful piercing attack at surrounding enemies in a large area, dealing massive <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
@@ -786,7 +786,7 @@
           ]
         },
         {
-          "Name": "Ultimate: Starlight Sparkle",
+          "Name": "Ultimate: Starlight, Shine Bright",
           "Param": [
             {
               "Name": "DMG Multiplier",

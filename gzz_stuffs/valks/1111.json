@@ -26,7 +26,7 @@
     "ImpressionM": "I think it's the heavy drill machine from their company. I've heard him say something like \"I gotta win next time\" against it.",
     "Name": "",
     "OutlookDesc": "New Eridu Citizen Verification Profile Info:\nHollow Investigator — Anton, possessing good Ether aptitude, is allowed to perform basic tasks like investigating and extracting resources in known Hollows within the city (including Companion Hollows).\nNote: Besides himself, Anton's bro also possesses relatively good Ether aptitude.",
-    "ProfileDesc": "Anton is a key member of construction staff at Belobog Industries and one of Koleda's trusted aides.\n\"Got a job you can't handle? Leave it to me!\"\n Anton is one of the top brass at Belobog, handpicked by its former president Khors, which makes him a \"senior employee.\"\nA genuine, straightforward man, always boosting the morale of his coworkers with his surplus of energy.\n\nApart from this, it seems Anton is always talking to his jackhammer, affectionately calling it, \"Bro.\"\nAn instance from Anton’s everyday life goes like this:\nAnton, seemingly in dialogue with himself, asks, \"Whaddaya think, Bro?\" \nThe jackhammer replies, \"Vroom vroom vroom—\"\nAnton, apparently enlightened, responds, \"I see, I see! You still got it, Bro!\"\nUnfortunately, I have not collected enough information on such occurrences and am not able to deliver further analysis.",
+    "ProfileDesc": "Anton is a key member of construction staff at Belobog Industries and one of Koleda's trusted aides.\n\"Got a job you can't handle? Leave it to me!\"\n Anton is one of the top brass at Belobog, handpicked by its former president Khors, which makes him a \"senior employee.\"\nA genuine, straightforward man, always boosting the morale of his coworkers with his surplus of energy.\n\nApart from this, it seems Anton is always talking to his jackhammer, affectionately calling it, \"Bro.\"\nAn instance from Anton's everyday life goes like this:\nAnton, seemingly in dialogue with himself, asks, \"Whaddaya think, Bro?\" \nThe jackhammer replies, \"Vroom vroom vroom—\"\nAnton, apparently enlightened, responds, \"I see, I see! You still got it, Bro!\"\nUnfortunately, I have not collected enough information on such occurrences and am not able to deliver further analysis.",
     "Race": "Belobog Heavy Industries",
     "RoleIcon": "IconRole/UnPacker/IconRole15",
     "Stature": "190",
@@ -722,7 +722,7 @@
             },
             {
               "Name": "Energy Cost to Use",
-              "Desc": "40 Energy"
+              "Desc": "40"
             }
           ]
         }
@@ -1088,7 +1088,7 @@
           "Additional Ability: Teamwork"
         ],
         "Desc": [
-          "When Anton uses his <color=#ffffff>Pile Driver Attack</color>, the skill's DMG is increased by <color=#2BAD00>12%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>20%</color>.",
+          "When Anton uses his <color=#ffffff>Piledriver Attack</color>, the skill's DMG is increased by <color=#2BAD00>12%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>20%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile Anton is in <color=#ffffff>Burst Mode</color>, for every 4 critical hits, the next attack hitting <color=#2eb6ff>Shocked</color> enemies triggers an additional bout of <color=#2eb6ff>Shock</color> DMG at 45% of the original DMG. This effect can trigger once every 0.5s."
         ]
       },
@@ -1100,7 +1100,7 @@
           "Additional Ability: Teamwork"
         ],
         "Desc": [
-          "When Anton uses his <color=#ffffff>Pile Driver Attack</color>, the skill's DMG is increased by <color=#2BAD00>14%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>23.3%</color>.",
+          "When Anton uses his <color=#ffffff>Piledriver Attack</color>, the skill's DMG is increased by <color=#2BAD00>14%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>23.3%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile Anton is in <color=#ffffff>Burst Mode</color>, for every 4 critical hits, the next attack hitting <color=#2eb6ff>Shocked</color> enemies triggers an additional bout of <color=#2eb6ff>Shock</color> DMG at 45% of the original DMG. This effect can trigger once every 0.5s."
         ]
       },
@@ -1112,7 +1112,7 @@
           "Additional Ability: Teamwork"
         ],
         "Desc": [
-          "When Anton uses his <color=#ffffff>Pile Driver Attack</color>, the skill's DMG is increased by <color=#2BAD00>16%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>26.6%</color>.",
+          "When Anton uses his <color=#ffffff>Piledriver Attack</color>, the skill's DMG is increased by <color=#2BAD00>16%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>26.6%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile Anton is in <color=#ffffff>Burst Mode</color>, for every 4 critical hits, the next attack hitting <color=#2eb6ff>Shocked</color> enemies triggers an additional bout of <color=#2eb6ff>Shock</color> DMG at 45% of the original DMG. This effect can trigger once every 0.5s."
         ]
       },
@@ -1124,7 +1124,7 @@
           "Additional Ability: Teamwork"
         ],
         "Desc": [
-          "When Anton uses his <color=#ffffff>Pile Driver Attack</color>, the skill's DMG is increased by <color=#2BAD00>18%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>30%</color>.",
+          "When Anton uses his <color=#ffffff>Piledriver Attack</color>, the skill's DMG is increased by <color=#2BAD00>18%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>30%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile Anton is in <color=#ffffff>Burst Mode</color>, for every 4 critical hits, the next attack hitting <color=#2eb6ff>Shocked</color> enemies triggers an additional bout of <color=#2eb6ff>Shock</color> DMG at 45% of the original DMG. This effect can trigger once every 0.5s."
         ]
       },
@@ -1136,7 +1136,7 @@
           "Additional Ability: Teamwork"
         ],
         "Desc": [
-          "When Anton uses his <color=#ffffff>Pile Driver Attack</color>, the skill's DMG is increased by <color=#2BAD00>20%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>33.3%</color>.",
+          "When Anton uses his <color=#ffffff>Piledriver Attack</color>, the skill's DMG is increased by <color=#2BAD00>20%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>33.3%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile Anton is in <color=#ffffff>Burst Mode</color>, for every 4 critical hits, the next attack hitting <color=#2eb6ff>Shocked</color> enemies triggers an additional bout of <color=#2eb6ff>Shock</color> DMG at 45% of the original DMG. This effect can trigger once every 0.5s."
         ]
       },
@@ -1148,7 +1148,7 @@
           "Additional Ability: Teamwork"
         ],
         "Desc": [
-          "When Anton uses his <color=#ffffff>Pile Driver Attack</color>, the skill's DMG is increased by <color=#2BAD00>22%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>36.6%</color>.",
+          "When Anton uses his <color=#ffffff>Piledriver Attack</color>, the skill's DMG is increased by <color=#2BAD00>22%</color> and when he uses his <color=#ffffff>Drill Attack</color>, the skill's DMG is increased by <color=#2BAD00>36.6%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile Anton is in <color=#ffffff>Burst Mode</color>, for every 4 critical hits, the next attack hitting <color=#2eb6ff>Shocked</color> enemies triggers an additional bout of <color=#2eb6ff>Shock</color> DMG at 45% of the original DMG. This effect can trigger once every 0.5s."
         ]
       },
@@ -1216,7 +1216,7 @@
     "4": {
       "Level": 4,
       "Name": "Everyone Get Fired Up!",
-      "Desc": "When Anton uses a <color=#ffffff>Chain Attack</color> or <color=#ffffff>Ultimate</color>, the squad's CRIT Rate increases by 10% for 12s.",
+      "Desc": "When Anton uses a <color=#ffffff>Chain Attack</color> or <color=#ffffff>Ultimate</color>, all squad members' CRIT Rate increases by 10% for 12s.",
       "Desc2": "\"Find your rhythm, and let's get moving!\"\nWhen Anton starts to get serious, everyone becomes more nimble.\nThey have to keep up or else they will be training alone the next day."
     },
     "5": {

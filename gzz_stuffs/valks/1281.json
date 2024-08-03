@@ -240,7 +240,7 @@
       "Description": [
         {
           "Name": "Basic Attack: Load Up and Roll Out",
-          "Desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 5 slashes, dealing <color=#f0d12b>Physical DMG</color>."
+          "Desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 4 slashes, dealing <color=#f0d12b>Physical DMG</color>."
         },
         {
           "Name": "Basic Attack: Load Up and Roll Out",
@@ -507,7 +507,7 @@
       "Description": [
         {
           "Name": "Special Attack: Tire Spin",
-          "Desc": "Press <IconMap:Icon_Special> to activate:\nPiper spins and launches a sweeping slash around her, dealing <color=#f0d12b>Physical DMG</color>.\nHold <IconMap:Icon_Special> to extend the skill duration, unleashing increasingly powerful spinning slashes and increasing the charge level of the skill, up to 2 times.\nIf the skill is used after the first 3 hits of a <color=#ffffff>Basic Attack</color>, <color=#ffffff>Dash Attack</color>, or <color=#ffffff>Dodge Counter</color>, the increased charged level will quickly activate <color=#ffffff>Special Attack: Tire Spin</color>.\nDuring the skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
+          "Desc": "Press <IconMap:Icon_Special> to activate:\nPiper spins and launches a sweeping slash around her, dealing <color=#f0d12b>Physical DMG</color>.\nHold <IconMap:Icon_Special> to extend the skill duration, unleashing increasingly powerful spinning slashes and increasing the charge level of the skill up to 2 times.\nIf the skill is used after the first 3 hits of a <color=#ffffff>Basic Attack</color>, <color=#ffffff>Dash Attack</color>, or <color=#ffffff>Dodge Counter</color>, you can quickly activate <color=#ffffff>Special Attack: Tire Spin</color> of an increased charge level.\nDuring the skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
         },
         {
           "Name": "Special Attack: One Trillion Tons",
@@ -515,7 +515,7 @@
         },
         {
           "Name": "EX Special Attack: Engine Spin",
-          "Desc": "With enough Energy, continue holding <IconMap:Icon_SpecialReady> after <color=#ffffff>Special Attack: Tire Spin</color> reaches maximum charge level to activate:\nPiper rapidly spins, unleashing powerful spinning slashes around her, dealing massive <color=#f0d12b>Physical DMG</color>.\nThis skill consumes Energy continuously for up to 3s.\nDuring the skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
+          "Desc": "With enough Energy, continue holding <IconMap:Icon_SpecialReady> after <color=#ffffff>Special Attack: Tire Spin</color> reaches maximum charge level to activate:\nRapidly spins, unleashing powerful spinning slashes around her and dealing massive <color=#f0d12b>Physical DMG</color>.\nThis skill consumes Energy continuously for up to 3s.\nDuring the skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%."
         },
         {
           "Name": "EX Special Attack: Really Heavy",
@@ -739,7 +739,7 @@
         },
         {
           "Name": "Ultimate: Hold~ On~ Tight~",
-          "Desc": "When Decibel Rating is at <color=#ffffff>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes powerful slashes at enemies ahead in a large area, dealing massive <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
+          "Desc": "When Decibel Rating is at <color=#ffffff>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nRapidly spins, unleashing powerful spinning slashes at enemies in a large area ahead, followed by a downward smash, dealing massive <color=#f0d12b>Physical DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Chain Attack: Buckle Up",

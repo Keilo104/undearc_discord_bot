@@ -18,7 +18,7 @@
   },
   "Gender": 2,
   "PartnerInfo": {
-    "Birthday": "6/2",
+    "Birthday": "JUN 2",
     "FullName": "Corin Wickes",
     "Gender": "Female",
     "IconPath": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle09.png",
@@ -887,7 +887,7 @@
           "Desc": "When the on-field character is launched, press <IconMap:Icon_Switch> to activate:\nSlashes enemies in front before detonating her chainsaw, dealing <color=#f0d12b>Physical DMG</color>.\nRepeatedly press or hold the button to extend the chainsaw slash attack.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "Defensive Assist: P—Please allow me!",
+          "Name": "Defensive Assist: P—Please Allow Me!",
           "Desc": "When the character on field is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of <color=#ffffff>Assist Points</color> when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
         },
         {
@@ -932,7 +932,7 @@
           ]
         },
         {
-          "Name": "Defensive Assist: P—Please allow me!",
+          "Name": "Defensive Assist: P—Please Allow Me!",
           "Param": [
             {
               "Name": "Light Defensive Daze Multiplier",
@@ -1057,7 +1057,7 @@
           "Additional Ability: Cleanup Assistance"
         ],
         "Desc": [
-          "After holding or tapping repeatedly, Corin unleashes a continuous extended slash with her Chainsaw, increasing the attack's DMG by <color=#2BAD00>18.7%</color>.",
+          "After holding or tapping repeatedly, when Corin unleashes a continuous extended slash with her Chainsaw, the skill's DMG increases by <color=#2BAD00>18.7%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nCorin deals 35% more DMG to Stunned enemies."
         ]
       },
@@ -1069,7 +1069,7 @@
           "Additional Ability: Cleanup Assistance"
         ],
         "Desc": [
-          "After holding or tapping repeatedly, Corin unleashes a continuous extended slash with her Chainsaw, increasing the attack's DMG by <color=#2BAD00>21.8%</color>.",
+          "After holding or tapping repeatedly, when Corin unleashes a continuous extended slash with her Chainsaw, the skill's DMG increases by <color=#2BAD00>21.8%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nCorin deals 35% more DMG to Stunned enemies."
         ]
       },
@@ -1081,7 +1081,7 @@
           "Additional Ability: Cleanup Assistance"
         ],
         "Desc": [
-          "After holding or tapping repeatedly, Corin unleashes a continuous extended slash with her Chainsaw, increasing the attack's DMG by <color=#2BAD00>25%</color>.",
+          "After holding or tapping repeatedly, when Corin unleashes a continuous extended slash with her Chainsaw, the skill's DMG increases by <color=#2BAD00>25%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nCorin deals 35% more DMG to Stunned enemies."
         ]
       },
@@ -1093,7 +1093,7 @@
           "Additional Ability: Cleanup Assistance"
         ],
         "Desc": [
-          "After holding or tapping repeatedly, Corin unleashes a continuous extended slash with her Chainsaw, increasing the attack's DMG by <color=#2BAD00>28.1%</color>.",
+          "After holding or tapping repeatedly, when Corin unleashes a continuous extended slash with her Chainsaw, the skill's DMG increases by <color=#2BAD00>28.1%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nCorin deals 35% more DMG to Stunned enemies."
         ]
       },
@@ -1105,7 +1105,7 @@
           "Additional Ability: Cleanup Assistance"
         ],
         "Desc": [
-          "After holding or tapping repeatedly, Corin unleashes a continuous extended slash with her Chainsaw, increasing the attack's DMG by <color=#2BAD00>31.2%</color>.",
+          "After holding or tapping repeatedly, when Corin unleashes a continuous extended slash with her Chainsaw, the skill's DMG increases by <color=#2BAD00>31.2%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nCorin deals 35% more DMG to Stunned enemies."
         ]
       },
@@ -1117,7 +1117,7 @@
           "Additional Ability: Cleanup Assistance"
         ],
         "Desc": [
-          "After holding or tapping repeatedly, Corin unleashes a continuous extended slash with her Chainsaw, increasing the attack's DMG by <color=#2BAD00>34.3%</color>.",
+          "After holding or tapping repeatedly, when Corin unleashes a continuous extended slash with her Chainsaw, the skill's DMG increases by <color=#2BAD00>34.3%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nCorin deals 35% more DMG to Stunned enemies."
         ]
       },
@@ -1129,7 +1129,7 @@
           "Additional Ability: Cleanup Assistance"
         ],
         "Desc": [
-          "After holding or tapping repeatedly, Corin unleashes a continuous extended slash with her Chainsaw, increasing the attack's DMG by <color=#2BAD00>37.5%</color>.",
+          "After holding or tapping repeatedly, when Corin unleashes a continuous extended slash with her Chainsaw, the skill's DMG increases by <color=#2BAD00>37.5%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nCorin deals 35% more DMG to Stunned enemies."
         ]
       }

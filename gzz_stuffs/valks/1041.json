@@ -18,7 +18,7 @@
   },
   "Gender": 2,
   "PartnerInfo": {
-    "Birthday": "????",
+    "Birthday": "???",
     "FullName": "Soldier 11",
     "Gender": "Female",
     "IconPath": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle05.png",

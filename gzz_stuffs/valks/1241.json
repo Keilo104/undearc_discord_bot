@@ -14,7 +14,7 @@
     "103": "Pierce"
   },
   "Camp": {
-    "7": "New Eridu Public Security"
+    "7": "Criminal Investigation Special Response Team"
   },
   "Gender": 2,
   "PartnerInfo": {
@@ -26,7 +26,7 @@
     "ImpressionM": "That's because it's me + you + Fairy. I wouldn't wanna know the outcome if it was one on one...",
     "Name": "",
     "OutlookDesc": "Hollow Investigation Association Licensing Archive—\nPublic Security Officer: Zhu Yuan. Ether aptitude confidential. Licensed for investigation, exploration, and other basic work in known Hollows (including Companion Hollows) in the city.\nNote: Zhu Yuan's file belongs to the New Eridu Public Security Janus Quarter Metropolitan Order Department Criminal Investigation Special Response Team. The relevant information can be obtained within the Public Security system, requiring special access permissions.\nFurther Note: Zhu Yuan has excellent Ether aptitude.",
-    "ProfileDesc": "Zhu Yuan, an exceptional officer at Public Security, is a highly skilled individual expected to become the next commissioner. She currently leads the Criminal Investigation Special Response Team at the Janus Precinct within the Metropolitan Order Department. Her team members include Qingyi, Seth, and another mysterious member.\nNote: For documents with higher security levels within the Public Security system, further investigation is required; scheduling priority - low.\n\nZhu Yuan possesses excellent skills in criminal investigation, combat, and self-management (including working overtime). She has no unresolved cases on record.\nSuggestion: Approaching Zhu Yuan is an ill-advised decision that may compromise your cover. Always remember your true identity as a Proxy.",
+    "ProfileDesc": "Zhu Yuan, an exceptional officer at Public Security, is a highly skilled individual expected to become the next commissioner. She currently leads the Criminal Investigation Special Response Team at the Janus Precinct within the Metropolitan Order Department. Her team members include Qingyi, Seth, and [redacted].\nNote: For documents with higher security levels within the Public Security system, further investigation is required; scheduling priority - low.\n\nZhu Yuan possesses excellent skills in criminal investigation, combat, and self-management (including working overtime). She has no unresolved cases on record.\nSuggestion: Approaching Zhu Yuan is an ill-advised decision that may compromise your cover. Always remember your true identity as a Proxy.",
     "Race": "Sixth Street",
     "RoleIcon": "IconRole/UnPacker/IconRole23",
     "Stature": "175",
@@ -258,7 +258,7 @@
       "Description": [
         {
           "Name": "Basic Attack: Don't Move!",
-          "Desc": "<color=#ffffff>[Assault Mode]</color>\nPress <IconMap:Icon_Normal> to activate.\nUnleash a flurry of martial arts, bullets, and Ether Buckshots in a series of up to 5 attacks, dealing <color=#f0d12b>Physical DMG</color> and <color=#fe437e>Ether DMG</color>.\nWhen the 4th or 5th hits strike an enemy, obtain 1 <color=#ffffff>Enhanced Shotshell</color>. A max of 1 can be obtained per skill use.\nWhile using this skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press <IconMap:Icon_Normal> to activate <color=#ffffff>Dash Attack: Firepower Offensive</color> and readjust to face the selected direction.\nWhile under <color=#ffffff>Assault Mode</color>, hold <IconMap:Icon_Normal> to switch to <color=#ffffff>Suppressive Mode</color>."
+          "Desc": "<color=#ffffff>[Assault Mode]</color>\nPress <IconMap:Icon_Normal> to activate.\nUnleash a flurry of martial arts, bullets, and Ether Buckshots in a series of up to 5 attacks, dealing <color=#f0d12b>Physical DMG</color> and <color=#fe437e>Ether DMG</color>.\nWhen the 4th or 5th hits strike an enemy, obtain 1 <color=#ffffff>Enhanced Shotshell</color>. A max of 1 can be obtained per activation of this Basic Attack.\nWhile using this skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press <IconMap:Icon_Normal> to activate <color=#ffffff>Dash Attack: Firepower Offensive</color> and readjust to face the selected direction.\nWhile under <color=#ffffff>Assault Mode</color>, hold <IconMap:Icon_Normal> to switch to <color=#ffffff>Suppressive Mode</color>."
         },
         {
           "Name": "Basic Attack: Please Do Not Resist",
@@ -574,11 +574,11 @@
         },
         {
           "Name": "Dash Attack: Firepower Offensive",
-          "Desc": "<color=#ffffff>[Assault Mode]</color>\nPress <IconMap:Icon_Normal> during a dodge to activate:\nUses handgun to attack, dealing <color=#f0d12b>Physical DMG</color>."
+          "Desc": "<color=#ffffff>Assault Mode</color>\nPress <IconMap:Icon_Normal> during a dodge to activate:\nUses handgun to attack, dealing <color=#fe437e>Ether DMG</color>."
         },
         {
           "Name": "Dash Attack: Overwhelming Firepower",
-          "Desc": "<color=#ffffff>Suppressive Mode</color>\nDrag the {LAYOUT_CONSOLECONTROLLER#joystick}{LAYOUT_FALLBACK#joystick}during <color=#ffffff>Basic Attack: Please Do Not Resist</color> to activate:\nUnleashes a Shotshell piercing attack, dealing <color=#f0d12b>Physical DMG</color>. If Zhu Yuan has <color=#ffffff>Enhanced Shotshells</color> when firing, 1 <color=#ffffff>Enhanced Shotshell</color> will be consumed, dealing massive <color=#fe437e>Ether DMG</color>."
+          "Desc": "<color=#ffffff>Suppressive Mode</color>\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} during <color=#ffffff>Basic Attack: Please Do Not Resist</color> to activate:\nUnleashes a Shotshell piercing attack, dealing <color=#f0d12b>Physical DMG</color>. If Zhu Yuan has <color=#ffffff>Enhanced Shotshells</color> when firing, 1 <color=#ffffff>Enhanced Shotshell</color> will be consumed, dealing massive <color=#fe437e>Ether DMG</color>."
         },
         {
           "Name": "Dodge Counter: Fire Blast",
@@ -1099,7 +1099,7 @@
         ],
         "Desc": [
           "When Zhu Yuan is under <color=#ffffff>Suppressive Mode</color>, using <color=#ffffff>Enhanced Shotshells</color> increases her DMG by <color=#2BAD00>20%</color>. When attacking Stunned enemies, this DMG buff is increased by an additional <color=#2BAD00>20%</color>. When Zhu Yuan enters the battlefield, she immediately gains 6 <color=#ffffff>Enhanced Shotshells</color>.",
-          "When another <color=#ffffff>Support</color> character in your squad shares the same Attribute or Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
+          "When another character in your squad is a <color=#ffffff>Support</color> character or shares the same Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
         ]
       },
       "2": {
@@ -1111,7 +1111,7 @@
         ],
         "Desc": [
           "When Zhu Yuan is under <color=#ffffff>Suppressive Mode</color>, using <color=#ffffff>Enhanced Shotshells</color> increases her DMG by <color=#2BAD00>23.3%</color>. When attacking Stunned enemies, this DMG buff is increased by an additional <color=#2BAD00>23.3%</color>. When Zhu Yuan enters the battlefield, she immediately gains 6 <color=#ffffff>Enhanced Shotshells</color>.",
-          "When another <color=#ffffff>Support</color> character in your squad shares the same Attribute or Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
+          "When another character in your squad is a <color=#ffffff>Support</color> character or shares the same Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
         ]
       },
       "3": {
@@ -1123,7 +1123,7 @@
         ],
         "Desc": [
           "When Zhu Yuan is under <color=#ffffff>Suppressive Mode</color>, using <color=#ffffff>Enhanced Shotshells</color> increases her DMG by <color=#2BAD00>26.6%</color>. When attacking Stunned enemies, this DMG buff is increased by an additional <color=#2BAD00>26.6%</color>. When Zhu Yuan enters the battlefield, she immediately gains 6 <color=#ffffff>Enhanced Shotshells</color>.",
-          "When another <color=#ffffff>Support</color> character in your squad shares the same Attribute or Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
+          "When another character in your squad is a <color=#ffffff>Support</color> character or shares the same Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
         ]
       },
       "4": {
@@ -1135,7 +1135,7 @@
         ],
         "Desc": [
           "When Zhu Yuan is under <color=#ffffff>Suppressive Mode</color>, using <color=#ffffff>Enhanced Shotshells</color> increases her DMG by <color=#2BAD00>30%</color>. When attacking Stunned enemies, this DMG buff is increased by an additional <color=#2BAD00>30%</color>. When Zhu Yuan enters the battlefield, she immediately gains 6 <color=#ffffff>Enhanced Shotshells</color>.",
-          "When another <color=#ffffff>Support</color> character in your squad shares the same Attribute or Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
+          "When another character in your squad is a <color=#ffffff>Support</color> character or shares the same Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
         ]
       },
       "5": {
@@ -1147,7 +1147,7 @@
         ],
         "Desc": [
           "When Zhu Yuan is under <color=#ffffff>Suppressive Mode</color>, using <color=#ffffff>Enhanced Shotshells</color> increases her DMG by <color=#2BAD00>33.3%</color>. When attacking Stunned enemies, this DMG buff is increased by an additional <color=#2BAD00>33.3%</color>. When Zhu Yuan enters the battlefield, she immediately gains 6 <color=#ffffff>Enhanced Shotshells</color>.",
-          "When another <color=#ffffff>Support</color> character in your squad shares the same Attribute or Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
+          "When another character in your squad is a <color=#ffffff>Support</color> character or shares the same Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
         ]
       },
       "6": {
@@ -1159,7 +1159,7 @@
         ],
         "Desc": [
           "When Zhu Yuan is under <color=#ffffff>Suppressive Mode</color>, using <color=#ffffff>Enhanced Shotshells</color> increases her DMG by <color=#2BAD00>36.6%</color>. When attacking Stunned enemies, this DMG buff is increased by an additional <color=#2BAD00>36.6%</color>. When Zhu Yuan enters the battlefield, she immediately gains 6 <color=#ffffff>Enhanced Shotshells</color>.",
-          "When another <color=#ffffff>Support</color> character in your squad shares the same Attribute or Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
+          "When another character in your squad is a <color=#ffffff>Support</color> character or shares the same Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
         ]
       },
       "7": {
@@ -1171,7 +1171,7 @@
         ],
         "Desc": [
           "When Zhu Yuan is under <color=#ffffff>Suppressive Mode</color>, using <color=#ffffff>Enhanced Shotshells</color> increases her DMG by <color=#2BAD00>40%</color>. When attacking Stunned enemies, this DMG buff is increased by an additional <color=#2BAD00>40%</color>. When Zhu Yuan enters the battlefield, she immediately gains 6 <color=#ffffff>Enhanced Shotshells</color>.",
-          "When another <color=#ffffff>Support</color> character in your squad shares the same Attribute or Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
+          "When another character in your squad is a <color=#ffffff>Support</color> character or shares the same Faction:\nZhu Yuan's CRIT Rate is increased by 30% 10s after using an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or <color=#ffffff>Ultimate</color>."
         ]
       }
     },

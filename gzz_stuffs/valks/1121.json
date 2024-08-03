@@ -22,11 +22,11 @@
     "FullName": "Ben Bigger",
     "Gender": "Male",
     "IconPath": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle16.png",
-    "ImpressionF": "The first time I saw him, I was definitely taken aback...\nWho would've thought Ben was unexpectedly a soft, furry, gentle-nature bear!",
+    "ImpressionF": "The first time I saw him, I was definitely taken aback...\nWho would've thought Ben was unexpectedly a soft, furry, gentle-natured bear!",
     "ImpressionM": "Never judge a book by its cover.\nThat said, it seems he's often required to present a menacing image to deter the enemy... and it appears to be quite effective.",
     "Name": "",
     "OutlookDesc": "New Eridu Citizen Verification Profile Info:\nHollow Investigator — Ben possesses outstanding Ether aptitude, and is allowed to perform basic tasks like investigating and extracting resources in known Hollows within the city (including Companion Hollows).\nNote: Based on the data, Ben's Ether aptitude places him in the top tier at Belobog Heavy Industries. Coupled with his Thiren traits (better adaptation to Hollow environments than humans, faster mutation rate after exposure to corruption, but also rapid recovery), he is deemed highly suitable for long-term work within Hollows.",
-    "ProfileDesc": "Ben is the financial and asset management director at Belobog Heavy Industries, and one of Koleda's trusted aides.\n\"I enjoy mathematics, but that doesn't stop me from giving thugs a good smack.\"\nHe's a burly and strong Thiren Despite his tough exterior, he's of a surprisingly sensitive and detail-oriented nature, especially when it comes to numbers.\nOriginally a frontline mechanical operator at Belobog, his talents caught Koleda's discerning eye, leading to his promotion to a managerial position responsible for the company's finances.\nGrateful for Koleda's trust in him, he remains profoundly loyal to her.\nHis favorite food is black caviar, but he dislikes fish.\n\nI once witnessed this imposing figure seated in a small office chair, wearing small glasses, and carefully cross-referencing Belobog's asset records while mashing away at a calculator with his huge fingers.\nQuestion: Is that what they call on Inter-Knot a \"Kawaii Curveball?\"",
+    "ProfileDesc": "Ben is the financial and asset management director at Belobog Heavy Industries and one of Koleda's trusted aides.\n\"I enjoy mathematics, but that doesn't stop me from giving thugs a good smack.\"\nHe's a burly and strong Thiren. Despite his tough exterior, he's of a surprisingly sensitive and detail-oriented nature, especially when it comes to numbers.\nOriginally a frontline mechanical operator at Belobog, his talents caught Koleda's discerning eye, leading to his promotion to a managerial position responsible for the company's finances.\nGrateful for Koleda's trust in him, he remains profoundly loyal to her.\nHis favorite food is black caviar, but he dislikes fish.\n\nI once witnessed this imposing figure seated in a small office chair, wearing small glasses, and carefully cross-referencing Belobog's asset records while mashing away at a calculator with his huge fingers.\nQuestion: Is that what they call on Inter-Knot a \"Kawaii Curveball?\"",
     "Race": "Belobog Heavy Industries",
     "RoleIcon": "IconRole/UnPacker/IconRole16",
     "Stature": "192",
@@ -507,7 +507,7 @@
         },
         {
           "Name": "EX Special Attack: Cashflow Counter",
-          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nBen lifts his weapon, blocking the enemy's attacks before unleashing a forward strike, dealing <color=#ff5521>Fire DMG</color>. Successfully blocking an attack enhances the power of this skill and triggers Block Counter, dealing massive <color=#ff5521>Fire DMG</color>.\nHold <IconMap:Icon_SpecialReady> to remain in the Blocking stance.\nWhile in the Blocking stance, Ben gains a Shield that weakens over time.\nAfter leaving the blocking stance, the Shield is removed and recovers over time.\nThe Shield cannot exceed 16 of Ben's Max HP.\nWhen this skill is activated, the Shield is restored to its maximum value.\nAfter activating the skill, press <IconMap:Icon_SpecialReady> again to follow up with a powerful forward strike, dealing massive <color=#ff5521>Fire DMG</color>.\nBen is invulnerable when activating Block.\nBen is invulnerable while launching strikes."
+          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nBen lifts his weapon, blocking the enemy's attacks before unleashing a forward strike, dealing <color=#ff5521>Fire DMG</color>. Successfully blocking an attack enhances the power of this skill and triggers Block Counter, dealing massive <color=#ff5521>Fire DMG</color>.\nHold <IconMap:Icon_SpecialReady> to remain in the Blocking stance.\nWhile in the Blocking stance, Ben gains a Shield that weakens over time.\nAfter leaving the blocking stance, the Shield is removed and recovers over time.\nThe Shield cannot exceed 16% of Ben's Max HP.\nWhen this skill is activated, the Shield is restored to its maximum value.\nAfter activating the skill, press <IconMap:Icon_SpecialReady> again to follow up with a powerful forward strike, dealing massive <color=#ff5521>Fire DMG</color>.\nBen is invulnerable when activating Block.\nBen is invulnerable while launching strikes."
         },
         {
           "Name": "Special Attack: Fiscal Fist",
@@ -834,7 +834,7 @@
           "Desc": "When the character on field is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of <color=#ffffff>Assist Points</color> when the character is under intense attacks.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "Assist Follow-Up: Don't Break the Contract",
+          "Name": "Assist Follow-Up: Don't Break Contract",
           "Desc": "Press <IconMap:Icon_Normal> after a <color=#ffffff>Defensive Assist</color> to activate:\nCharges and strikes enemies in front, dealing <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
@@ -903,7 +903,7 @@
           ]
         },
         {
-          "Name": "Assist Follow-Up: Don't Break the Contract",
+          "Name": "Assist Follow-Up: Don't Break Contract",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -990,7 +990,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains 40% of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>15%</color> of his DEF +<color=#2BAD00>100</color>, lasting for 30s.",
+          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>40%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>15%</color> of his DEF +<color=#2BAD00>100</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1002,7 +1002,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains 46% of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>17.5%</color> of his DEF +<color=#2BAD00>220</color>, lasting for 30s.",
+          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>46%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>17.5%</color> of his DEF +<color=#2BAD00>220</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1014,7 +1014,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains 52% of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>20%</color> of his DEF +<color=#2BAD00>330</color>, lasting for 30s.",
+          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>52%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>20%</color> of his DEF +<color=#2BAD00>330</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1026,7 +1026,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains 60% of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>22.5%</color> of his DEF +<color=#2BAD00>460</color>, lasting for 30s.",
+          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>60%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>22.5%</color> of his DEF +<color=#2BAD00>460</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1038,7 +1038,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains 66% of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>25%</color> of his DEF +<color=#2BAD00>500</color>, lasting for 30s.",
+          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>66%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>25%</color> of his DEF +<color=#2BAD00>500</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1050,7 +1050,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains 72% of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>27.5%</color> of his DEF +<color=#2BAD00>525</color>, lasting for 30s.",
+          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>72%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>27.5%</color> of his DEF +<color=#2BAD00>525</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1062,7 +1062,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains 80% of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>30%</color> of his DEF +<color=#2BAD00>550</color>, lasting for 30s.",
+          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>80%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>30%</color> of his DEF +<color=#2BAD00>550</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       }

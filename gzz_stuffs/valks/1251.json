@@ -14,7 +14,7 @@
     "102": "Strike"
   },
   "Camp": {
-    "7": "New Eridu Public Security"
+    "7": "Criminal Investigation Special Response Team"
   },
   "Gender": 2,
   "PartnerInfo": {},
@@ -239,23 +239,23 @@
     "Basic": {
       "Description": [
         {
-          "Name": "...",
-          "Desc": "QingYi_Skill_Normal_Desc"
+          "Name": "Basic Attack: Penultimate",
+          "Desc": "Press <IconMap:Icon_Normal> to activate:\nLaunch up to four attacks forward, dealing <color=#f0d12b>Physical</color> and <color=#2eb6ff>Electric DMG</color>.\nDuring the 3rd-hit, continually press <IconMap:Icon_Normal> to continue the attack, continuously striking the enemy. Using <color=#ffffff>Dodge</color> during this period will not interrupt Qingyi's <color=#ffffff>Basic Attack</color> combo count.\nDuring the 3rd hit, stop pressing <IconMap:Icon_Normal> to interrupt the combo, transitioning automatically to the fourth attack. If the combo lasts for a certain time, the fourth attack will be enhanced.\nAnti-Interrupt Level is increased during the 3rd and 4th hit."
         },
         {
-          "Name": "QingYi_Skill_Branch_Title",
-          "Desc": "..."
+          "Name": "Basic Attack: Enchanted Blossoms",
+          "Desc": "Press <IconMap:Icon_Normal> to activate:\nLaunches a forward rush attack, dealing <color=#2eb6ff>Electric DMG</color>.\nAnti-Interrupt level is increased while using this skill."
         },
         {
-          "Name": "QingYi_Enhance_Title",
-          "Desc": "QingYi_Enhance_Desc"
+          "Name": "Flash Connect",
+          "Desc": "When Qingyi deals <color=#2eb6ff>Electric DMG</color> with a skill, she accumulates <color=#ffffff>Flash Connect Voltage</color>. When <color=#ffffff>Flash Connect Voltage</color> reaches 75%, she will enter the <color=#ffffff>Flash Connect</color> state. When using her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, Qingyi will consume all <color=#ffffff>Flash Connect Voltage</color> and exit the <color=#ffffff>Flash Connect</color> state. For every 1% of <color=#ffffff>Flash Connect Voltage</color> consumed over 75%, her Damage and Daze inflicted by this skill will be increased by 1%/0.5%. <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color> itself does not accumulate <color=#ffffff>Flash Connect Voltage</color>."
         },
         {
-          "Name": "QingYi_Skill_Branch_Enhance_Title",
-          "Desc": "QingYi_Skill_Branch_Enhance_Desc"
+          "Name": "Basic Attack: Enchanted Moonlit Blossoms",
+          "Desc": "During the <color=#ffffff>Flash Connect</color> state, hold <IconMap:Icon_Normal> to activate:\nLaunch five consecutive forward rush attacks, then execute a finishing strike that inflicts massive <color=#2eb6ff>Electric DMG</color>. Release <IconMap:Icon_Normal> during the move to trigger the finishing strike early.\nActivate the finishing strike just before the character is attacked to trigger <color=#ffffff>Perfect Dodge</color>.\nAnti-Interrupt level is increased during the rush attack, and Qingyi is invulnerable during the finishing blow."
         },
         {
-          "Name": "...",
+          "Name": "Basic Attack: Penultimate",
           "Param": [
             {
               "Name": "1st-Hit DMG Multiplier",
@@ -269,7 +269,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "1st-Hit DMG Multiplier (ALT)",
               "Desc": "{Skill:1251002, Prop:1001}",
               "Param": {
                 "1251002": {
@@ -313,7 +313,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "4th-Hit DMG Multiplier (Enhanced)",
               "Desc": "{Skill:1251006, Prop:1001}",
               "Param": {
                 "1251006": {
@@ -335,7 +335,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "1st-Hit Daze Multiplier (ALT)",
               "Desc": "{Skill:1251002, Prop:1002}",
               "Param": {
                 "1251002": {
@@ -379,7 +379,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "4th-Hit Daze Multiplier (Enhanced)",
               "Desc": "{Skill:1251006, Prop:1002}",
               "Param": {
                 "1251006": {
@@ -392,7 +392,7 @@
           ]
         },
         {
-          "Name": "QingYi_Skill_Branch_Title",
+          "Name": "Basic Attack: Enchanted Blossoms",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -419,10 +419,10 @@
           ]
         },
         {
-          "Name": "QingYi_Skill_Branch_Enhance_Title",
+          "Name": "Basic Attack: Enchanted Moonlit Blossoms",
           "Param": [
             {
-              "Name": "...",
+              "Name": "Rush Attack DMG Multiplier",
               "Desc": "{Skill:1251008, Prop:1001}",
               "Param": {
                 "1251008": {
@@ -433,7 +433,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "Finishing Strike DMG Multiplier",
               "Desc": "{Skill:1251009, Prop:1001}",
               "Param": {
                 "1251009": {
@@ -444,7 +444,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "Rush Attack Daze Multiplier",
               "Desc": "{Skill:1251008, Prop:1002}",
               "Param": {
                 "1251008": {
@@ -455,7 +455,7 @@
               }
             },
             {
-              "Name": "...",
+              "Name": "Finishing Strike Daze Multiplier",
               "Desc": "{Skill:1251009, Prop:1002}",
               "Param": {
                 "1251009": {
@@ -520,19 +520,19 @@
     "Dodge": {
       "Description": [
         {
-          "Name": "QingYi_Skill_Evade_Title",
-          "Desc": "..."
+          "Name": "Dodge: Swan Song",
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "...",
-          "Desc": "..."
+          "Name": "Dash Attack: Breach",
+          "Desc": "Press <IconMap:Icon_Normal> during a Dodge to activate:\nDash forward and then launch an upward slash, dealing <color=#f0d12b>Physical DMG</color>."
         },
         {
-          "Name": "QingYi_Skill_Counter_Title",
-          "Desc": "..."
+          "Name": "Dodge Counter: Lingering Sentiments",
+          "Desc": "Press <IconMap:Icon_Normal> during a <color=#ffffff>Perfect Dodge</color> to activate:\nLeap into the air and then perform a downward strike, dealing <color=#2eb6ff>Electric DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "...",
+          "Name": "Dash Attack: Breach",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -559,7 +559,7 @@
           ]
         },
         {
-          "Name": "QingYi_Skill_Counter_Title",
+          "Name": "Dodge Counter: Lingering Sentiments",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -638,15 +638,15 @@
     "Special": {
       "Description": [
         {
-          "Name": "QingYi_Skill_Special_Title",
-          "Desc": "..."
+          "Name": "Special Attack: Sunlit Glory",
+          "Desc": "Press <IconMap:Icon_Special> to activate:\nQuickly strikes upward, followed by a downward smash, dealing <color=#2eb6ff>Electric DMG</color>.\nAnti-Interrupt level is increased while using this skill."
         },
         {
-          "Name": "QingYi_Skill_ExSpecial_Title",
-          "Desc": "QingYi_Skill_ExSpecial_Desc"
+          "Name": "EX Special Attack: Moonlit Begonia",
+          "Desc": "When Qingyi has enough energy, press <IconMap:Icon_SpecialReady> to activate:\nQuickly strikes upward and leaps into the air, turning around to launch a series of strikes, then follows up with a powerful downward smash, dealing massive <color=#2eb6ff>Electric DMG</color>.\nHold <IconMap:Icon_SpecialReady> to consume additional energy to increase the combo hits of the series of strikes.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "QingYi_Skill_Special_Title",
+          "Name": "Special Attack: Sunlit Glory",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -673,7 +673,7 @@
           ]
         },
         {
-          "Name": "QingYi_Skill_ExSpecial_Title",
+          "Name": "EX Special Attack: Moonlit Begonia",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -719,11 +719,11 @@
             },
             {
               "Name": "Energy Cost",
-              "Desc": "..."
+              "Desc": "60"
             },
             {
-              "Name": "...",
-              "Desc": "..."
+              "Name": "Additional Energy Cost",
+              "Desc": "20"
             }
           ]
         }
@@ -780,15 +780,15 @@
     "Chain": {
       "Description": [
         {
-          "Name": "QingYi_Skill_QTE_Title",
-          "Desc": "..."
+          "Name": "Chain Attack: Tranquil Serenade",
+          "Desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select Qingyi to activate:\nLaunch a series of powerful strikes over a large area in front, dealing massive <color=#2eb6ff>Electric DMG</color>\nWhen this attack hits an enemy, the skill's DMG increases by 3% for every stack of <color=#ffffff>Subjugation</color> in <color=#ffffff>Core Passive: Eternal Seasons</color> the target has.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "QingYi_Skill_ExQTE_Title",
-          "Desc": "..."
+          "Name": "Ultimate: Eight Sounds of Ganzhou",
+          "Desc": "When Decibel Rating is at <color=#ffffff>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nLaunch a series of powerful strikes over a large area in front, followed by a finishing move, dealing massive <color=#2eb6ff>Electric DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "QingYi_Skill_QTE_Title",
+          "Name": "Chain Attack: Tranquil Serenade",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -815,7 +815,7 @@
           ]
         },
         {
-          "Name": "QingYi_Skill_ExQTE_Title",
+          "Name": "Ultimate: Eight Sounds of Ganzhou",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -894,19 +894,19 @@
     "Assist": {
       "Description": [
         {
-          "Name": "QingYi_Skill_BeHitAid_Title",
-          "Desc": "..."
+          "Name": "Quick Assist: Wind Through the Pines",
+          "Desc": "When the on-field character is launched, press <IconMap:Icon_Switch> to activate:\nLeap into the air and perform a downward strike, dealing <color=#2eb6ff>Electric DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "...",
-          "Desc": "..."
+          "Name": "Defensive Assist: Graceful Embellishment",
+          "Desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "QingYi_Skill_AssaultAid_Title",
-          "Desc": "QingYi_Skill_AssaultAid_Desc"
+          "Name": "Assist Follow-Up: Song of the Clear River",
+          "Desc": "Press <IconMap:Icon_Normal> after a <color=#ffffff>Defensive Assist</color> to activate:\nDash forward quickly and inject electrical energy into the ground, then pull back to trigger an explosion, dealing <color=#2eb6ff>Electric DMG</color>.\nCharacter is invulnerable while using this skill."
         },
         {
-          "Name": "QingYi_Skill_BeHitAid_Title",
+          "Name": "Quick Assist: Wind Through the Pines",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -933,7 +933,7 @@
           ]
         },
         {
-          "Name": "...",
+          "Name": "Defensive Assist: Graceful Embellishment",
           "Param": [
             {
               "Name": "Light Defensive Daze Multiplier",
@@ -971,7 +971,7 @@
           ]
         },
         {
-          "Name": "QingYi_Skill_AssaultAid_Title",
+          "Name": "Assist Follow-Up: Song of the Clear River",
           "Param": [
             {
               "Name": "DMG Multiplier",
@@ -1054,84 +1054,84 @@
         "Level": 1,
         "Id": 1251501,
         "Name": [
-          "QingYi_UniqueSkill_Title",
-          "QingYi_MathSkill_Title"
+          "Core Passive: Eternal Seasons",
+          "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "QingYi_UniqueSkill_01_Desc",
-          "QingYi_MathSkill_Desc"
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>1.5</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
       "2": {
         "Level": 2,
         "Id": 1251502,
         "Name": [
-          "QingYi_UniqueSkill_Title",
-          "QingYi_MathSkill_Title"
+          "Core Passive: Eternal Seasons",
+          "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "QingYi_UniqueSkill_02_Desc",
-          "QingYi_MathSkill_Desc"
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>1.8</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
       "3": {
         "Level": 3,
         "Id": 1251503,
         "Name": [
-          "QingYi_UniqueSkill_Title",
-          "QingYi_MathSkill_Title"
+          "Core Passive: Eternal Seasons",
+          "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "QingYi_UniqueSkill_03_Desc",
-          "QingYi_MathSkill_Desc"
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
       "4": {
         "Level": 4,
         "Id": 1251504,
         "Name": [
-          "QingYi_UniqueSkill_Title",
-          "QingYi_MathSkill_Title"
+          "Core Passive: Eternal Seasons",
+          "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "QingYi_UniqueSkill_04_Desc",
-          "QingYi_MathSkill_Desc"
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.2</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
       "5": {
         "Level": 5,
         "Id": 1251505,
         "Name": [
-          "QingYi_UniqueSkill_Title",
-          "QingYi_MathSkill_Title"
+          "Core Passive: Eternal Seasons",
+          "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "QingYi_UniqueSkill_05_Desc",
-          "QingYi_MathSkill_Desc"
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.5</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
       "6": {
         "Level": 6,
         "Id": 1251506,
         "Name": [
-          "QingYi_UniqueSkill_Title",
-          "QingYi_MathSkill_Title"
+          "Core Passive: Eternal Seasons",
+          "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "QingYi_UniqueSkill_06_Desc",
-          "QingYi_MathSkill_Desc"
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.8</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
       "7": {
         "Level": 7,
         "Id": 1251507,
         "Name": [
-          "QingYi_UniqueSkill_Title",
-          "QingYi_MathSkill_Title"
+          "Core Passive: Eternal Seasons",
+          "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "QingYi_UniqueSkill_07_Desc",
-          "QingYi_MathSkill_Desc"
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>3</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       }
     },
@@ -1167,39 +1167,39 @@
   "Talent": {
     "1": {
       "Level": 1,
-      "Name": "...",
-      "Desc": "QingYi_Talent_01_Desc_01",
-      "Desc2": "QingYi_Talent_01_Desc_02"
+      "Name": "Insulation Breakdown",
+      "Desc": "When Qingyi enters combat, <color=#ffffff>Flash Connect Voltage</color> is instantly restored to its maximum, and the accumulation rate is increased by 30%. When using her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, if <color=#ffffff>Flash Connect Voltage</color> is at its maximum, the attack will reduce the defense of the enemy it hits by 15%, and Qingyi's CRIT Rate against that enemy will increase by 20% for 15s.",
+      "Desc2": "\"While there will be no threat to your life, we kindly request you do not resist arrest...\"\nThe direction and intensity of the current have been precisely calculated to ensure that every suspect receives a safe electric shock experience."
     },
     "2": {
       "Level": 2,
-      "Name": "QingYi_Talent_02_Title",
-      "Desc": "QingYi_Talent_02_Desc_01",
-      "Desc2": "QingYi_Talent_02_Desc_02"
+      "Name": "Minimal Effort, Maximum Impact",
+      "Desc": "Each stack of <color=#ffffff>Subjugation</color> in <color=#ffffff>Core Passive: Eternal Seasons</color> increases the Stun DMG Multiplier to 133% of its origianl value. When Qingyi's attack hits an enemy and the stacks of <color=#ffffff>Subjugation</color> she applies reaches its maximum stacks, her daze dealt to the target increases by 15%.",
+      "Desc2": "An ancient combat technique mentioned in old texts. It seems to have started as a martial arts technique, rather than a staff technique.\n\"Don't be so constrained, the arm itself can be used like a three-section staff, mhm.\""
     },
     "3": {
       "Level": 3,
-      "Name": "...",
+      "Name": "Drink Hot Water",
       "Desc": "<color=#ffffff>Basic Attack</color>, <color=#ffffff>Dodge</color>, <color=#ffffff>Assist</color>, <color=#ffffff>Special Attack</color>, and <color=#ffffff>Chain Attack</color> Lv. +2",
-      "Desc2": "QingYi_Talent_03_Desc_02"
+      "Desc2": "\"Young people should be mindful their health, and drinking more hot water is a good start.\"\nQingyi always appears comforted when she drinks from her thermos. But be careful if she offers you a drink—\n\"Even 100-degree Celcius boiling water doesn't faze her...\" One Public Security Officer who encountered this left such a note."
     },
     "4": {
       "Level": 4,
-      "Name": "QingYi_Talent_04_Title",
-      "Desc": "QingYi_Talent_04_Desc_01",
-      "Desc2": "QingYi_Talent_04_Desc_02"
+      "Name": "Stable Arc Barrier",
+      "Desc": "Upon entering or exiting <color=#ffffff>Flash Connect</color> state, gain a shield equal to 10% of Qingyi's max HP. If a previous shield is still active when the shield effect refreshes, Qingyi generates 5 Energy. This Energy generation effect can be triggered once every 10s.",
+      "Desc2": "By reverse-engineering Automatons from the old civilization, the White Star Institute developed the Arc Barrier, a technology that combines defense, attack, and electrical energy conversion.\n\"As the saying goes: Water can float a boat or sink it. Physics has a saying: Electric current flows like water. Therefore: Electric current can be used both offensively and defensively. It's a fantastic combination.\""
     },
     "5": {
       "Level": 5,
-      "Name": "QingYi_Talent_05_Title",
+      "Name": "Youthful Spirit",
       "Desc": "<color=#ffffff>Basic Attack</color>, <color=#ffffff>Dodge</color>, <color=#ffffff>Assist</color>, <color=#ffffff>Special Attack</color>, and <color=#ffffff>Chain Attack</color> Lv. +2",
-      "Desc2": "QingYi_Talent_05_Desc_02"
+      "Desc2": "\"Great, young people should be courageous and try new things. Keep it up!\"\nIt sometimes feels like Qingyi's encouragement is lazy and teasing, but if you really get into trouble, just rely on her.\nAfter all, she's been around for centuries and can handle anything."
     },
     "6": {
       "Level": 6,
-      "Name": "QingYi_Talent_06_Title",
-      "Desc": "QingYi_Talent_06_Desc_01",
-      "Desc2": "QingYi_Talent_06_Desc_02"
+      "Name": "Eight Meridians",
+      "Desc": "The Interrupt Level of <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color> is greatly increased, and the CRIT DMG is increased by an additional 100%. When Qingyi hits an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the target's Resistance to all Attribute DMG is reduced by 20% for 15s.",
+      "Desc2": "A theory about the human circulatory system documented in ancient texts from the old civilization. It's said those who fully master this theory can instantly disable an opponent in a fight.\n\"How about trying the pressure points that cause itching next time? Who should be the guinea pig? Manager? Or Zhu Yuan?\""
     }
   }
 }

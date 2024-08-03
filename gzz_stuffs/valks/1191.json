@@ -467,7 +467,7 @@
         },
         {
           "Name": "Dash Attack: Arctic Ambush",
-          "Desc": "While in the <color=#ffffff>Roaming</color> state, press <IconMap:Icon_Normal> to activate:\nDelivers a spinning slash to enemies before opening her scissors for a swift scissor attack, dealing <color=#98eff0>Ice DMG</color>.\nGain 1 point of <color=#ffffff>Flash Freeze Charge</color> when the swift scissor attack hits.\n\nWhile in the <color=#ffffff>Roaming</color> state, hold <IconMap:Icon_Normal> to activate:\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a charged scissor strike, dealing massive <color=#98eff0>Ice DMG</color>.\nGain 3 points of <color=#ffffff>Flash Freeze Charge</color> when the charged scissor attack hits. If the enemy is <color=#98eff0>Frozen</color>, it always triggers <color=#98eff0>Shatter</color>.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nEllen becomes briefly invulnerable during the skill."
+          "Desc": "While in the <color=#ffffff>Roaming</color> state, press <IconMap:Icon_Normal> to activate:\nDelivers a spinning slash to enemies before opening her scissors for a Swift Scissors strike, dealing <color=#98eff0>Ice DMG</color>.\nGain 1 point of <color=#ffffff>Flash Freeze Charge</color> when the Swift Scissors strike hits.\n\nWhile in the <color=#ffffff>Roaming</color> state, hold <IconMap:Icon_Normal> to activate:\nPerform a spinning slash against the enemy, then pull apart the scissors to unleash a Charged Scissors strike, dealing massive <color=#98eff0>Ice DMG</color>.\nGain 3 points of <color=#ffffff>Flash Freeze Charge</color> when the Charged Scissors strike hits. If the enemy is <color=#98eff0>Frozen</color>, it always triggers <color=#98eff0>Shatter</color>.\nAnti-Interrupt level is increased while charging the skill, and DMG taken is reduced by 40%.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Flash Freeze",
@@ -1129,7 +1129,7 @@
           "Additional Ability: Rising Storm"
         ],
         "Desc": [
-          "When Ellen launches a charged scissor strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>50%</color>.",
+          "When Ellen launches a Charged Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>50%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Ellen deals <color=#98eff0>Ice DMG</color>, subsequent <color=#98eff0>Ice DMG</color> increases by 3% for 10s. This effect can stack up to 10 times, and repeated triggers reset the duration."
         ]
       },
@@ -1141,7 +1141,7 @@
           "Additional Ability: Rising Storm"
         ],
         "Desc": [
-          "When Ellen launches a charged scissor strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>58.3%</color>.",
+          "When Ellen launches a Charged Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>58.3%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Ellen deals <color=#98eff0>Ice DMG</color>, subsequent <color=#98eff0>Ice DMG</color> increases by 3% for 10s. This effect can stack up to 10 times, and repeated triggers reset the duration."
         ]
       },
@@ -1153,7 +1153,7 @@
           "Additional Ability: Rising Storm"
         ],
         "Desc": [
-          "When Ellen launches a charged scissor strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>66.6%</color>.",
+          "When Ellen launches a Charged Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>66.6%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Ellen deals <color=#98eff0>Ice DMG</color>, subsequent <color=#98eff0>Ice DMG</color> increases by 3% for 10s. This effect can stack up to 10 times, and repeated triggers reset the duration."
         ]
       },
@@ -1165,7 +1165,7 @@
           "Additional Ability: Rising Storm"
         ],
         "Desc": [
-          "When Ellen launches a charged scissor strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>75%</color>.",
+          "When Ellen launches a Charged Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>75%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Ellen deals <color=#98eff0>Ice DMG</color>, subsequent <color=#98eff0>Ice DMG</color> increases by 3% for 10s. This effect can stack up to 10 times, and repeated triggers reset the duration."
         ]
       },
@@ -1177,7 +1177,7 @@
           "Additional Ability: Rising Storm"
         ],
         "Desc": [
-          "When Ellen launches a charged scissor strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>83.3%</color>.",
+          "When Ellen launches a Charged Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>83.3%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Ellen deals <color=#98eff0>Ice DMG</color>, subsequent <color=#98eff0>Ice DMG</color> increases by 3% for 10s. This effect can stack up to 10 times, and repeated triggers reset the duration."
         ]
       },
@@ -1189,7 +1189,7 @@
           "Additional Ability: Rising Storm"
         ],
         "Desc": [
-          "When Ellen launches a charged scissor strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>91.6%</color>.",
+          "When Ellen launches a Charged Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>91.6%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Ellen deals <color=#98eff0>Ice DMG</color>, subsequent <color=#98eff0>Ice DMG</color> increases by 3% for 10s. This effect can stack up to 10 times, and repeated triggers reset the duration."
         ]
       },
@@ -1201,7 +1201,7 @@
           "Additional Ability: Rising Storm"
         ],
         "Desc": [
-          "When Ellen launches a Charged Scissor Strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>100%</color>.",
+          "When Ellen launches a Charged Scissors Strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, or consumes a <color=#ffffff>Flash Freeze Charge</color> to activate <color=#ffffff>Basic Attack: Flash Freeze Trimming</color>, the skill's CRIT DMG is increased by <color=#2BAD00>100%</color>.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Ellen deals <color=#98eff0>Ice DMG</color>, subsequent <color=#98eff0>Ice DMG</color> increases by 3% for 10s. This effect can stack up to 10 times, and repeated triggers reset the duration."
         ]
       }
@@ -1239,7 +1239,7 @@
     "1": {
       "Level": 1,
       "Name": "Glacial Omen",
-      "Desc": "Upon hitting an enemy with Swift Scissors during <color=#ffffff>Dash Attack: Arctic Ambush</color>, the obtained <color=#ffffff>Flash Freeze Charges</color> are increased to 3. Upon hitting an enemy with Charged Scissor Strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, the obtained <color=#ffffff>Flash Freeze Charges</color> are increased to 6. For each <color=#ffffff>Flash Freeze Charge</color> consumed, Ellen's CRIT Rate is increased by 2% for 15s, stacking up to 6 times. The duration of each stack is calculated separately.",
+      "Desc": "Upon hitting an enemy with a Swift Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, the obtained <color=#ffffff>Flash Freeze Charges</color> are increased to 3. Upon hitting an enemy with a Charged Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color>, the obtained <color=#ffffff>Flash Freeze Charges</color> are increased to 6. For each <color=#ffffff>Flash Freeze Charge</color> consumed, Ellen's CRIT Rate is increased by 2% for 15s, stacking up to 6 times. The duration of each stack is calculated separately.",
       "Desc2": "Chilling winds are an omen of winter, and a signal that Ellen is about to apply for extended leave to hibernate.\nSpeaking of which, do sharks actually need to hibernate?"
     },
     "2": {
@@ -1269,7 +1269,7 @@
     "6": {
       "Level": 6,
       "Name": "The Feast Begins",
-      "Desc": "When Ellen uses an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or gains <color=#ffffff>Quick Charge</color>, her PEN Ratio increases by 20% for 6s. She also gains 1 stack of <color=#ffffff>The Feast Begins</color>, up to a maximum of 3 stacks. With 3 stacks of <color=#ffffff>The Feast Begins</color>, using a Charged Scissor Strike during <color=#ffffff>Dash Attack: Arctic Ambush</color> consumes all stacks, increasing the DMG of the current attack by 250%.",
+      "Desc": "When Ellen uses an <color=#ffffff>EX Special Attack</color>, <color=#ffffff>Chain Attack</color>, or gains <color=#ffffff>Quick Charge</color>, her PEN Ratio increases by 20% for 6s. She also gains 1 stack of <color=#ffffff>The Feast Begins</color>, up to a maximum of 3 stacks. With 3 stacks of <color=#ffffff>The Feast Begins</color>, using a Charged Scissors strike during <color=#ffffff>Dash Attack: Arctic Ambush</color> consumes all stacks, increasing the DMG of the current attack by 250%.",
       "Desc2": "An open wound, a drop of blood. A thrilling hunt, a grand feast. A fragile life, a moment of satisfaction."
     }
   }

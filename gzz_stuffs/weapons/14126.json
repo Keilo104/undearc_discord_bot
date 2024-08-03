@@ -1,10 +1,10 @@
 {
   "Id": 14126,
   "CodeName": "Weapon_S_1261",
-  "Name": "Item_Weapon_S_1261_Name",
-  "Desc": "Item_Weapon_S_1261_Desc",
+  "Name": "Sharpened Stinger",
+  "Desc": "A deadly W-Engine from unknown sources, modified personally by Jane Doe with the intent to deal severe physical damage and Anomaly. The power circulation system within ensures the affliction of Anomalies and the edges of the exterior have been honed until they're razor-sharp to inflict unexpected tearing damage.\n\n<color=#959595>\"What, am I meant to adhere to duel ettiquete with an Ethereal? Isn't it polite to end its pain in the quickest way possible?\" —Jane, in response to \"aren't your combat techniques a little too cruel\"</color>",
   "Desc2": "Equip to increase Anomaly Agents' combat capabilities",
-  "Desc3": "Item_Weapon_S_1261_ShortDesc",
+  "Desc3": "A deadly W-Engine from unknown sources, modified personally by Jane Doe with the intent to deal severe physical damage and Anomaly.",
   "Rarity": 4,
   "Icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1261.png",
   "WeaponType": {
@@ -358,24 +358,24 @@
   "Materials": "10:12000,101012:4|10:28000,101022:12|10:60000,101022:20|10:100000,101032:10|10:200000,101032:20",
   "Talents": {
     "1": {
-      "Name": "Weapon_TalentTitle_14126",
-      "Desc": "Weapon_TalentDes_81412601"
+      "Name": "Indulge in the Hunt",
+      "Desc": "Upon activating a <color=#ffffff>Dash Attack</color>, gain 1 stack of <color=#ffffff>Predatory Instinct</color>. Each stack of <color=#ffffff>Predatory Instinct</color> increases the equipper's Physical DMG by <color=#2BAD00>12%</color> for 8s, stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering <color=#ffffff>Perfect Dodge</color>, gain 3 stacks of <color=#ffffff>Predatory Instinct</color>. While <color=#ffffff>Predatory Instinct</color> is at maximum stacks, the equipper's Anomaly Buildup Rate increases by <color=#2BAD00>40%</color>."
     },
     "2": {
-      "Name": "Weapon_TalentTitle_14126",
-      "Desc": "Weapon_TalentDes_81412602"
+      "Name": "Indulge in the Hunt",
+      "Desc": "Upon activating a <color=#ffffff>Dash Attack</color>, gain 1 stack of <color=#ffffff>Predatory Instinct</color>. Each stack of <color=#ffffff>Predatory Instinct</color> increases the equipper's Physical DMG by <color=#2BAD00>15%</color> for 8s, stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering <color=#ffffff>Perfect Dodge</color>, gain 3 stacks of <color=#ffffff>Predatory Instinct</color>. While <color=#ffffff>Predatory Instinct</color> is at maximum stacks, the equipper's Anomaly Buildup Rate increases by <color=#2BAD00>50%</color>."
     },
     "3": {
-      "Name": "Weapon_TalentTitle_14126",
-      "Desc": "Weapon_TalentDes_81412603"
+      "Name": "Indulge in the Hunt",
+      "Desc": "Upon activating a <color=#ffffff>Dash Attack</color>, gain 1 stack of <color=#ffffff>Predatory Instinct</color>. Each stack of <color=#ffffff>Predatory Instinct</color> increases the equipper's Physical DMG by <color=#2BAD00>18%</color> for 8s, stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering <color=#ffffff>Perfect Dodge</color>, gain 3 stacks of <color=#ffffff>Predatory Instinct</color>. While <color=#ffffff>Predatory Instinct</color> is at maximum stacks, the equipper's Anomaly Buildup Rate increases by <color=#2BAD00>60%</color>."
     },
     "4": {
-      "Name": "Weapon_TalentTitle_14126",
-      "Desc": "Weapon_TalentDes_81412604"
+      "Name": "Indulge in the Hunt",
+      "Desc": "Upon activating a <color=#ffffff>Dash Attack</color>, gain 1 stack of <color=#ffffff>Predatory Instinct</color>. Each stack of <color=#ffffff>Predatory Instinct</color> increases the equipper's Physical DMG by <color=#2BAD00>21%</color> for 8s, stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering <color=#ffffff>Perfect Dodge</color>, gain 3 stacks of <color=#ffffff>Predatory Instinct</color>. While <color=#ffffff>Predatory Instinct</color> is at maximum stacks, the equipper's Anomaly Buildup Rate increases by <color=#2BAD00>70%</color>."
     },
     "5": {
-      "Name": "Weapon_TalentTitle_14126",
-      "Desc": "Weapon_TalentDes_81412605"
+      "Name": "Indulge in the Hunt",
+      "Desc": "Upon activating a <color=#ffffff>Dash Attack</color>, gain 1 stack of <color=#ffffff>Predatory Instinct</color>. Each stack of <color=#ffffff>Predatory Instinct</color> increases the equipper's Physical DMG by <color=#2BAD00>24%</color> for 8s, stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering <color=#ffffff>Perfect Dodge</color>, gain 3 stacks of <color=#ffffff>Predatory Instinct</color>. While <color=#ffffff>Predatory Instinct</color> is at maximum stacks, the equipper's Anomaly Buildup Rate increases by <color=#2BAD00>80%</color>."
     }
   }
 }

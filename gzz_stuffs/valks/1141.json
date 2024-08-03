@@ -395,7 +395,7 @@
               }
             },
             {
-              "Name": "1st-Hit Charged Attack Daze Multiplier",
+              "Name": "1st-Hit Charged Daze Multiplier",
               "Desc": "{Skill:1141002, Prop:1002}",
               "Param": {
                 "1141002": {
@@ -417,7 +417,7 @@
               }
             },
             {
-              "Name": "2nd-Hit Charged Attack Daze Multiplier",
+              "Name": "2nd-Hit Charged Daze Multiplier",
               "Desc": "{Skill:1141004, Prop:1002}",
               "Param": {
                 "1141004": {
@@ -439,7 +439,7 @@
               }
             },
             {
-              "Name": "3rd-Hit Charged Attack Daze Multiplier",
+              "Name": "3rd-Hit Charged Daze Multiplier",
               "Desc": "{Skill:1141006, Prop:1002}",
               "Param": {
                 "1141006": {
@@ -461,7 +461,7 @@
               }
             },
             {
-              "Name": "4th-Hit Charged Attack Daze Multiplier",
+              "Name": "4th-Hit Charged Daze Multiplier",
               "Desc": "{Skill:1141008, Prop:1002}",
               "Param": {
                 "1141008": {
@@ -483,7 +483,7 @@
               }
             },
             {
-              "Name": "5th-Hit Level-1 Charged Attack Daze Multiplier",
+              "Name": "5th-Hit Level-1 Charged Daze Multiplier",
               "Desc": "{Skill:1141010, Prop:1002}",
               "Param": {
                 "1141010": {
@@ -494,7 +494,7 @@
               }
             },
             {
-              "Name": "5th-Hit Level-2 Charged Attack Daze Multiplier",
+              "Name": "5th-Hit Level-2 Charged Daze Multiplier",
               "Desc": "{Skill:1141011, Prop:1002}",
               "Param": {
                 "1141011": {
@@ -822,7 +822,7 @@
             },
             {
               "Name": "Activation Energy Cost",
-              "Desc": "40 Energy"
+              "Desc": "40"
             },
             {
               "Name": "Charged Attack Energy Cost",

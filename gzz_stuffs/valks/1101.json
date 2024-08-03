@@ -477,7 +477,7 @@
         },
         {
           "Name": "Dash Attack: Tremble!",
-          "Desc": "Press <IconMap:Icon_Normal> during a Dodge to activate:\nStrikes enemies in front of him, dealing <color=#f0d12b>Physical DMG</color>."
+          "Desc": "Press <IconMap:Icon_Normal> during a Dodge to activate:\nStrikes enemies in front, dealing <color=#f0d12b>Physical DMG</color>."
         },
         {
           "Name": "Dodge Counter: Don't Look Down on Me",
@@ -591,11 +591,11 @@
       "Description": [
         {
           "Name": "Special Attack: Hammer Time",
-          "Desc": "Press <IconMap:Icon_Special> to activate:\nStrikes enemies in front and triggers an explosion, dealing <color=#ff5521>Fire DMG</color>.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#ffffff>Basic Attack</color> or enhanced <color=#ffffff>Basic Attack</color>.\nWhen Koleda and Ben are both in your squad, and this skill is activated after an enhanced <color=#ffffff>Basic Attack</color>, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill."
+          "Desc": "Press <IconMap:Icon_Special> to activate:\nStrikes enemies in front and triggers an explosion, dealing <color=#ff5521>Fire DMG</color>.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#ffffff>Basic Attack</color> or enhanced <color=#ffffff>Basic Attack</color>.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced <color=#ffffff>Basic Attack</color>, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill."
         },
         {
           "Name": "EX Special Attack: Boiling Furnace",
-          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive <color=#ff5521>Fire DMG</color>. Koleda also gains the <color=#ffffff>Furnace Fire</color> effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#ffffff>Basic Attack</color> or enhanced <color=#ffffff>Basic Attack</color>.\nWhen Koleda and Ben are both in your squad and this skill is activated after an enhanced <color=#ffffff>Basic Attack</color>, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill."
+          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive <color=#ff5521>Fire DMG</color>. Koleda also gains the <color=#ffffff>Furnace Fire</color> effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#ffffff>Basic Attack</color> or enhanced <color=#ffffff>Basic Attack</color>.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced <color=#ffffff>Basic Attack</color>, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Special Attack: Hammer Time",
@@ -623,7 +623,7 @@
               }
             },
             {
-              "Name": "Explosive DMG Multiplier (Teamwork)",
+              "Name": "Explosion DMG Multiplier (Teamwork)",
               "Desc": "{Skill:1101103, Prop:1001}",
               "Param": {
                 "1101103": {
@@ -694,7 +694,7 @@
               }
             },
             {
-              "Name": "Explosive DMG Multiplier (Teamwork)",
+              "Name": "Explosion DMG Multiplier (Teamwork)",
               "Desc": "{Skill:1101106, Prop:1001}",
               "Param": {
                 "1101106": {
