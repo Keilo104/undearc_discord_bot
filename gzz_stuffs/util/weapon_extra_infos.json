@@ -80,9 +80,6 @@
   "13013": {
     "icon_image_url": "https://i.imgur.com/fSWr9TA.png",
     "obtain": "Event",
-    "override_name": "鸢尾秘藏",
-    "override_description_name": "超规防盗措施",
-    "override_description": "攻击力提升**6/6.9/7.8/8.7/9.6%，**[强化特殊技]造成的伤害提升**15/17.2/19.5/21.8/24%。**",
     "release_patch": 2
   },
   "13101": {
@@ -137,9 +134,7 @@
     "icon_image_url": "https://i.imgur.com/OhkInmY.png",
     "obtain": "Gacha",
     "signature": "1271",
-    "override_name": "维序者-特化型",
-    "override_description_name": "标准格挡术",
-    "override_description": "拥有护盾时，装备者的能量自动回复提升**0.4/0.46/0.52/0.58/0.64点/秒；**<color=#ffffff>[强化特殊技]</color>/<color=#ffffff>[支援突击]</color>累积的属性异常积蓄值提升**36%/36% | 40%/40% | 45%/45% | 50%/50% | 55%/55%**。",
+    "override_description": "While Shielded, the equipper's Energy Regen increases by **0.4/0.46/0.52/0.58/0.64/s.** The Anomaly Buildup accumulated by EX Special Attacks/Assist Follow-Ups increase by **36/40/45/50/55% (EX Special) | 36/40/45/50/55% (Assist Follow-Ups).**",
     "embed_color":  "0x38A2FF",
     "release_patch": 2
   },
@@ -213,9 +208,6 @@
     "icon_image_url": "https://i.imgur.com/nnGV2sf.png",
     "obtain": "Gacha",
     "signature": "1251",
-    "override_name": "玉壶青冰",
-    "override_description_name": "泠泠连奏",
-    "override_description": "<color=#ffffff>[普通攻击]</color>命中敌人时，获得1层<color=#ffffff>[茶劲]</color>，每层<color=#ffffff>[茶劲]</color>使装备者的冲击力提升<color=#2BAD00>**0.7/0.88/1.05/1.22/1.4%**</color>，最多叠加30层，持续8秒，每层效果单独结算持续时间；获得<color=#ffffff>[茶劲]</color>时，若装备者拥有的<color=#ffffff>[茶劲]</color>层数大于等于15层，全队造成的伤害提升<color=#2BAD00>**20/25/30/35/40%**</color>，持续10秒。",
     "embed_color":  "0x38A2FF",
     "release_patch": 2
   },
@@ -223,9 +215,6 @@
     "icon_image_url": "https://i.imgur.com/BsFx4H1.png",
     "obtain": "Gacha",
     "signature": "1261",
-    "override_name": "淬锋钳刺",
-    "override_description_name": "恣横猎心",
-    "override_description": "发动<color=#ffffff>[冲刺攻击]</color>时，获得1层<color=#ffffff>[猎意]</color>，每层<color=#ffffff>[猎意]</color>使装备者造成的物理伤害提升<color=#2BAD00>**15/18.8/22.5/26.2/30%**</color>，最多叠加3层，持续8秒，0.5秒内最多触发一次，重复触发时刷新持续时间；进入接战状态或触发<color=#ffffff>[极限闪避]</color>时，直接获得3层<color=#ffffff>[猎意]</color>；<color=#ffffff>[猎意]</color>叠加至层数上限后，装备者的属性异常积蓄效率提升<color=#2BAD00>**50/62/75/87/100%</color>。**",
     "embed_color":  "0x38A2FF",
     "release_patch": 2
   }

@@ -94,7 +94,7 @@
     "icon_image_url": "https://i.imgur.com/faEvnLq.png",
     "signature_weapon": "13115",
     "release_patch": 1,
-    "override_full_name": "Luciana de Montefio",
+    "override_full_name": "Luciana Auxesis Theodoro de Montefio",
     "embed_color": "0xFFDC4D"
   },
 
@@ -163,7 +163,7 @@
     "icon_image_url": "https://i.imgur.com/hIGdTDy.png",
     "signature_weapon": "14126",
     "release_patch": 2,
-    "override_name": "Jane Doe",
+    "override_full_name": "Jane Doe",
     "embed_color": "0x38A2FF"
   },
 

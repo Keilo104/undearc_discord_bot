@@ -313,6 +313,7 @@ class Valk:
 
     def figure_out_core_stats(self, valk_json):
         stat_a, stat_b = "", ""
+        self.core_first_stat_values, self.core_second_stat_values = [], []
 
         if "1" not in valk_json["ExtraLevel"]:
             return
@@ -369,7 +370,7 @@ class Valk:
             self.faction_icon = Emote.HSOS6_ICON
 
         elif "7" in valk_json["Camp"]:
-            self.faction = "New Eridu Public Security"
+            self.faction = "Criminal Investigation Special Response Team"
             self.faction_icon = Emote.PUBLIC_SECURITY_ICON
 
     def figure_out_element(self, valk_json):

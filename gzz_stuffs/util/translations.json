@@ -324,6 +324,9 @@
   "event 1.1 weap": "13013",
   "weapon 1.1": "13013",
   "weap 1.1": "13013",
+  "iris enigma": "13013",
+  "iris": "13013",
+  "enigma": "13013",
 
   "demara": "13101",
   "battery": "13101",
@@ -363,6 +366,14 @@
   "kaboom the cannon": "13115",
   "cannon": ["13115", "14001"],
   "kaboom": "13115",
+
+  "peacekeeper - specialized": "13127",
+  "peacekeeper - specialised": "13127",
+  "peacekeeper specialized": "13127",
+  "peacekeeper specialised": "13127",
+  "peacekeeper": "13127",
+  "specialized": "13127",
+  "specialised": "13127",
 
   "roaring ride": "13128",
   "roaring": "13128",
@@ -455,6 +466,18 @@
   "suppressor": "14124",
   "vi": "14124",
   "4": "14124",
+
+  "ice-jade teapot": "14125",
+  "icejade teapot": "14125",
+  "ice-jade": "14125",
+  "icejade": "14125",
+  "teapot": "14125",
+  "jade teapot": "14125",
+  "jade": "14125",
+
+  "sharpened stinger": "14126",
+  "sharpened": "14126",
+  "stinger": "14126",
 
   "penguin": "53001",
   "peng": "53001",
