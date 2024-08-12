@@ -29,6 +29,7 @@ class Bangaloo:
     synergy = "No data"
 
     icon_image_url = "https://i.imgur.com/tmjMEtZ.png"
+    embed_color = "0xffffff"
 
     def __init__(self, bangaloo_json, bangaloo_extra_infos_json):
         self.atk_boosts = [0, 0, 0, 0, 0]
@@ -61,7 +62,9 @@ class Bangaloo:
         self.synergy = bangaloo_extra_infos_json[str(self.id)]["synergy_type"]
         self.synergy_count = bangaloo_extra_infos_json[str(self.id)]["synergy_count"]
         self.release_patch = bangaloo_extra_infos_json[str(self.id)]["release_patch"]
-        self.embed_color = bangaloo_extra_infos_json[str(self.id)]["embed_color"]
+
+        if bangaloo_extra_infos_json[str(self.id)]["embed_color"] != "":
+            self.embed_color = bangaloo_extra_infos_json[str(self.id)]["embed_color"]
 
         if "override_name" in bangaloo_extra_infos_json[str(self.id)]:
             self.name = bangaloo_extra_infos_json[str(self.id)]["override_name"]

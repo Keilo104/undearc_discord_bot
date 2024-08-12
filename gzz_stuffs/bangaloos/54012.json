@@ -1,8 +1,8 @@
 {
   "Id": 54012,
-  "CodeName": "...",
-  "Name": "...",
-  "Desc": "...",
+  "CodeName": "Officer Cui",
+  "Name": "Officer Cui",
+  "Desc": "Though it may be a Bangboo, it's even more intimidating than a Security Canine!",
   "Rarity": 4,
   "Icon": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole25.png",
   "Stats": {
@@ -174,156 +174,156 @@
     "A": {
       "Level": {
         "1": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "2": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "3": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "4": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "5": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "6": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "7": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "8": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "9": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         },
         "10": {
-          "Name": "...",
-          "Desc": "Bangboo_ActiveSkill_Des_54012",
+          "Name": "Woof woof! Woof woof woof!",
+          "Desc": "<color=#ffffff>Active Skill</color>\nBites and tears at the target enemy, dealing <color=#f0d12b>Physical DMG</color>.\nThis skill can be consecutively triggered, up to 2 times.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier",
             "Cooldown"
           ],
-          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|..."
+          "Param": "{Skill:5401201, Prop:1001}|{Skill:5401201, Prop:1002}|26s"
         }
       }
     },
     "B": {
       "Level": {
         "1": {
-          "Name": "...",
-          "Desc": "Bangboo_TalentSkill_Des_54012_01",
+          "Name": "Provisional Security Canine",
+          "Desc": "<color=#ffffff>Additional Ability</color>\nWhen there are 2 or more <color=#ffffff>Criminal Investigation Special Response Team</color> characters in your squad: After using an <color=#ffffff>Active Skill</color>, there is a 50% chance to trigger the skill 1 more time, up to a maximum of 3 consecutive triggers.\n<color=#ffffff>Bangboo Chain Attack</color> DMG increases by 35%.",
           "Property": [
-            "..."
+            "DMG Increase"
           ],
-          "Param": "..."
+          "Param": "35%"
         },
         "2": {
-          "Name": "...",
-          "Desc": "Bangboo_TalentSkill_Des_54012_02",
+          "Name": "Provisional Security Canine",
+          "Desc": "<color=#ffffff>Additional Ability</color>\nWhen there are 2 or more <color=#ffffff>Criminal Investigation Special Response Team</color> characters in your squad: After using an <color=#ffffff>Active Skill</color>, there is a 50% chance to trigger the skill 1 more time, up to a maximum of 3 consecutive triggers.\n<color=#ffffff>Bangboo Chain Attack</color> DMG increases by 43%.",
           "Property": [
-            "..."
+            "DMG Increase"
           ],
-          "Param": "..."
+          "Param": "43%"
         },
         "3": {
-          "Name": "...",
-          "Desc": "Bangboo_TalentSkill_Des_54012_03",
+          "Name": "Provisional Security Canine",
+          "Desc": "<color=#ffffff>Additional Ability</color>\nWhen there are 2 or more <color=#ffffff>Criminal Investigation Special Response Team</color> characters in your squad: After using an <color=#ffffff>Active Skill</color>, there is a 50% chance to trigger the skill 1 more time, up to a maximum of 3 consecutive triggers.\n<color=#ffffff>Bangboo Chain Attack</color> DMG increases by 52%.",
           "Property": [
-            "..."
+            "DMG Increase"
           ],
-          "Param": "..."
+          "Param": "52%"
         },
         "4": {
-          "Name": "...",
-          "Desc": "Bangboo_TalentSkill_Des_54012_04",
+          "Name": "Provisional Security Canine",
+          "Desc": "<color=#ffffff>Additional Ability</color>\nWhen there are 2 or more <color=#ffffff>Criminal Investigation Special Response Team</color> characters in your squad: After using an <color=#ffffff>Active Skill</color>, there is a 50% chance to trigger the skill 1 more time, up to a maximum of 3 consecutive triggers.\n<color=#ffffff>Bangboo Chain Attack</color> DMG increases by 60%.",
           "Property": [
-            "..."
+            "DMG Increase"
           ],
-          "Param": "..."
+          "Param": "60%"
         },
         "5": {
-          "Name": "...",
-          "Desc": "Bangboo_TalentSkill_Des_54012_05",
+          "Name": "Provisional Security Canine",
+          "Desc": "<color=#ffffff>Additional Ability</color>\nWhen there are 2 or more <color=#ffffff>Criminal Investigation Special Response Team</color> characters in your squad: After using an <color=#ffffff>Active Skill</color>, there is a 50% chance to trigger the skill 1 more time, up to a maximum of 3 consecutive triggers.\n<color=#ffffff>Bangboo Chain Attack</color> DMG increases by 70%.",
           "Property": [
-            "..."
+            "DMG Increase"
           ],
-          "Param": "..."
+          "Param": "70%"
         }
       }
     },
     "C": {
       "Level": {
         "1": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -331,8 +331,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "2": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -340,8 +340,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "3": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -349,8 +349,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "4": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -358,8 +358,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "5": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -367,8 +367,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "6": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -376,8 +376,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "7": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -385,8 +385,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "8": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -394,8 +394,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "9": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
@@ -403,8 +403,8 @@
           "Param": "{Skill:5401202, Prop:1001}|{Skill:5401202, Prop:1002}"
         },
         "10": {
-          "Name": "...",
-          "Desc": "Bangboo_QTE_Des_54012",
+          "Name": "Woof woof!",
+          "Desc": "<color=#ffffff>Bangboo Chain Attack</color>\nContinuously bites and tears enemies in front, dealing massive <color=#f0d12b>Physical DMG</color>.",
           "Property": [
             "DMG Multiplier",
             "Daze Multiplier"
