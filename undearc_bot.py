@@ -17,6 +17,9 @@ class Underarc:
     guild = None
     discord_key = None
 
+    current_patch = 1
+    current_patch_string = "1.0"
+
     people_identities = {}
     extraction_channels = []
     signed_up = []

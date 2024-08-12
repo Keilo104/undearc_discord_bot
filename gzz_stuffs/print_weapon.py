@@ -1,9 +1,6 @@
 import discord
 
 
-current_patch = 1
-
-
 def base_embed_and_load_weapon(weapon_id, bot):
     weapon = bot.weapons[weapon_id]
 
@@ -18,7 +15,7 @@ def base_embed_and_load_weapon(weapon_id, bot):
                  "this is releasing soon, or at all, and all information is subject to changes before release."
         )
 
-    elif weapon.release_patch > current_patch:
+    elif weapon.release_patch > bot.current_patch:
         embed.set_footer(
             text="This entry is from a future version, all information on it could be "
                  "inaccurate and is subject to changes before release."

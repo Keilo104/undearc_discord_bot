@@ -2,8 +2,6 @@ import discord
 
 from gzz_stuffs.util.EmoteEnum import Emote
 
-current_patch = 1
-
 
 def base_embed_and_load_valk(bot, valk_id):
     valk = bot.valks[valk_id]
@@ -20,7 +18,7 @@ def base_embed_and_load_valk(bot, valk_id):
                  "this is releasing soon, or at all, and all information is subject to changes before release."
         )
 
-    elif valk.release_patch > current_patch:
+    elif valk.release_patch > bot.current_patch:
         embed.set_footer(
             text="This entry is from a future version, all information on it could be "
                  "inaccurate and is subject to changes before release."
@@ -65,7 +63,7 @@ def print_valk(bot, valk_id="1011"):
 
 
 def print_valk_at_level(bot, valk_id="1011", level=60):
-    valk, embed = base_embed_and_load_valk(valk_id, bot)
+    valk, embed = base_embed_and_load_valk(bot, valk_id)
 
     embed.add_field(
         inline=False, name=f"Base stats at Lv{level}",

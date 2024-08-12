@@ -161,8 +161,8 @@ class Bangaloo:
             return f"{self.synergy_count}+ characters from {Emote.VICTORIA_HOUSEKEEPING_ICON.value} Victoria Housekeeping Co."
         if self.synergy == "Belobog Heavy Industries":
             return f"{self.synergy_count}+ characters from {Emote.BELOBOG_INDUSTRIES_ICON.value} Belobog Heavy Industries"
-        if self.synergy == "New Eridu Public Security":
-            return f"{self.synergy_count}+ characters from {Emote.PUBLIC_SECURITY_ICON.value} New Eridu Public Security"
+        if self.synergy == "Criminal Investigation Special Response Team":
+            return f"{self.synergy_count}+ characters from {Emote.PUBLIC_SECURITY_ICON.value} Criminal Investigation Special Response Team"
 
         return f"{Emote.UNKNOWN_ICON} No Data"
 

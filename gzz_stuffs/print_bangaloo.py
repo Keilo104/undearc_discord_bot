@@ -2,8 +2,6 @@ import discord
 
 from gzz_stuffs.util.EmoteEnum import Emote
 
-current_patch = 1
-
 
 def base_embed_and_load_bangaloo(bangaloo_id, bot):
     bangaloo = bot.bangaloos[bangaloo_id]
@@ -21,14 +19,14 @@ def base_embed_and_load_bangaloo(bangaloo_id, bot):
                  "this is releasing soon, or at all, and all information is subject to changes before release."
         )
 
-    elif bangaloo.release_patch > current_patch:
+    elif bangaloo.release_patch > bot.current_patch:
         embed.set_footer(
             text="This entry is from a future version, all information on it could be "
                  "inaccurate and is subject to changes before release."
         )
 
     embed.set_thumbnail(url=bangaloo.icon_image_url)
-    # embed.colour = int(bangaloo.embed_color, 16)
+    embed.colour = int(bangaloo.embed_color, 16)
 
     return bangaloo, embed
 

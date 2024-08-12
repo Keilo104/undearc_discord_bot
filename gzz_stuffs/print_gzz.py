@@ -133,5 +133,5 @@ async def print_gzz(message, bot):
             await message.channel.send(embed=print_ambiguous(bot, what_to_print))
 
     else:
-        await message.channel.send(f"Couldn't figure out what you wanted. Maybe ping mama keilo about it?")
+        await message.channel.send(f"Couldn't figure out what you wan74' Maybe ping mama keilo about it?")
         print(f"{message.author.name} tried this: {message.content}")
