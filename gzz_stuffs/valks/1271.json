@@ -17,7 +17,25 @@
     "7": "Criminal Investigation Special Response Team"
   },
   "Gender": 1,
-  "PartnerInfo": {},
+  "PartnerInfo": {
+    "Birthday": "APR 8",
+    "FullName": "Seth Lowell",
+    "Gender": "Male",
+    "IconPath": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle30.png",
+    "ImpressionF": "Seth really is a feline Thiren! He's like a kitty magnet.",
+    "ImpressionM": "I remember seeing him being completely surrounded by stray cats on the street once.\nMust be nice to be so loved by cats.",
+    "Name": "",
+    "OutlookDesc": "HIA License Archive:\nPublic Security Patrol Officer, Seth, Ether aptitude is classified. He's allowed to perform basic tasks like conducting investigations and extracting resources in known Hollows within the city (including Companion Hollows).\nNote: (Omitted clearance-related details) As a Lynx Thiren, Seth has exceptional Ether aptitude.",
+    "ProfileDesc": "",
+    "Race": "Sixth Street",
+    "RoleIcon": "IconRole/UnPacker/IconRole30",
+    "Stature": "174",
+    "UnlockCondition": [
+      "Obtain Agent",
+      "Complete the \"Anby's Problem\" commission",
+      "Complete Main Commission Chapter 2 Interlude"
+    ]
+  },
   "Stats": {
     "Armor": 0,
     "ArmorGrowth": 0,
@@ -61,7 +79,7 @@
       "Male",
       "Camp7",
       "Size1",
-      "ParryAid",
+      "AidTypeParry",
       "Seth",
       "5"
     ]

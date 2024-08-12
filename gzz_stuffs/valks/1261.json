@@ -2,7 +2,7 @@
   "Id": 1261,
   "Icon": "IconRole24",
   "Name": "Jane",
-  "CodeName": "Avatar_Female_Size03_JaneDoe_En",
+  "CodeName": "Jane",
   "Rarity": 4,
   "WeaponType": {
     "3": "Anomaly"
@@ -17,7 +17,25 @@
     "7": "Criminal Investigation Special Response Team"
   },
   "Gender": 2,
-  "PartnerInfo": {},
+  "PartnerInfo": {
+    "Birthday": "FEB 16",
+    "FullName": "Jane Doe",
+    "Gender": "Female",
+    "IconPath": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle24.png",
+    "ImpressionF": "Fairy, you don't have to reiterate anything. We've all come to terms with Jane's name being Jane.",
+    "ImpressionM": "I mean, it's far from the worst name we've seen...",
+    "Name": "",
+    "OutlookDesc": "Hollow Investigation Association Licensing Archive—\nPublic Security Officer: Zhu Yuan. Ether aptitude confidential. Licensed for investigation, exploration, and other basic work in known Hollows (including Companion Hollows) in the city.\nNote: Zhu Yuan's file belongs to the New Eridu Public Security Janus Quarter Metropolitan Order Department Criminal Investigation Special Response Team. The relevant information can be obtained within the Public Security system, requiring special access permissions.\nFurther Note: Zhu Yuan has excellent Ether aptitude.",
+    "ProfileDesc": "Jane, a criminal behavior specialist, has had a \"colorful\" career as a consultant with Public Security over the years.\nShe is an expert in disguise, infiltration, and other investigative work.\nShe has a bad habit of trolling others and sometimes plays harmless pranks.\nShe's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the \"real\" Jane is like.\n\nJane has a wealth of life experience and can seamlessly blend into any environment, as though she has dabbled in everything there is to do.\nHowever, if you ask her for any further details, she'll give you a different story every time.\nWho knows which, if any, are true.\n\nNote 1: Jane does not know our true identity. Do not reveal this to her under any circumstances.\nNote 2: Despite \"Jane Doe\" being an obvious alias, we haven't found any information about her real or former name.\nThis is not my problem. My guess is that her true identity has been completely erased due to her special status.\nLet me reiterate: This is not my problem.",
+    "Race": "Victoria Housekeeping Co.",
+    "RoleIcon": "IconRole/UnPacker/IconRole24",
+    "Stature": "170",
+    "UnlockCondition": [
+      "Obtain Agent",
+      "Complete the \"Anby's Problem\" commission",
+      ""
+    ]
+  },
   "Stats": {
     "Armor": 0,
     "ArmorGrowth": 0,
@@ -61,7 +79,7 @@
       "Female",
       "Camp7",
       "Size3",
-      "ParryAid",
+      "AidTypeParry",
       "JaneDoe",
       "3"
     ]
@@ -244,7 +262,7 @@
         },
         {
           "Name": "Passion",
-          "Desc": "When Jane triggers <color=#ffffff>Perfect Dodge</color>, <color=#ffffff>Defensive Assist</color>, or performs a move that deals damage to the enemy, she accumulates <color=#ffffff>Passion Stream</color>. Upon reaching the maximum <color=#ffffff>Passion Stream</color>, Jane enters the <color=#ffffff>Passion</color> state.\nWhile in the <color=#ffffff>Passion</color> state, Jane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 25%. Additionally, if Jane's Anomaly Proficiency exceeds 0.15 points, each extra point raises her ATK by 2, up to a maximum of 600.\nIn the <color=#ffffff>Passion</color> state, Jane's skills that deal damage expend <color=#ffffff>Passion Stream</color>. Activating a <color=#ffffff>Perfect Dodge</color> or <color=#ffffff>Defensive Assist</color> regenerates <color=#ffffff>Passion Stream</color>. Jane exits the <color=#ffffff>Passion</color> state when all of her <color=#ffffff>Passion Stream</color> is expended."
+          "Desc": "When Jane triggers <color=#ffffff>Perfect Dodge</color>, <color=#ffffff>Defensive Assist</color>, or performs a move that deals damage to the enemy, she accumulates <color=#ffffff>Passion Stream</color>. Upon reaching the maximum <color=#ffffff>Passion Stream</color>, Jane enters the <color=#ffffff>Passion</color> state.\nWhile in the <color=#ffffff>Passion</color> state, Jane's <color=#f0d12b>Physical Anomaly Buildup Rate</color> is increased by 25%. Additionally, if Jane's Anomaly Proficiency exceeds 120 points, each extra point raises her ATK by 2, up to a maximum of 600.\nIn the <color=#ffffff>Passion</color> state, Jane's skills that deal damage expend <color=#ffffff>Passion Stream</color>. Activating a <color=#ffffff>Perfect Dodge</color> or <color=#ffffff>Defensive Assist</color> regenerates <color=#ffffff>Passion Stream</color>. Jane exits the <color=#ffffff>Passion</color> state when all of her <color=#ffffff>Passion Stream</color> is expended."
         },
         {
           "Name": "Basic Attack: Salchow Jump",

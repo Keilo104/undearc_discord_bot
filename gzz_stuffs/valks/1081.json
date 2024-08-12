@@ -78,7 +78,7 @@
       "Male",
       "Camp1",
       "Size3",
-      "EvadeAid",
+      "AidTypeEvade",
       "Billy",
       "1"
     ]
@@ -450,7 +450,7 @@
       "Description": [
         {
           "Name": "Dodge: Risky Business",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Starlight Sanction",

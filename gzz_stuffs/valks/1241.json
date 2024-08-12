@@ -79,7 +79,7 @@
       "Female",
       "Camp7",
       "Size3",
-      "EvadeAid",
+      "AidTypeEvade",
       "ZhuYuan",
       "1"
     ]
@@ -258,7 +258,7 @@
       "Description": [
         {
           "Name": "Basic Attack: Don't Move!",
-          "Desc": "<color=#ffffff>[Assault Mode]</color>\nPress <IconMap:Icon_Normal> to activate.\nUnleash a flurry of martial arts, bullets, and Ether Buckshots in a series of up to 5 attacks, dealing <color=#f0d12b>Physical DMG</color> and <color=#fe437e>Ether DMG</color>.\nWhen the 4th or 5th hits strike an enemy, obtain 1 <color=#ffffff>Enhanced Shotshell</color>. A max of 1 can be obtained per activation of this Basic Attack.\nWhile using this skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press <IconMap:Icon_Normal> to activate <color=#ffffff>Dash Attack: Firepower Offensive</color> and readjust to face the selected direction.\nWhile under <color=#ffffff>Assault Mode</color>, hold <IconMap:Icon_Normal> to switch to <color=#ffffff>Suppressive Mode</color>."
+          "Desc": "<color=#ffffff>[Assault Mode]</color>\nPress <IconMap:Icon_Normal> to activate.\nUnleash a flurry of martial arts, bullets, and Ether Buckshots in a series of up to 5 attacks, dealing <color=#f0d12b>Physical DMG</color> and <color=#fe437e>Ether DMG</color>.\nWhen the 4th or 5th hit strikes an enemy, obtain 1 <color=#ffffff>Enhanced Shotshell</color> per hit. A max of 1 can be obtained per activation of this Basic Attack.\nWhile using this skill, drag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} and press <IconMap:Icon_Normal> to activate <color=#ffffff>Dash Attack: Firepower Offensive</color> and readjust to face the selected direction.\nWhile under <color=#ffffff>Assault Mode</color>, hold <IconMap:Icon_Normal> to switch to <color=#ffffff>Suppressive Mode</color>."
         },
         {
           "Name": "Basic Attack: Please Do Not Resist",
@@ -570,7 +570,7 @@
       "Description": [
         {
           "Name": "Dodge: Tactical Detour",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Firepower Offensive",

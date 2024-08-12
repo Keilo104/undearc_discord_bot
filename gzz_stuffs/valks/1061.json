@@ -78,7 +78,7 @@
       "Female",
       "Camp2",
       "Size1",
-      "ParryAid",
+      "AidTypeParry",
       "Corin",
       "1"
     ]
@@ -428,7 +428,7 @@
       "Description": [
         {
           "Name": "Dodge: Shoo!",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Oopsy-Daisy!",

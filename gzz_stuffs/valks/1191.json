@@ -78,7 +78,7 @@
       "Female",
       "Camp2",
       "Size2",
-      "ParryAid",
+      "AidTypeParry",
       "Ellen",
       "1"
     ]
@@ -703,11 +703,11 @@
         },
         {
           "Name": "EX Special Attack: Tail Swipe",
-          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nPerform a forceful tail whip attack that deals massive <color=#98eff0>Ice DMG</color>.\nGain 1 <color=#ffffff>Flash Freeze Charge</color> upon striking an enemy.\nAfter executing the move, you can directly follow up with the 3rd-hit of a <color=#ffffff>Basic Attack</color>.\nCharacter is invulnerable while using this skill."
+          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nPerform a forceful tail whip attack that deals massive <color=#98eff0>Ice DMG</color>.\nGain 1 <color=#ffffff>Flash Freeze Charge</color> upon striking an enemy.\nCharacter is invulnerable while using this skill.\nAfter executing the move, you can directly follow up with the 3rd-hit of a <color=#ffffff>Basic Attack</color>."
         },
         {
           "Name": "EX Special Attack: Sharknami",
-          "Desc": "After activating <color=#ffffff>EX Special Attack: Tail Swipe</color>, with enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nUnleash a series of powerful slashes forward, dealing massive <color=#98eff0>Ice DMG</color>.\nGain 1 <color=#ffffff>Flash Freeze Charge</color> upon hitting an enemy.\nAfter executing the move, you can directly follow up with the 3rd-hit of a <color=#ffffff>Basic Attack</color>.\nCharacter is invulnerable while using this skill."
+          "Desc": "With enough Energy and after executing <color=#ffffff>EX Special Attack: Tail Swipe</color>, press <IconMap:Icon_SpecialReady> to activate:\nPerform a powerful series of slashes ahead that deal massive <color=#98eff0>Ice DMG</color>.\nGain 1 <color=#ffffff>Flash Freeze Charge</color> upon striking an enemy.\nCharacter is invulnerable while using this skill.\nAfter executing the move, you can directly follow up with the 3rd-hit of a <color=#ffffff>Basic Attack</color>."
         },
         {
           "Name": "Special Attack: Drift",

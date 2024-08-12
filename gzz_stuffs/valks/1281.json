@@ -61,7 +61,7 @@
       "Female",
       "Camp4",
       "Size1",
-      "ParryAid",
+      "AidTypeParry",
       "Clara",
       "3"
     ]
@@ -389,7 +389,7 @@
       "Description": [
         {
           "Name": "Dodge: Handbrake Drift",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Pedal to the Metal",

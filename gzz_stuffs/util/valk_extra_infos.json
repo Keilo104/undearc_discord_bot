@@ -37,7 +37,7 @@
   "1071": {
     "icon_image_url": "",
     "release_patch": 99,
-    "override_name": "Caesar",
+    "override_full_name": "Caesar King",
     "embed_color": "0xFFDC4D"
   },
 
@@ -101,14 +101,13 @@
   "1161": {
     "icon_image_url": "",
     "release_patch": 99,
-    "override_name": "Lighter",
     "embed_color": "0xFFDC4D"
   },
 
   "1171": {
     "icon_image_url": "",
     "release_patch": 99,
-    "override_name": "Burnice",
+    "override_full_name": "Burnice White",
     "embed_color": "0xFFDC4D"
   },
 
@@ -163,7 +162,6 @@
     "icon_image_url": "https://i.imgur.com/hIGdTDy.png",
     "signature_weapon": "14126",
     "release_patch": 2,
-    "override_full_name": "Jane Doe",
     "embed_color": "0x38A2FF"
   },
 
@@ -171,7 +169,6 @@
     "icon_image_url": "https://i.imgur.com/LmXIrIJ.png",
     "signature_weapon": "13127",
     "release_patch": 2,
-    "override_full_name": "Seth Lowell",
     "embed_color": "0x38A2FF"
   },
 

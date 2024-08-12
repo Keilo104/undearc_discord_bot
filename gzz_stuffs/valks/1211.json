@@ -78,7 +78,7 @@
       "Female",
       "Camp2",
       "Size3",
-      "EvadeAid",
+      "AidTypeEvade",
       "Rina",
       "4"
     ]
@@ -437,7 +437,7 @@
       "Description": [
         {
           "Name": "Dodge: Dress Adjustment",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Sudden Surprise",
@@ -559,7 +559,7 @@
         },
         {
           "Name": "EX Special Attack: Dimwit Disappearing Trick",
-          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nOrder Anastella to execute multiple downward smashes, dealing massive <color=#2eb6ff>Electric DMG</color>.\nCharacter is invulnerable while using this skill.\nA <color=#ffffff>Quick Assist</color> is triggered when this skill hits an enemy."
+          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nOrder Drusilla and Anastella to execute multiple downward smashes, dealing massive <color=#2eb6ff>Electric DMG</color>.\nCharacter is invulnerable while using this skill.\nA <color=#ffffff>Quick Assist</color> is triggered when this skill hits an enemy."
         },
         {
           "Name": "Special Attack: Beat the Blockhead",

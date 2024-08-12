@@ -78,7 +78,7 @@
       "Female",
       "Camp1",
       "Size2",
-      "ParryAid",
+      "AidTypeParry",
       "Nicole",
       "4"
     ]
@@ -519,7 +519,7 @@
       "Description": [
         {
           "Name": "Dodge: Speed Demon",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill.\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to dodge, then hold <IconMap:Icon_Evade> to reload while dodging, enhancing <color=#ffffff>Basic Attacks</color> and <color=#ffffff>Dash Attacks</color> up to 8 times."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nDrag the {LAYOUT_CONSOLECONTROLLER#stick}{LAYOUT_FALLBACK#joystick} to dodge, then hold <IconMap:Icon_Evade> to reload while dodging, enhancing <color=#ffffff>Basic Attacks</color> and <color=#ffffff>Dash Attacks</color> up to 8 times."
         },
         {
           "Name": "Dash Attack: Jack in the Box",

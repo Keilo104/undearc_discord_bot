@@ -79,7 +79,7 @@
       "Male",
       "Camp3",
       "Size3",
-      "ParryAid",
+      "AidTypeParry",
       "Ben",
       "5"
     ]
@@ -385,7 +385,7 @@
       "Description": [
         {
           "Name": "Dodge: Missing Invoice",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Incoming Expense",
@@ -990,7 +990,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>40%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>15%</color> of his DEF +<color=#2BAD00>100</color>, lasting for 30s.",
+          "Ben's initial ATK increases along with his initial DEF. He gains <color=#2BAD00>40%</color> of his initial DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>15%</color> of his DEF +<color=#2BAD00>100</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1002,7 +1002,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>46%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>17.5%</color> of his DEF +<color=#2BAD00>220</color>, lasting for 30s.",
+          "Ben's initial ATK increases along with his initial DEF. He gains <color=#2BAD00>46%</color> of his initial DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>17.5%</color> of his DEF +<color=#2BAD00>220</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1014,7 +1014,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>52%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>20%</color> of his DEF +<color=#2BAD00>330</color>, lasting for 30s.",
+          "Ben's initial ATK increases along with his initial DEF. He gains <color=#2BAD00>52%</color> of his initial DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>20%</color> of his DEF +<color=#2BAD00>330</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1026,7 +1026,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>60%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>22.5%</color> of his DEF +<color=#2BAD00>460</color>, lasting for 30s.",
+          "Ben's initial ATK increases along with his initial DEF. He gains <color=#2BAD00>60%</color> of his initial DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>22.5%</color> of his DEF +<color=#2BAD00>460</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1038,7 +1038,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>66%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>25%</color> of his DEF +<color=#2BAD00>500</color>, lasting for 30s.",
+          "Ben's initial ATK increases along with his initial DEF. He gains <color=#2BAD00>66%</color> of his initial DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>25%</color> of his DEF +<color=#2BAD00>500</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1050,7 +1050,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>72%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>27.5%</color> of his DEF +<color=#2BAD00>525</color>, lasting for 30s.",
+          "Ben's initial ATK increases along with his initial DEF. He gains <color=#2BAD00>72%</color> of his initial DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>27.5%</color> of his DEF +<color=#2BAD00>525</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       },
@@ -1062,7 +1062,7 @@
           "Additional Ability: Contractual Agreement"
         ],
         "Desc": [
-          "Ben's ATK increases with his DEF. He gains <color=#2BAD00>80%</color> of his DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>30%</color> of his DEF +<color=#2BAD00>550</color>, lasting for 30s.",
+          "Ben's initial ATK increases along with his initial DEF. He gains <color=#2BAD00>80%</color> of his initial DEF as ATK.\nWhen Ben launches a follow-up attack during his <color=#ffffff>EX Special Attack</color>, all squad members gain a Shield of <color=#2BAD00>30%</color> of his DEF +<color=#2BAD00>550</color>, lasting for 30s.",
           "When another character in your squad shares the same Attribute or Faction:\nWhile the Shield from <color=#ffffff>Core Passive: Guardian</color> is in effect, the character's CRIT Rate is increased by 16%."
         ]
       }

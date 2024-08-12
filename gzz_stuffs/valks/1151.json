@@ -61,7 +61,7 @@
       "Female",
       "Camp4",
       "Size1",
-      "ParryAid",
+      "AidTypeParry",
       "Lucy",
       "4"
     ]
@@ -517,7 +517,7 @@
       "Description": [
         {
           "Name": "Dodge: Foul Ball!",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Fearless Boar!",
@@ -639,11 +639,11 @@
         },
         {
           "Name": "EX Special Attack: Home Run!",
-          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nRecall a guard boar and launch it as a <color=#ffffff>Line Drive</color>. The guard boar will cause an explosion upon hitting enemies or walls, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill.\nWith enough Energy, hold <IconMap:Icon_SpecialReady> to activate:\nRecall a guard boar and launch it as a <color=#ffffff>Fly Ball</color>. The guard boar will cause an explosion upon landing, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill."
+          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nRecall a guard boar and launch it as a <color=#ffffff>Line Drive</color>. The guard boar will cause an explosion upon hitting enemies or walls, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers a <color=#ffffff>Quick Assist</color>.\nWith enough Energy, hold <IconMap:Icon_SpecialReady> to activate:\nRecall a guard boar and launch it as a <color=#ffffff>Fly Ball</color>. The guard boar will cause an explosion upon landing, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers a <color=#ffffff>Quick Assist</color>."
         },
         {
           "Name": "Cheer On!",
-          "Desc": "After using <color=#ffffff>EX Special Attack</color>, when a guard boar triggers an explosion, it will apply the <color=#ffffff>Cheer On!</color> status to all allies, Bangboo, and the guard boars themselves. While under the <color=#ffffff>Cheer On!</color> status, allies' ATK increases by <color=#2BAD00>{CAL:13+AvatarSkillLevel(1)*0.8,1,2}%</color> of Lucy's ATK + <color=#2BAD00>{CAL:40+AvatarSkillLevel(1)*4,1,2}</color>, up to a maximum of 600. The <color=#ffffff>Cheer On!</color> status lasts for 10s when a <color=#ffffff>Line Drive</color> is hit, and 15s when a <color=#ffffff>Fly Ball</color> is hit. Repeated triggers reset the duration."
+          "Desc": "After using <color=#ffffff>EX Special Attack</color>, when a guard boar triggers an explosion, it will apply the <color=#ffffff>Cheer On!</color> status to all allies, Bangboo, and the guard boars themselves. While under the <color=#ffffff>Cheer On!</color> status, allies' ATK increases by <color=#2BAD00>{CAL:13+AvatarSkillLevel(1)*0.8,1,2}%</color> of Lucy's initial ATK + <color=#2BAD00>{CAL:40+AvatarSkillLevel(1)*4,1,2}</color>, up to a maximum of 600. The <color=#ffffff>Cheer On!</color> status lasts for 10s when a <color=#ffffff>Line Drive</color> is hit, and 15s when a <color=#ffffff>Fly Ball</color> is hit. Repeated triggers reset the duration."
         },
         {
           "Name": "Cheer On!",
@@ -810,11 +810,11 @@
       "Description": [
         {
           "Name": "Chain Attack: Grand Slam!",
-          "Desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select the character to activate:\nLucy jumps up and sends a guard boar at enemies in front in a large area, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill."
+          "Desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select the character to activate:\nLucy jumps up and sends a guard boar at enemies in front in a large area, dealing massive <color=#ff5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers a <color=#ffffff>Quick Assist</color>."
         },
         {
           "Name": "Ultimate: Walk-Off Home Run!",
-          "Desc": "When Decibel Rating is at Maximum, press <IconMap:Icon_UltimateReady> to activate:\nLaunch all guard boars sequentially, dealing massive <color=#ff5521>Fire DMG</color> in a large area to enemies ahead.\nWhile using this skill, other squad members recover 10 energy, and the next character to switch in gains an additional 20 energy.\nCharacter is invulnerable while using this skill."
+          "Desc": "When Decibel Rating is at Maximum, press <IconMap:Icon_UltimateReady> to activate:\nLaunch all guard boars sequentially, dealing massive <color=#ff5521>Fire DMG</color> in a large area to enemies ahead.\nWhile using this skill, other squad members recover 10 energy, and the next character to switch in gains an additional 20 energy.\nCharacter is invulnerable while using this skill.\nWhen the skill hits an enemy, it triggers a <color=#ffffff>Quick Assist</color>."
         },
         {
           "Name": "Chain Attack: Grand Slam!",

@@ -17,7 +17,25 @@
     "7": "Criminal Investigation Special Response Team"
   },
   "Gender": 2,
-  "PartnerInfo": {},
+  "PartnerInfo": {
+    "Birthday": "JAN 1",
+    "FullName": "Qingyi",
+    "Gender": "Female",
+    "IconPath": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle29.png",
+    "ImpressionF": "Why does Fairy only warn us once when it comes to Qingyi? She warned us to \"remember our true identity\" so many times when she gave suggestions about Zhu Yuan!",
+    "ImpressionM": "Because even if she knew, she'd pretend she didn't...\nShe might even have already guessed.",
+    "Name": "",
+    "OutlookDesc": "Hollow Investigative Association Licensing Archive:\nPublic Security Officer: Qingyi. Ether aptitude confidential. Licensed for investigation, exploration, and other basic work in known Hollows (including Companion Hollows) in the city.\nNote: Qingyi's file belongs to the New Eridu Public Security Janus Quarter Metropolitan Order Department Criminal Investigation Special Response Team. The relevant information can be obtained within the Public Security system, requiring special access permissions.\nFurther Note: As an intelligent construct, Qingyi demonstrates exceptional Ether aptitude.",
+    "ProfileDesc": "",
+    "Race": "Sixth Street",
+    "RoleIcon": "IconRole/UnPacker/IconRole29",
+    "Stature": "142",
+    "UnlockCondition": [
+      "Obtain Agent",
+      "Complete the \"Anby's Problem\" commission",
+      "Complete Main Commission Chapter 2 Interlude"
+    ]
+  },
   "Stats": {
     "Armor": 0,
     "ArmorGrowth": 0,
@@ -61,7 +79,7 @@
       "Female",
       "Camp7",
       "Size1",
-      "ParryAid",
+      "AidTypeParry",
       "QingYi",
       "2"
     ]
@@ -252,7 +270,7 @@
         },
         {
           "Name": "Basic Attack: Enchanted Moonlit Blossoms",
-          "Desc": "During the <color=#ffffff>Flash Connect</color> state, hold <IconMap:Icon_Normal> to activate:\nLaunch five consecutive forward rush attacks, then execute a finishing strike that inflicts massive <color=#2eb6ff>Electric DMG</color>. Release <IconMap:Icon_Normal> during the move to trigger the finishing strike early.\nActivate the finishing strike just before the character is attacked to trigger <color=#ffffff>Perfect Dodge</color>.\nAnti-Interrupt level is increased during the rush attack, and Qingyi is invulnerable during the finishing blow."
+          "Desc": "During the <color=#ffffff>Flash Connect</color> state, hold <IconMap:Icon_Normal> to activate:\nLaunch five consecutive forward rush attacks, then execute a finishing strike that inflicts massive <color=#2eb6ff>Electric DMG</color>. Release <IconMap:Icon_Normal> during the move to trigger the finishing strike early.\nActivate the finishing strike just before the character is attacked to trigger <color=#ffffff>Perfect Dodge</color>, and directly apply {CAL:5+5,1,2} stacks of <color=#ffffff>Core Passive: Eternal Seasons'</color> <color=#ffffff>Subjugation</color> upon hitting the enemy.\nAnti-Interrupt level is increased during the rush attack, and Qingyi is invulnerable during the finishing blow."
         },
         {
           "Name": "Basic Attack: Penultimate",
@@ -643,7 +661,7 @@
         },
         {
           "Name": "EX Special Attack: Moonlit Begonia",
-          "Desc": "When Qingyi has enough energy, press <IconMap:Icon_SpecialReady> to activate:\nQuickly strikes upward and leaps into the air, turning around to launch a series of strikes, then follows up with a powerful downward smash, dealing massive <color=#2eb6ff>Electric DMG</color>.\nHold <IconMap:Icon_SpecialReady> to consume additional energy to increase the combo hits of the series of strikes.\nCharacter is invulnerable while using this skill."
+          "Desc": "When Qingyi has enough energy, press <IconMap:Icon_SpecialReady> to activate:\nQuickly strikes upward and leaps into the air, turning around to launch a series of strikes, then follows up with a powerful downward smash, dealing massive <color=#2eb6ff>Electric DMG</color>.\nHold <IconMap:Icon_SpecialReady> to consume additional energy to increase the combo hits of the series of strikes.\nCharacter is invulnerable while using this skill.\nAfter executing the move, you can directly follow up with the 3rd-hit of a <color=#ffffff>Basic Attack</color>."
         },
         {
           "Name": "Special Attack: Sunlit Glory",
@@ -781,7 +799,7 @@
       "Description": [
         {
           "Name": "Chain Attack: Tranquil Serenade",
-          "Desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select Qingyi to activate:\nLaunch a series of powerful strikes over a large area in front, dealing massive <color=#2eb6ff>Electric DMG</color>\nWhen this attack hits an enemy, the skill's DMG increases by 3% for every stack of <color=#ffffff>Subjugation</color> in <color=#ffffff>Core Passive: Eternal Seasons</color> the target has.\nCharacter is invulnerable while using this skill."
+          "Desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select Qingyi to activate:\nLaunch a series of powerful strikes over a large area in front, dealing massive <color=#2eb6ff>Electric DMG</color>\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Ultimate: Eight Sounds of Ganzhou",
@@ -1058,7 +1076,7 @@
           "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>1.5</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>1.5</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
           "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
@@ -1070,7 +1088,7 @@
           "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>1.8</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>1.8</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
           "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
@@ -1082,7 +1100,7 @@
           "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
           "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
@@ -1094,7 +1112,7 @@
           "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.2</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.2</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
           "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
@@ -1106,7 +1124,7 @@
           "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.5</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.5</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
           "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
@@ -1118,7 +1136,7 @@
           "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.8</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>2.8</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
           "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       },
@@ -1130,7 +1148,7 @@
           "Additional Ability: Three Verses of Farewell at Yang Pass"
         ],
         "Desc": [
-          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>3</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. If <color=#ffffff>Perfect Dodge</color> is triggered when using finishing strike, it directly applies {CAL:5+5,1,2} stacks of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
+          "When Qingyi lands a Finishing Strike on an enemy with her <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, it applies 5 stacks of <color=#ffffff>Subjugation</color> to the enemy, stacking up to 20 times. Each stack of <color=#ffffff>Subjugation</color> increases the target's Stun DMG Multiplier by <color=#2BAD00>3</color>%. For each rush attack during <color=#ffffff>Basic Attack: Enchanted Moonlit Blossoms</color>, the finishing strike will apply an extra stack of <color=#ffffff>Subjugation</color>. When applying Subjugation to normal or elite enemies, the applied stacks are doubled. When the target recovers from being Stunned, the corresponding stacks of <color=#ffffff>Subjugation</color> are reset.",
           "Activated when there is at least 1 <color=#ffffff>Attack-type</color> character or a character from the same faction in your squad:\n<color=#ffffff>Basic Attacks</color> deal 20% increased Daze. If Qingyi's Impact is greater than 120, each point over increases her Attack by 6, up to a maximum of 600."
         ]
       }
@@ -1174,7 +1192,7 @@
     "2": {
       "Level": 2,
       "Name": "Minimal Effort, Maximum Impact",
-      "Desc": "Each stack of <color=#ffffff>Subjugation</color> in <color=#ffffff>Core Passive: Eternal Seasons</color> increases the Stun DMG Multiplier to 133% of its origianl value. When Qingyi's attack hits an enemy and the stacks of <color=#ffffff>Subjugation</color> she applies reaches its maximum stacks, her daze dealt to the target increases by 15%.",
+      "Desc": "Each stack of <color=#ffffff>Subjugation</color> in <color=#ffffff>Core Passive: Eternal Seasons</color> increases the Stun DMG Multiplier to 133% of its origianl value. When <color=#ffffff>Subjugation</color> reaches its maximum stack, if the target is not Stunned, Qingyi's attacks increase the Daze inflicted on the target by 15%. If the target is Stunned, <color=#ffffff>Chain Attack</color> DMG against the target is increased by {EXCEL:1}%.",
       "Desc2": "An ancient combat technique mentioned in old texts. It seems to have started as a martial arts technique, rather than a staff technique.\n\"Don't be so constrained, the arm itself can be used like a three-section staff, mhm.\""
     },
     "3": {

@@ -79,7 +79,7 @@
       "Female",
       "Camp3",
       "Size1",
-      "ParryAid",
+      "AidTypeParry",
       "Koleda",
       "2"
     ]
@@ -258,7 +258,7 @@
       "Description": [
         {
           "Name": "Basic Attack: Smash 'n' Bash",
-          "Desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 4 strikes, dealing <color=#f0d12b>Physical DMG</color>.\nWhen Koleda has the <color=#ffffff>Furnace Fire</color> effect, she can launch an enhanced <color=#ffffff>Basic Attack</color> after the 2nd hit, consuming the <color=#ffffff>Furnace Fire</color> effect and dealing massive <color=#ff5521>Fire DMG</color>.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 4 strikes, dealing <color=#f0d12b>Physical DMG</color>.\nWhen Koleda has the <color=#ffffff>Furnace Fire</color> effect, she can launch an enhanced <color=#ffffff>Basic Attack</color> after the 2nd hit, consuming the <color=#ffffff>Furnace Fire</color> effect and dealing massive <color=#ff5521>Fire DMG</color>.\nWhen Koleda and Ben are deployed together, executing an enhanced <color=#ffffff>Basic Attack</color> will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the <color=#ffffff>Basic Attack's</color> 4th hit and enhanced <color=#ffffff>Basic Attack</color>."
         },
         {
           "Name": "Basic Attack: Smash 'n' Bash",
@@ -473,7 +473,7 @@
       "Description": [
         {
           "Name": "Dodge: Wait 'n' See",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Tremble!",

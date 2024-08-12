@@ -78,7 +78,7 @@
       "Male",
       "Camp2",
       "Size3",
-      "ParryAid",
+      "AidTypeParry",
       "Lycaon",
       "2"
     ]
@@ -560,7 +560,7 @@
       "Description": [
         {
           "Name": "Dodge: Suitable Positioning",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: Keep it Clean",

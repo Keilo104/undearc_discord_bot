@@ -61,7 +61,7 @@
       "Female",
       "Camp6",
       "Size1",
-      "ParryAid",
+      "AidTypeParry",
       "Aokaku",
       "4"
     ]
@@ -442,7 +442,7 @@
       "Description": [
         {
           "Name": "Dodge: Grab a Bite",
-          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA rapid dodge.\nCharacter is invulnerable while using this skill."
+          "Desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
         },
         {
           "Name": "Dash Attack: 50/50",
@@ -1119,7 +1119,7 @@
           "Additional Ability: Group Set Meal"
         ],
         "Desc": [
-          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>10%</color>, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
+          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>10%</color> of her initial ATK, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Soukaku consumes <color=#ffffff>Vortex</color> to activate <color=#ffffff>Fly the Flag</color>, the <color=#98eff0>Ice DMG</color> of the squad is increased by 20% for 22s."
         ]
       },
@@ -1131,7 +1131,7 @@
           "Additional Ability: Group Set Meal"
         ],
         "Desc": [
-          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>12.5%</color>, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
+          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>12.5%</color> of her initial ATK, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Soukaku consumes <color=#ffffff>Vortex</color> to activate <color=#ffffff>Fly the Flag</color>, the <color=#98eff0>Ice DMG</color> of the squad is increased by 20% for 22s."
         ]
       },
@@ -1143,7 +1143,7 @@
           "Additional Ability: Group Set Meal"
         ],
         "Desc": [
-          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>15%</color>, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
+          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>15%</color> of her initial ATK, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Soukaku consumes <color=#ffffff>Vortex</color> to activate <color=#ffffff>Fly the Flag</color>, the <color=#98eff0>Ice DMG</color> of the squad is increased by 20% for 22s."
         ]
       },
@@ -1155,7 +1155,7 @@
           "Additional Ability: Group Set Meal"
         ],
         "Desc": [
-          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>17%</color>, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
+          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>17%</color> of her initial ATK, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Soukaku consumes <color=#ffffff>Vortex</color> to activate <color=#ffffff>Fly the Flag</color>, the <color=#98eff0>Ice DMG</color> of the squad is increased by 20% for 22s."
         ]
       },
@@ -1167,7 +1167,7 @@
           "Additional Ability: Group Set Meal"
         ],
         "Desc": [
-          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>18%</color>, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
+          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>18%</color> of her initial ATK, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Soukaku consumes <color=#ffffff>Vortex</color> to activate <color=#ffffff>Fly the Flag</color>, the <color=#98eff0>Ice DMG</color> of the squad is increased by 20% for 22s."
         ]
       },
@@ -1179,7 +1179,7 @@
           "Additional Ability: Group Set Meal"
         ],
         "Desc": [
-          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>19%</color>, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
+          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>19%</color> of her initial ATK, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Soukaku consumes <color=#ffffff>Vortex</color> to activate <color=#ffffff>Fly the Flag</color>, the <color=#98eff0>Ice DMG</color> of the squad is increased by 20% for 22s."
         ]
       },
@@ -1191,7 +1191,7 @@
           "Additional Ability: Group Set Meal"
         ],
         "Desc": [
-          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>20%</color>, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
+          "When Soukaku launches <color=#ffffff>Fly the Flag</color>, her ATK is increased by <color=#2BAD00>20%</color> of her initial ATK, up to 500, for 22s. When consuming <color=#ffffff>Vortex</color> during <color=#ffffff>Fly the Flag</color>, the ATK increase is doubled, up to a max of 1,000. This buff can be passed along to characters switching in via <color=#ffffff>Quick Assists</color> or <color=#ffffff>Chain Attacks</color> triggered by <color=#ffffff>Fly the Flag</color>, and it refreshes the duration of the buff.",
           "When another character in your squad shares the same Attribute or Faction:\nWhen Soukaku consumes <color=#ffffff>Vortex</color> to activate <color=#ffffff>Fly the Flag</color>, the <color=#98eff0>Ice DMG</color> of the squad is increased by 20% for 22s."
         ]
       }
