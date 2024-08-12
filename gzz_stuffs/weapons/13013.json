@@ -1,10 +1,10 @@
 {
   "Id": 13013,
   "CodeName": "Weapon_A_Common_13",
-  "Name": "Iris Enigma",
-  "Desc": "A W-Engine that represents the brilliance and magnificence of flowers, seemingly crafted from the most luxurious materials. However, after finally dismantling the Ether-powered premium anti-theft device, an experienced thief will discover with terror that this W-Engine... is only gold plated.",
+  "Name": "Gilded Blossom",
+  "Desc": "A W-Engine that represents the brilliance and magnificence of flowers, seemingly crafted from the most luxurious materials. However, after finally dismantling the Ether-powered premium anti-theft device, an experienced thief will discover with terror that this W-Engine... is gilded.",
   "Desc2": "Equip to increase Attack Agents' combat capabilities",
-  "Desc3": "A W-Engine with a grandiose and luxurious appearance equipped with a premium Ether-powered anti-theft device. It's actually used to provide the equipper with energy.",
+  "Desc3": "A W-Engine with a grandiose and luxurious appearance equipped with a premium Ether-powered anti-theft device. Actually used to provide the equipper with energy.",
   "Rarity": 3,
   "Icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_Common_13.png",
   "WeaponType": {
